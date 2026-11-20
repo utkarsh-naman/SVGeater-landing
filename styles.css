@@ -262,13 +262,16 @@ ul { padding: 0; list-style: none; }
   background: #151515;
   color: var(--ink);
 }
-.gallery-carousel { position: relative; }
-.gallery {
+.gallery-carousel {
   --card-gap: clamp(16px, 2.5vw, 32px);
+  --card-width: calc((100% - var(--card-gap) * 2) / 3);
+  position: relative;
+}
+.gallery {
   position: relative;
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% - var(--card-gap) * 2) / 3);
+  grid-auto-columns: var(--card-width);
   gap: var(--card-gap);
   overflow-x: auto;
   padding-bottom: 4px;
@@ -280,6 +283,7 @@ ul { padding: 0; list-style: none; }
 .gallery-card .preview-image { border: 1px solid #ffffff24; border-radius: 10px; }
 .standalone-preview img { padding: 8px; }
 .gallery-card .gray-preview { background: #252525; }
+.gallery-card .white-preview { background: #fff; }
 .gallery-caption { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; padding-top: 14px; }
 .gallery-caption h3 { font-size: 1.1rem; font-weight: 680; letter-spacing: -.026em; }
 .gallery-caption p { color: var(--muted); font-size: .9rem; line-height: 1.45; margin-top: 5px; }
@@ -287,7 +291,9 @@ ul { padding: 0; list-style: none; }
 .gallery-section .preview-button:hover { background: #ffffff1c; }
 .carousel-arrow {
   position: absolute;
-  top: 50%;
+  top: 0;
+  /* Vertical percentage margins use the carousel width, like the 16:9 thumbnails. */
+  margin-top: calc(var(--card-width) * 9 / 32);
   display: grid;
   place-items: center;
   width: 46px;
@@ -447,7 +453,24 @@ ul { padding: 0; list-style: none; }
 .payment-dialog h2 { padding-inline: 24px; font-size: 1.55rem; }
 .payment-dialog p { margin: 10px 0 18px; color: var(--muted); line-height: 1.45; }
 .dialog-close { position: absolute; top: 8px; right: 8px; border: 0; background: none; color: inherit; font-size: 1.55rem; width: 44px; height: 44px; }
-.upi-code { width: min(230px, 100%); height: auto; border: 1px solid var(--line); border-radius: 8px; margin: 0 auto 18px; }
+.upi-qr { position: relative; isolation: isolate; width: min(230px, 100%); margin: 0 auto 18px; }
+.upi-code { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px; }
+.upi-coin {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  place-items: center;
+  width: min(34px, 15%);
+  aspect-ratio: 1;
+  border: 1px solid #d4d4d4;
+  border-radius: 50%;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.upi-coin img { width: 87.5%; height: auto; }
 
 @keyframes hero-zoom {
   from { scale: 1; }
@@ -487,7 +510,7 @@ ul { padding: 0; list-style: none; }
 }
 
 @media (max-width: 1050px) {
-  .gallery { grid-auto-columns: calc((100% - var(--card-gap)) / 2); }
+  .gallery-carousel { --card-width: calc((100% - var(--card-gap)) / 2); }
 }
 
 @media (max-width: 920px) {
@@ -541,7 +564,7 @@ ul { padding: 0; list-style: none; }
   .hero-description { max-width: unset; }
   .hero-actions { margin-top: 19px; }
   .editor-preview { transform-origin: center; }
-  .gallery { grid-auto-columns: min(86%, 420px); }
+  .gallery-carousel { --card-width: min(86%, 420px); }
   .footer-inner { flex-direction: column; align-items: flex-start; }
   .support-panel h2 { font-size: clamp(1.5rem, 6.4vw, 1.8rem); }
   .support-links { width: min(calc(100% + 16px), 500px); grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -551,5 +574,5 @@ ul { padding: 0; list-style: none; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; }
-  .nav-coin { display: none; }
+  .nav-coin, .upi-coin { display: none; }
 }

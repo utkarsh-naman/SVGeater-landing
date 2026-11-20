@@ -7,8 +7,8 @@
   <meta name="description" content="Create and preview vector animations with SVGeater, a browser-based SVG animation editor.">
   <title>SVGeater — SVG Animation Editor</title>
   <link rel="icon" href="./assets/favicon.svg?v=2" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=10">
-  <script src="./app.js?v=6" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=14">
+  <script src="./app.js?v=7" defer></script>
 </head>
 <body>
   <a draggable="false" class="skip-link" href="#main">Skip to content</a>
@@ -55,10 +55,10 @@
             Donate <span class="chevron" aria-hidden="true"></span>
           </summary>
           <ul class="dropdown-panel donation-list">
-            <li><a draggable="false" class="donation-capsule" href="https://buymeacoffee.com/utkarshnaman" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/bmc.svg" alt="Buy Me a Coffee"></a></li>
             <li><button class="donation-capsule" type="button" data-dialog="upi-dialog"><img draggable="false" src="./assets/donations/upi.svg" alt="Donate with UPI"></button></li>
+            <li><a draggable="false" class="donation-capsule" href="https://paypal.me/utkarshnaman2301" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/paypal.svg" alt="PayPal"></a></li>
+            <li><a draggable="false" class="donation-capsule" href="https://buymeacoffee.com/utkarshnaman" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/bmc.svg" alt="Buy Me a Coffee"></a></li>
             <li><a draggable="false" class="donation-capsule" href="https://www.patreon.com/c/utnam" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/patreon.svg" alt="Patreon"></a></li>
-            <li><button class="donation-capsule" type="button" data-dialog="paypal-dialog"><img draggable="false" src="./assets/donations/paypal.svg" alt="PayPal donation information"></button></li>
           </ul>
         </details>
       </div>
@@ -187,7 +187,7 @@
               </figcaption>
             </figure>
             <figure class="preview gallery-card" data-preview>
-              <div class="preview-image standalone-preview gray-preview" data-surface>
+              <div class="preview-image standalone-preview white-preview" data-surface>
                 <div class="preview-layer" data-animation="./assets/lesstype-gallery.svg">
                   <img draggable="false" src="./assets/lesstype-still-frame.svg" width="1080" height="1080" alt="LessType typography artwork" loading="lazy">
                 </div>
@@ -240,10 +240,10 @@
           <h2 id="support-title" tabindex="-1">Support SVGeater</h2>
         </div>
         <ul class="support-links donation-list">
-          <li><a draggable="false" class="donation-capsule" href="https://buymeacoffee.com/utkarshnaman" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/bmc.svg" alt="Buy Me a Coffee"></a></li>
           <li><button class="donation-capsule" type="button" data-dialog="upi-dialog"><img draggable="false" src="./assets/donations/upi.svg" alt="Donate with UPI"></button></li>
+          <li><a draggable="false" class="donation-capsule" href="https://paypal.me/utkarshnaman2301" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/paypal.svg" alt="PayPal"></a></li>
+          <li><a draggable="false" class="donation-capsule" href="https://buymeacoffee.com/utkarshnaman" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/bmc.svg" alt="Buy Me a Coffee"></a></li>
           <li><a draggable="false" class="donation-capsule" href="https://www.patreon.com/c/utnam" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/patreon.svg" alt="Patreon"></a></li>
-          <li><button class="donation-capsule" type="button" data-dialog="paypal-dialog"><img draggable="false" src="./assets/donations/paypal.svg" alt="PayPal donation information"></button></li>
         </ul>
       </div>
     </section>
@@ -274,14 +274,13 @@
     <form method="dialog"><button class="dialog-close" aria-label="Close UPI details">×</button></form>
     <h2 id="upi-title">Donate with UPI</h2>
     <p>Scan the QR code with your UPI app.</p>
-    <img draggable="false" class="upi-code" src="./assets/donations/upi-payment.svg" width="990" height="990" alt="QR code for UPI donations" loading="lazy">
-    <a draggable="false" class="pill primary-pill" href="upi://pay?pa=utkarshnaman1%40oksbi&amp;pn=Utkarsh%20Naman">Open UPI app</a>
-  </dialog>
-  <dialog class="payment-dialog" id="paypal-dialog" aria-labelledby="paypal-title">
-    <form method="dialog"><button class="dialog-close" aria-label="Close PayPal details">×</button></form>
-    <h2 id="paypal-title">PayPal donations</h2>
-    <p>A PayPal donation link is pending.</p>
-    <a draggable="false" class="pill primary-pill" href="#donate" data-close-dialog>See donation options</a>
+    <div class="upi-qr">
+      <img draggable="false" class="upi-code" src="./assets/donations/upi-payment.svg" width="990" height="990" alt="QR code for UPI donations" loading="lazy">
+      <span class="upi-coin" aria-hidden="true">
+        <img draggable="false" src="./assets/only-coin.svg" width="28" height="28" alt="">
+      </span>
+    </div>
+    <a draggable="false" class="pill primary-pill" href="upi://pay?pa=utkarshnaman1%40oksbi&amp;pn=Utkarsh%20Naman">Scan to Pay</a>
   </dialog>
 </body>
 </html>

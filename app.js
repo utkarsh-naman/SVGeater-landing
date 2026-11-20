@@ -52,14 +52,6 @@ document.querySelectorAll("[data-dialog]").forEach((button) => {
   });
 });
 
-document.querySelectorAll("[data-close-dialog]").forEach((link) => {
-  link.addEventListener("click", () => {
-    link.closest("dialog").close();
-    setMobileMenu(false);
-    document.getElementById("support-title").focus({ preventScroll: true });
-  });
-});
-
 const motionPreference = matchMedia("(prefers-reduced-motion: reduce)");
 
 document.querySelectorAll("[data-preview]").forEach((preview) => {

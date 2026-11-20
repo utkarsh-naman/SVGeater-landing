@@ -1,0 +1,587 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="recording-title recording-description">
+<title id="recording-title">Apple TV Mnemonic — editor still frame</title>
+<desc id="recording-description">A static vector frame from the Apple TV Mnemonic editor recording at 2 seconds.</desc>
+<style>
+text { fill: #FFFFFF; font: 13px 'Segoe UI', system-ui, sans-serif; }
+.title { font-weight: 650; font-size: 16px; }
+.heading { font-weight: 650; font-size: 13px; }
+.small { font-size: 12px; }
+.tiny { font-size: 11px; }
+.muted { fill: #A6A6A6; }
+.accent { fill: #66A9FF; }
+.mono { font: 12px Consolas, 'Courier New', monospace; font-variant-numeric: tabular-nums; }
+.time { font: 600 14px Consolas, 'Courier New', monospace; fill: #FFFFFF; }
+.badge { font: 600 11px 'Segoe UI', system-ui, sans-serif; letter-spacing: .9px; fill: #ffb0b8; }
+</style>
+<defs>
+<symbol id="ui-project-mark" viewBox="0 0 512 512">
+  <path fill="#F52477" d="M334.857,166.955l-65.516-65.531c-39.469,23.672-126.656,62.688-126.656,62.688 c-19.719,8.172-33.938,25.813-37.734,46.813L60.826,416.596l-25.313,25.313c-9.125-0.109-18.281,3.297-25.234,10.25 c-13.703,13.688-13.703,35.875,0,49.563c13.688,13.703,35.891,13.703,49.578,0c6.953-6.953,10.359-16.109,10.234-25.219 l25.313-25.313l205.688-44.125c21-3.813,38.625-18.031,46.797-37.734c0,0,39.047-87.156,62.734-126.609l-65.531-65.531 L334.857,166.955z M269.889,302.127c-15.25,15.25-39.188,16.438-55.813,3.641L63.436,456.408c-1.094-1.484-2.25-2.922-3.578-4.25 c-1.344-1.344-2.766-2.5-4.25-3.578l150.641-150.641c-12.813-16.641-11.625-40.563,3.625-55.813 c16.578-16.578,43.438-16.578,60.016,0S286.467,285.564,269.889,302.127z" />
+  <path fill="#F52477" d="M511.998,139.705L372.311,0.002c0,0-29.375,29.375-45.156,45.156s-36.297,11.047-36.297,11.047l-18.953,18.938 l66.297,66.297l15.781,15.781l82.875,82.875l18.938-18.938c0,0-4.734-20.516,11.047-36.313 C482.639,169.064,511.998,139.705,511.998,139.705z" />
+</symbol>
+  <pattern id="ui-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#747474" opacity=".21" />
+  </pattern>
+  <radialGradient id="ui-vignette">
+    <stop stop-color="#242424" />
+    <stop offset="1" stop-color="#1E1E1E" />
+  </radialGradient>
+  <linearGradient id="ui-track" x1="0" x2="1" y1="0" y2="0">
+    <stop stop-color="#355D91" stop-opacity=".83" />
+    <stop offset="1" stop-color="#2F3646" stop-opacity=".64" />
+  </linearGradient>
+  <filter id="ui-artboard-shadow" x="-20%" y="-20%" width="140%" height="145%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="12" stdDeviation="24" flood-color="#121212" flood-opacity=".52" /></filter>
+<clipPath id="ui-canvas-clip"><rect x="510" y="149" width="560" height="420" /></clipPath>
+  <clipPath id="ui-clock-clip"><rect x="183" y="649" width="71" height="22" /></clipPath>
+    <clipPath id="ui-tracks-clip"><rect x="255" y="682" width="1345" height="184" /></clipPath>
+<symbol id="ui-chev-down" viewBox="0 0 16 16"><path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-pointer" viewBox="0 0 16 16"><path d="M3 2l10 6-5 1-2 5z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-nodes" viewBox="0 0 16 16"><path d="M4 4l8 8M4 12l8-8M2 2h4v4H2zM10 10h4v4h-4z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-shape" viewBox="0 0 16 16"><path d="M3.5 3.5h9v9h-9z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-pen" viewBox="0 0 16 16"><path d="M3 13l1.5-6L10 2l4 4-5.5 5.5L3 13zm0 0l4-4" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-type" viewBox="0 0 16 16"><path d="M3 4V2.5h10V4M8 3v10m-3 0h6" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-hand" viewBox="0 0 16 16"><path d="M4.5 8V5a1 1 0 012 0v3-5a1 1 0 012 0v5-4a1 1 0 012 0v4-2a1 1 0 012 0v4c0 2-1.5 4-4 4H8c-2 0-3-1-4-2.5L2 9.5c-.7-1 .5-2.2 1.5-1.5l1 1" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-undo" viewBox="0 0 16 16"><path d="M6 3L3 6l3 3M3 6h6a3.5 3.5 0 010 7H8" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-redo" viewBox="0 0 16 16"><path d="M10 3l3 3-3 3m3-3H7a3.5 3.5 0 000 7h1" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-zoom" viewBox="0 0 16 16"><path d="M11 11l3 3M12 7a5 5 0 11-10 0 5 5 0 0110 0z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-grid" viewBox="0 0 16 16"><path d="M3 3h10v10H3zm0 5h10M8 3v10" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-fit" viewBox="0 0 16 16"><path d="M6 3H3v3m7-3h3v3m0 4v3h-3m-4 0H3v-3" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-plus" viewBox="0 0 16 16"><path d="M3 8h10M8 3v10" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-minus" viewBox="0 0 16 16"><path d="M3 8h10" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-more" viewBox="0 0 16 16"><path d="M3.5 8h.1M8 8h.1m4.4 0h.1" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-layers" viewBox="0 0 16 16"><path d="M8 2l6 4-6 4-6-4 6-4zm-6 7l6 4 6-4" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-canvas" viewBox="0 0 16 16"><path d="M3 3h10v10H3zM6 1.5v3m4-3v3M1.5 6h3m-3 4h3m7-4h3m-3 4h3M6 11.5v3m4-3v3" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-folder" viewBox="0 0 16 16"><path d="M2 4h5l1.5 2H14v7H2z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-circle" viewBox="0 0 16 16"><path d="M13 8a5 5 0 11-10 0 5 5 0 0110 0z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-eye" viewBox="0 0 16 16"><path d="M1.5 8S4 4 8 4s6.5 4 6.5 4S12 12 8 12 1.5 8 1.5 8zm8 0a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-lock" viewBox="0 0 16 16"><path d="M4 7h8v6H4zm2 0V5a2 2 0 114 0v2" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-diamond" viewBox="0 0 16 16"><path d="M8 2.5L13.5 8 8 13.5 2.5 8 8 2.5z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-start" viewBox="0 0 16 16"><path d="M3.5 3.5v9m8.5-9L5.8 8l6.2 4.5z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-pause" viewBox="0 0 16 16"><path d="M6 4v8m4-8v8" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-repeat" viewBox="0 0 16 16"><path d="M3 7V5a2 2 0 012-2h7m-2-2 2 2-2 2m3 4v2a2 2 0 01-2 2H4m2-2-2 2 2 2" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-curve" viewBox="0 0 16 16"><path d="M2 11C6 11 6 5 14 5m-12 6h.1m11.9-6h.1" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-export" viewBox="0 0 16 16"><path d="M8 10V2m-3 3 3-3 3 3M3 9v4h10V9" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-check" viewBox="0 0 16 16"><path d="M3.5 8l3 3 6-6" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<path id="ui-key" d="M0-4.5L4.5 0 0 4.5-4.5 0Z" />
+<rect id="ui-handle" x="-3" y="-3" width="6" height="6" rx="1" fill="#FFFFFF" stroke="#1F7CF0" stroke-width="1.15" />
+</defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#1E1E1E" />
+<rect x="0" y="0" width="1600" height="70" rx="0" fill="#1E1E1E" />
+<path d="M0 69.5L1600 69.5" stroke="#343434" />
+<use href="#ui-project-mark" x="21" y="19" width="32" height="32" />
+<text x="69" y="32" class="title" style="font-size:14px" text-anchor="start">Apple TV Mnemonic</text>
+<text x="69" y="49" class="tiny muted" text-anchor="start">Motion project</text>
+<use href="#ui-chev-down" x="222" y="28" width="13" height="13" color="#A1A1A1" />
+<path d="M243 20L243 50" stroke="#343434" />
+<use href="#ui-undo" x="252" y="27" width="16" height="16" color="#909090" />
+<use href="#ui-redo" x="280" y="27" width="16" height="16" color="#909090" />
+<path d="M307 20L307 50" stroke="#343434" />
+<rect x="327" y="16" width="37" height="38" rx="8" fill="#203955" stroke="#345373" />
+<use href="#ui-pointer" x="337" y="26" width="18" height="18" color="#66A9FF" />
+<use href="#ui-nodes" x="381" y="26" width="18" height="18" color="#A1A1A1" />
+<use href="#ui-shape" x="424" y="26" width="18" height="18" color="#A1A1A1" />
+<use href="#ui-pen" x="467" y="26" width="18" height="18" color="#A1A1A1" />
+<use href="#ui-type" x="510" y="26" width="18" height="18" color="#A1A1A1" />
+<use href="#ui-hand" x="553" y="26" width="18" height="18" color="#A1A1A1" />
+<path d="M591 20L591 50" stroke="#343434" />
+<use href="#ui-grid" x="610" y="26" width="18" height="18" color="#A1A1A1" />
+<use href="#ui-fit" x="650" y="26" width="18" height="18" color="#A1A1A1" />
+<rect x="690" y="18" width="82" height="34" rx="7" fill="#1C1C1C" stroke="#353535" />
+<text x="703" y="40" class="mono" text-anchor="start">70%</text>
+<use href="#ui-chev-down" x="745" y="28" width="13" height="13" color="#A1A1A1" />
+<rect x="1354" y="19" width="77" height="32" rx="16" fill="#36282A" stroke="#604144" />
+<circle cx="1370" cy="35" r="4" fill="#ff7186" opacity="1" />
+<text x="1382" y="39" class="badge" text-anchor="start">REC</text>
+<rect x="1447" y="17" width="134" height="36" rx="8" fill="#1F7CF0" />
+<use href="#ui-export" x="1462" y="27" width="16" height="16" color="#FFFFFF" />
+<text x="1488" y="40" style="fill:#FFFFFF;font-weight:650">Export SVG</text>
+<rect x="254" y="70" width="1072" height="562" rx="0" fill="url(#ui-vignette)" />
+<rect x="274" y="94" width="1052" height="538" rx="0" fill="url(#ui-dots)" />
+<rect x="254" y="70" width="1072" height="24" rx="0" fill="#2A2A2A" />
+<rect x="254" y="94" width="20" height="538" rx="0" fill="#2A2A2A" />
+<path d="M254 94L1326 94" stroke="#343434" />
+<path d="M274 94L274 632" stroke="#343434" />
+<path d="M274 70L274 94" stroke="#343434" />
+<path d="M279 94L279 90" stroke="#4A4A4A" />
+<path d="M286 94L286 90" stroke="#4A4A4A" />
+<path d="M293 94L293 90" stroke="#4A4A4A" />
+<path d="M300 94L300 86" stroke="#7D7D7D" />
+<text x="304" y="82" class="tiny muted" text-anchor="start">-300</text>
+<path d="M307 94L307 90" stroke="#4A4A4A" />
+<path d="M314 94L314 90" stroke="#4A4A4A" />
+<path d="M321 94L321 90" stroke="#4A4A4A" />
+<path d="M328 94L328 90" stroke="#4A4A4A" />
+<path d="M335 94L335 90" stroke="#4A4A4A" />
+<path d="M342 94L342 90" stroke="#4A4A4A" />
+<path d="M349 94L349 90" stroke="#4A4A4A" />
+<path d="M356 94L356 90" stroke="#4A4A4A" />
+<path d="M363 94L363 90" stroke="#4A4A4A" />
+<path d="M370 94L370 86" stroke="#7D7D7D" />
+<text x="374" y="82" class="tiny muted" text-anchor="start">-200</text>
+<path d="M377 94L377 90" stroke="#4A4A4A" />
+<path d="M384 94L384 90" stroke="#4A4A4A" />
+<path d="M391 94L391 90" stroke="#4A4A4A" />
+<path d="M398 94L398 90" stroke="#4A4A4A" />
+<path d="M405 94L405 90" stroke="#4A4A4A" />
+<path d="M412 94L412 90" stroke="#4A4A4A" />
+<path d="M419 94L419 90" stroke="#4A4A4A" />
+<path d="M426 94L426 90" stroke="#4A4A4A" />
+<path d="M433 94L433 90" stroke="#4A4A4A" />
+<path d="M440 94L440 86" stroke="#7D7D7D" />
+<text x="444" y="82" class="tiny muted" text-anchor="start">-100</text>
+<path d="M447 94L447 90" stroke="#4A4A4A" />
+<path d="M454 94L454 90" stroke="#4A4A4A" />
+<path d="M461 94L461 90" stroke="#4A4A4A" />
+<path d="M468 94L468 90" stroke="#4A4A4A" />
+<path d="M475 94L475 90" stroke="#4A4A4A" />
+<path d="M482 94L482 90" stroke="#4A4A4A" />
+<path d="M489 94L489 90" stroke="#4A4A4A" />
+<path d="M496 94L496 90" stroke="#4A4A4A" />
+<path d="M503 94L503 90" stroke="#4A4A4A" />
+<path d="M510 94L510 86" stroke="#7D7D7D" />
+<text x="514" y="82" class="tiny muted" text-anchor="start">0</text>
+<path d="M517 94L517 90" stroke="#4A4A4A" />
+<path d="M524 94L524 90" stroke="#4A4A4A" />
+<path d="M531 94L531 90" stroke="#4A4A4A" />
+<path d="M538 94L538 90" stroke="#4A4A4A" />
+<path d="M545 94L545 90" stroke="#4A4A4A" />
+<path d="M552 94L552 90" stroke="#4A4A4A" />
+<path d="M559 94L559 90" stroke="#4A4A4A" />
+<path d="M566 94L566 90" stroke="#4A4A4A" />
+<path d="M573 94L573 90" stroke="#4A4A4A" />
+<path d="M580 94L580 86" stroke="#7D7D7D" />
+<text x="584" y="82" class="tiny muted" text-anchor="start">100</text>
+<path d="M587 94L587 90" stroke="#4A4A4A" />
+<path d="M594 94L594 90" stroke="#4A4A4A" />
+<path d="M601 94L601 90" stroke="#4A4A4A" />
+<path d="M608 94L608 90" stroke="#4A4A4A" />
+<path d="M615 94L615 90" stroke="#4A4A4A" />
+<path d="M622 94L622 90" stroke="#4A4A4A" />
+<path d="M629 94L629 90" stroke="#4A4A4A" />
+<path d="M636 94L636 90" stroke="#4A4A4A" />
+<path d="M643 94L643 90" stroke="#4A4A4A" />
+<path d="M650 94L650 86" stroke="#7D7D7D" />
+<text x="654" y="82" class="tiny muted" text-anchor="start">200</text>
+<path d="M657 94L657 90" stroke="#4A4A4A" />
+<path d="M664 94L664 90" stroke="#4A4A4A" />
+<path d="M671 94L671 90" stroke="#4A4A4A" />
+<path d="M678 94L678 90" stroke="#4A4A4A" />
+<path d="M685 94L685 90" stroke="#4A4A4A" />
+<path d="M692 94L692 90" stroke="#4A4A4A" />
+<path d="M699 94L699 90" stroke="#4A4A4A" />
+<path d="M706 94L706 90" stroke="#4A4A4A" />
+<path d="M713 94L713 90" stroke="#4A4A4A" />
+<path d="M720 94L720 86" stroke="#7D7D7D" />
+<text x="724" y="82" class="tiny muted" text-anchor="start">300</text>
+<path d="M727 94L727 90" stroke="#4A4A4A" />
+<path d="M734 94L734 90" stroke="#4A4A4A" />
+<path d="M741 94L741 90" stroke="#4A4A4A" />
+<path d="M748 94L748 90" stroke="#4A4A4A" />
+<path d="M755 94L755 90" stroke="#4A4A4A" />
+<path d="M762 94L762 90" stroke="#4A4A4A" />
+<path d="M769 94L769 90" stroke="#4A4A4A" />
+<path d="M776 94L776 90" stroke="#4A4A4A" />
+<path d="M783 94L783 90" stroke="#4A4A4A" />
+<path d="M790 94L790 86" stroke="#7D7D7D" />
+<text x="794" y="82" class="tiny muted" text-anchor="start">400</text>
+<path d="M797 94L797 90" stroke="#4A4A4A" />
+<path d="M804 94L804 90" stroke="#4A4A4A" />
+<path d="M811 94L811 90" stroke="#4A4A4A" />
+<path d="M818 94L818 90" stroke="#4A4A4A" />
+<path d="M825 94L825 90" stroke="#4A4A4A" />
+<path d="M832 94L832 90" stroke="#4A4A4A" />
+<path d="M839 94L839 90" stroke="#4A4A4A" />
+<path d="M846 94L846 90" stroke="#4A4A4A" />
+<path d="M853 94L853 90" stroke="#4A4A4A" />
+<path d="M860 94L860 86" stroke="#7D7D7D" />
+<text x="864" y="82" class="tiny muted" text-anchor="start">500</text>
+<path d="M867 94L867 90" stroke="#4A4A4A" />
+<path d="M874 94L874 90" stroke="#4A4A4A" />
+<path d="M881 94L881 90" stroke="#4A4A4A" />
+<path d="M888 94L888 90" stroke="#4A4A4A" />
+<path d="M895 94L895 90" stroke="#4A4A4A" />
+<path d="M902 94L902 90" stroke="#4A4A4A" />
+<path d="M909 94L909 90" stroke="#4A4A4A" />
+<path d="M916 94L916 90" stroke="#4A4A4A" />
+<path d="M923 94L923 90" stroke="#4A4A4A" />
+<path d="M930 94L930 86" stroke="#7D7D7D" />
+<text x="934" y="82" class="tiny muted" text-anchor="start">600</text>
+<path d="M937 94L937 90" stroke="#4A4A4A" />
+<path d="M944 94L944 90" stroke="#4A4A4A" />
+<path d="M951 94L951 90" stroke="#4A4A4A" />
+<path d="M958 94L958 90" stroke="#4A4A4A" />
+<path d="M965 94L965 90" stroke="#4A4A4A" />
+<path d="M972 94L972 90" stroke="#4A4A4A" />
+<path d="M979 94L979 90" stroke="#4A4A4A" />
+<path d="M986 94L986 90" stroke="#4A4A4A" />
+<path d="M993 94L993 90" stroke="#4A4A4A" />
+<path d="M1000 94L1000 86" stroke="#7D7D7D" />
+<text x="1004" y="82" class="tiny muted" text-anchor="start">700</text>
+<path d="M1007 94L1007 90" stroke="#4A4A4A" />
+<path d="M1014 94L1014 90" stroke="#4A4A4A" />
+<path d="M1021 94L1021 90" stroke="#4A4A4A" />
+<path d="M1028 94L1028 90" stroke="#4A4A4A" />
+<path d="M1035 94L1035 90" stroke="#4A4A4A" />
+<path d="M1042 94L1042 90" stroke="#4A4A4A" />
+<path d="M1049 94L1049 90" stroke="#4A4A4A" />
+<path d="M1056 94L1056 90" stroke="#4A4A4A" />
+<path d="M1063 94L1063 90" stroke="#4A4A4A" />
+<path d="M1070 94L1070 86" stroke="#7D7D7D" />
+<text x="1074" y="82" class="tiny muted" text-anchor="start">800</text>
+<path d="M1077 94L1077 90" stroke="#4A4A4A" />
+<path d="M1084 94L1084 90" stroke="#4A4A4A" />
+<path d="M1091 94L1091 90" stroke="#4A4A4A" />
+<path d="M1098 94L1098 90" stroke="#4A4A4A" />
+<path d="M1105 94L1105 90" stroke="#4A4A4A" />
+<path d="M1112 94L1112 90" stroke="#4A4A4A" />
+<path d="M1119 94L1119 90" stroke="#4A4A4A" />
+<path d="M1126 94L1126 90" stroke="#4A4A4A" />
+<path d="M1133 94L1133 90" stroke="#4A4A4A" />
+<path d="M1140 94L1140 86" stroke="#7D7D7D" />
+<text x="1144" y="82" class="tiny muted" text-anchor="start">900</text>
+<path d="M1147 94L1147 90" stroke="#4A4A4A" />
+<path d="M1154 94L1154 90" stroke="#4A4A4A" />
+<path d="M1161 94L1161 90" stroke="#4A4A4A" />
+<path d="M1168 94L1168 90" stroke="#4A4A4A" />
+<path d="M1175 94L1175 90" stroke="#4A4A4A" />
+<path d="M1182 94L1182 90" stroke="#4A4A4A" />
+<path d="M1189 94L1189 90" stroke="#4A4A4A" />
+<path d="M1196 94L1196 90" stroke="#4A4A4A" />
+<path d="M1203 94L1203 90" stroke="#4A4A4A" />
+<path d="M1210 94L1210 86" stroke="#7D7D7D" />
+<text x="1214" y="82" class="tiny muted" text-anchor="start">1000</text>
+<path d="M1217 94L1217 90" stroke="#4A4A4A" />
+<path d="M1224 94L1224 90" stroke="#4A4A4A" />
+<path d="M1231 94L1231 90" stroke="#4A4A4A" />
+<path d="M1238 94L1238 90" stroke="#4A4A4A" />
+<path d="M1245 94L1245 90" stroke="#4A4A4A" />
+<path d="M1252 94L1252 90" stroke="#4A4A4A" />
+<path d="M1259 94L1259 90" stroke="#4A4A4A" />
+<path d="M1266 94L1266 90" stroke="#4A4A4A" />
+<path d="M1273 94L1273 90" stroke="#4A4A4A" />
+<path d="M1280 94L1280 86" stroke="#7D7D7D" />
+<text x="1284" y="82" class="tiny muted" text-anchor="start">1100</text>
+<path d="M1287 94L1287 90" stroke="#4A4A4A" />
+<path d="M1294 94L1294 90" stroke="#4A4A4A" />
+<path d="M1301 94L1301 90" stroke="#4A4A4A" />
+<path d="M1308 94L1308 90" stroke="#4A4A4A" />
+<path d="M1315 94L1315 90" stroke="#4A4A4A" />
+<path d="M1322 94L1322 90" stroke="#4A4A4A" />
+<path d="M274 100L270 100" stroke="#4A4A4A" />
+<path d="M274 107L270 107" stroke="#4A4A4A" />
+<path d="M274 114L270 114" stroke="#4A4A4A" />
+<path d="M274 121L270 121" stroke="#4A4A4A" />
+<path d="M274 128L270 128" stroke="#4A4A4A" />
+<path d="M274 135L270 135" stroke="#4A4A4A" />
+<path d="M274 142L270 142" stroke="#4A4A4A" />
+<path d="M274 149L266 149" stroke="#7D7D7D" />
+<text transform="translate(263 153) rotate(-90)" text-anchor="end" class="tiny muted">0</text>
+<path d="M274 156L270 156" stroke="#4A4A4A" />
+<path d="M274 163L270 163" stroke="#4A4A4A" />
+<path d="M274 170L270 170" stroke="#4A4A4A" />
+<path d="M274 177L270 177" stroke="#4A4A4A" />
+<path d="M274 184L270 184" stroke="#4A4A4A" />
+<path d="M274 191L270 191" stroke="#4A4A4A" />
+<path d="M274 198L270 198" stroke="#4A4A4A" />
+<path d="M274 205L270 205" stroke="#4A4A4A" />
+<path d="M274 212L270 212" stroke="#4A4A4A" />
+<path d="M274 219L266 219" stroke="#7D7D7D" />
+<text transform="translate(263 223) rotate(-90)" text-anchor="end" class="tiny muted">100</text>
+<path d="M274 226L270 226" stroke="#4A4A4A" />
+<path d="M274 233L270 233" stroke="#4A4A4A" />
+<path d="M274 240L270 240" stroke="#4A4A4A" />
+<path d="M274 247L270 247" stroke="#4A4A4A" />
+<path d="M274 254L270 254" stroke="#4A4A4A" />
+<path d="M274 261L270 261" stroke="#4A4A4A" />
+<path d="M274 268L270 268" stroke="#4A4A4A" />
+<path d="M274 275L270 275" stroke="#4A4A4A" />
+<path d="M274 282L270 282" stroke="#4A4A4A" />
+<path d="M274 289L266 289" stroke="#7D7D7D" />
+<text transform="translate(263 293) rotate(-90)" text-anchor="end" class="tiny muted">200</text>
+<path d="M274 296L270 296" stroke="#4A4A4A" />
+<path d="M274 303L270 303" stroke="#4A4A4A" />
+<path d="M274 310L270 310" stroke="#4A4A4A" />
+<path d="M274 317L270 317" stroke="#4A4A4A" />
+<path d="M274 324L270 324" stroke="#4A4A4A" />
+<path d="M274 331L270 331" stroke="#4A4A4A" />
+<path d="M274 338L270 338" stroke="#4A4A4A" />
+<path d="M274 345L270 345" stroke="#4A4A4A" />
+<path d="M274 352L270 352" stroke="#4A4A4A" />
+<path d="M274 359L266 359" stroke="#7D7D7D" />
+<text transform="translate(263 363) rotate(-90)" text-anchor="end" class="tiny muted">300</text>
+<path d="M274 366L270 366" stroke="#4A4A4A" />
+<path d="M274 373L270 373" stroke="#4A4A4A" />
+<path d="M274 380L270 380" stroke="#4A4A4A" />
+<path d="M274 387L270 387" stroke="#4A4A4A" />
+<path d="M274 394L270 394" stroke="#4A4A4A" />
+<path d="M274 401L270 401" stroke="#4A4A4A" />
+<path d="M274 408L270 408" stroke="#4A4A4A" />
+<path d="M274 415L270 415" stroke="#4A4A4A" />
+<path d="M274 422L270 422" stroke="#4A4A4A" />
+<path d="M274 429L266 429" stroke="#7D7D7D" />
+<text transform="translate(263 433) rotate(-90)" text-anchor="end" class="tiny muted">400</text>
+<path d="M274 436L270 436" stroke="#4A4A4A" />
+<path d="M274 443L270 443" stroke="#4A4A4A" />
+<path d="M274 450L270 450" stroke="#4A4A4A" />
+<path d="M274 457L270 457" stroke="#4A4A4A" />
+<path d="M274 464L270 464" stroke="#4A4A4A" />
+<path d="M274 471L270 471" stroke="#4A4A4A" />
+<path d="M274 478L270 478" stroke="#4A4A4A" />
+<path d="M274 485L270 485" stroke="#4A4A4A" />
+<path d="M274 492L270 492" stroke="#4A4A4A" />
+<path d="M274 499L266 499" stroke="#7D7D7D" />
+<text transform="translate(263 503) rotate(-90)" text-anchor="end" class="tiny muted">500</text>
+<path d="M274 506L270 506" stroke="#4A4A4A" />
+<path d="M274 513L270 513" stroke="#4A4A4A" />
+<path d="M274 520L270 520" stroke="#4A4A4A" />
+<path d="M274 527L270 527" stroke="#4A4A4A" />
+<path d="M274 534L270 534" stroke="#4A4A4A" />
+<path d="M274 541L270 541" stroke="#4A4A4A" />
+<path d="M274 548L270 548" stroke="#4A4A4A" />
+<path d="M274 555L270 555" stroke="#4A4A4A" />
+<path d="M274 562L270 562" stroke="#4A4A4A" />
+<path d="M274 569L266 569" stroke="#7D7D7D" />
+<text transform="translate(263 573) rotate(-90)" text-anchor="end" class="tiny muted">600</text>
+<path d="M274 576L270 576" stroke="#4A4A4A" />
+<path d="M274 583L270 583" stroke="#4A4A4A" />
+<path d="M274 590L270 590" stroke="#4A4A4A" />
+<path d="M274 597L270 597" stroke="#4A4A4A" />
+<path d="M274 604L270 604" stroke="#4A4A4A" />
+<path d="M274 611L270 611" stroke="#4A4A4A" />
+<path d="M274 618L270 618" stroke="#4A4A4A" />
+<path d="M274 625L270 625" stroke="#4A4A4A" />
+<text x="510" y="134" class="small muted" text-anchor="start">Apple TV Mnemonic</text>
+<text x="1070" y="134" class="mono muted" text-anchor="end">800 × 600</text>
+<rect x="510" y="149" width="560" height="420" fill="#1E1E1E" filter="url(#ui-artboard-shadow)" />
+<g id="project-artboard" clip-path="url(#ui-canvas-clip)" aria-label="Apple TV Mnemonic">
+<g transform="translate(510 149) scale(0.7) translate(0 0)" fill="none"><defs /><g transform="matrix(1,0,0,1,400,300)" id="apple-tv-AKCline.com_BlackBG"><g id="apple-tv-Rectangle-1" transform="matrix(1,0,0,1,-1.293,0.402)"><rect height="648.805" width="849.414" y="-324.4025" x="-424.707" stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="1500" stroke-opacity="1" stroke="#000000" fill="#ffffff" fill-opacity="1" /></g></g><g id="apple-tv-AKCline.com_AppleCWBG"><g transform="translate(382.3842558 285.8097246)"><g transform="scale(0.4942075 0.4942075)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1" transform="matrix(1,0,0,1,104.455,128.237)"><path fill="#ffffff" fill-opacity="0.8959069" d="M97.549,-40.717C96.064,-39.565,69.85,-24.794,69.85,8.051C69.85,46.041,103.207,59.481,104.205,59.814C104.051,60.633,98.906,78.221,86.618,96.141C75.661,111.91,64.218,127.654,46.81,127.654C29.402,127.654,24.922,117.542,4.826,117.542C-14.758,117.542,-21.721,127.987,-37.645,127.987C-53.568,127.987,-64.678,113.395,-77.453,95.475C-92.249,74.432,-104.205,41.741,-104.205,10.713C-104.205,-39.053,-71.846,-65.447,-40,-65.447C-23.078,-65.447,-8.973,-54.336,1.651,-54.336C11.763,-54.336,27.533,-66.112,46.784,-66.112C54.08,-66.112,80.295,-65.447,97.549,-40.717ZM37.645,-87.181C45.607,-96.627,51.239,-109.735,51.239,-122.842C51.239,-124.659,51.085,-126.503,50.752,-127.987C37.799,-127.501,22.387,-119.36,13.095,-108.583C5.799,-100.288,-2.441,-86.916,-0.525,-69.261C13.559,-67.916,29.197,-76.711,37.645,-87.181Z" /></g></g></g></g></g><g id="apple-tv-AKCline.com_AppleC1"><g transform="translate(382.3842558 285.8097246)"><g transform="scale(0.4942075 0.4942075)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1-2" transform="matrix(1,0,0,1,104.455,128.237)"><path stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="2" stroke-opacity="0" stroke="#ff00ff" fill="#ff00ff" fill-opacity="0.1" d="M97.549,-40.717C96.064,-39.565,69.85,-24.794,69.85,8.051C69.85,46.041,103.207,59.481,104.205,59.814C104.051,60.633,98.906,78.221,86.618,96.141C75.661,111.91,64.218,127.654,46.81,127.654C29.402,127.654,24.922,117.542,4.826,117.542C-14.758,117.542,-21.721,127.987,-37.645,127.987C-53.568,127.987,-64.678,113.395,-77.453,95.475C-92.249,74.432,-104.205,41.741,-104.205,10.713C-104.205,-39.053,-71.846,-65.447,-40,-65.447C-23.078,-65.447,-8.973,-54.336,1.651,-54.336C11.763,-54.336,27.533,-66.112,46.784,-66.112C54.08,-66.112,80.295,-65.447,97.549,-40.717ZM37.645,-87.181C45.607,-96.627,51.239,-109.735,51.239,-122.842C51.239,-124.659,51.085,-126.503,50.752,-127.987C37.799,-127.501,22.387,-119.36,13.095,-108.583C5.799,-100.288,-2.441,-86.916,-0.525,-69.261C13.559,-67.916,29.197,-76.711,37.645,-87.181Z" /></g></g></g></g></g><g id="apple-tv-AKCline.com_AppleC2"><g transform="translate(382.3842558 285.8097246)"><g transform="scale(0.4942075 0.4942075)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1-3" transform="matrix(1,0,0,1,104.455,128.237)"><path stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="2" stroke-opacity="0" stroke="#8200ff" fill="#8200ff" fill-opacity="0.1" d="M97.549,-40.717C96.064,-39.565,69.85,-24.794,69.85,8.051C69.85,46.041,103.207,59.481,104.205,59.814C104.051,60.633,98.906,78.221,86.618,96.141C75.661,111.91,64.218,127.654,46.81,127.654C29.402,127.654,24.922,117.542,4.826,117.542C-14.758,117.542,-21.721,127.987,-37.645,127.987C-53.568,127.987,-64.678,113.395,-77.453,95.475C-92.249,74.432,-104.205,41.741,-104.205,10.713C-104.205,-39.053,-71.846,-65.447,-40,-65.447C-23.078,-65.447,-8.973,-54.336,1.651,-54.336C11.763,-54.336,27.533,-66.112,46.784,-66.112C54.08,-66.112,80.295,-65.447,97.549,-40.717ZM37.645,-87.181C45.607,-96.627,51.239,-109.735,51.239,-122.842C51.239,-124.659,51.085,-126.503,50.752,-127.987C37.799,-127.501,22.387,-119.36,13.095,-108.583C5.799,-100.288,-2.441,-86.916,-0.525,-69.261C13.559,-67.916,29.197,-76.711,37.645,-87.181Z" /></g></g></g></g></g><g display="inline" id="apple-tv-AKCline.com_AppleC3"><g transform="translate(382.2887146 285.8034778)"><g transform="scale(0.5009687 0.5009687)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1-4" transform="matrix(1,0,0,1,104.455,128.237)"><path stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="2" stroke-opacity="0" stroke="#0065ff" fill="#0065ff" fill-opacity="0.1" d="M97.549,-40.717C96.064,-39.565,69.85,-24.794,69.85,8.051C69.85,46.041,103.207,59.481,104.205,59.814C104.051,60.633,98.906,78.221,86.618,96.141C75.661,111.91,64.218,127.654,46.81,127.654C29.402,127.654,24.922,117.542,4.826,117.542C-14.758,117.542,-21.721,127.987,-37.645,127.987C-53.568,127.987,-64.678,113.395,-77.453,95.475C-92.249,74.432,-104.205,41.741,-104.205,10.713C-104.205,-39.053,-71.846,-65.447,-40,-65.447C-23.078,-65.447,-8.973,-54.336,1.651,-54.336C11.763,-54.336,27.533,-66.112,46.784,-66.112C54.08,-66.112,80.295,-65.447,97.549,-40.717ZM37.645,-87.181C45.607,-96.627,51.239,-109.735,51.239,-122.842C51.239,-124.659,51.085,-126.503,50.752,-127.987C37.799,-127.501,22.387,-119.36,13.095,-108.583C5.799,-100.288,-2.441,-86.916,-0.525,-69.261C13.559,-67.916,29.197,-76.711,37.645,-87.181Z" /></g></g></g></g></g><g display="inline" id="apple-tv-AKCline.com_AppleC4"><g transform="translate(382.1678308 285.795574)"><g transform="scale(0.5092849 0.5092849)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1-5" transform="matrix(1,0,0,1,104.455,128.237)"><path stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="2" stroke-opacity="0" stroke="#00efff" fill="#00efff" fill-opacity="0.1" d="M97.549,-40.717C96.064,-39.565,69.85,-24.794,69.85,8.051C69.85,46.041,103.207,59.481,104.205,59.814C104.051,60.633,98.906,78.221,86.618,96.141C75.661,111.91,64.218,127.654,46.81,127.654C29.402,127.654,24.922,117.542,4.826,117.542C-14.758,117.542,-21.721,127.987,-37.645,127.987C-53.568,127.987,-64.678,113.395,-77.453,95.475C-92.249,74.432,-104.205,41.741,-104.205,10.713C-104.205,-39.053,-71.846,-65.447,-40,-65.447C-23.078,-65.447,-8.973,-54.336,1.651,-54.336C11.763,-54.336,27.533,-66.112,46.784,-66.112C54.08,-66.112,80.295,-65.447,97.549,-40.717ZM37.645,-87.181C45.607,-96.627,51.239,-109.735,51.239,-122.842C51.239,-124.659,51.085,-126.503,50.752,-127.987C37.799,-127.501,22.387,-119.36,13.095,-108.583C5.799,-100.288,-2.441,-86.916,-0.525,-69.261C13.559,-67.916,29.197,-76.711,37.645,-87.181Z" /></g></g></g></g></g><g display="inline" id="apple-tv-AKCline.com_AppleC5"><g transform="translate(382.1678308 285.795574)"><g transform="scale(0.5092849 0.5092849)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1-6" transform="matrix(1,0,0,1,104.455,128.237)"><path stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="2" stroke-opacity="0" stroke="#00ff33" fill="#00ff33" fill-opacity="0.1" d="M97.549,-40.717C96.064,-39.565,69.85,-24.794,69.85,8.051C69.85,46.041,103.207,59.481,104.205,59.814C104.051,60.633,98.906,78.221,86.618,96.141C75.661,111.91,64.218,127.654,46.81,127.654C29.402,127.654,24.922,117.542,4.826,117.542C-14.758,117.542,-21.721,127.987,-37.645,127.987C-53.568,127.987,-64.678,113.395,-77.453,95.475C-92.249,74.432,-104.205,41.741,-104.205,10.713C-104.205,-39.053,-71.846,-65.447,-40,-65.447C-23.078,-65.447,-8.973,-54.336,1.651,-54.336C11.763,-54.336,27.533,-66.112,46.784,-66.112C54.08,-66.112,80.295,-65.447,97.549,-40.717ZM37.645,-87.181C45.607,-96.627,51.239,-109.735,51.239,-122.842C51.239,-124.659,51.085,-126.503,50.752,-127.987C37.799,-127.501,22.387,-119.36,13.095,-108.583C5.799,-100.288,-2.441,-86.916,-0.525,-69.261C13.559,-67.916,29.197,-76.711,37.645,-87.181Z" /></g></g></g></g></g><g display="inline" id="apple-tv-AKCline.com_AppleC6"><g transform="translate(382.0185582 285.7858141)"><g transform="scale(0.519288 0.519288)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1-7" transform="matrix(1,0,0,1,104.455,128.237)"><path stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="2" stroke-opacity="0" stroke="#f3ff00" fill="#f3ff00" fill-opacity="0.1" d="M97.549,-40.717C96.064,-39.565,69.85,-24.794,69.85,8.051C69.85,46.041,103.207,59.481,104.205,59.814C104.051,60.633,98.906,78.221,86.618,96.141C75.661,111.91,64.218,127.654,46.81,127.654C29.402,127.654,24.922,117.542,4.826,117.542C-14.758,117.542,-21.721,127.987,-37.645,127.987C-53.568,127.987,-64.678,113.395,-77.453,95.475C-92.249,74.432,-104.205,41.741,-104.205,10.713C-104.205,-39.053,-71.846,-65.447,-40,-65.447C-23.078,-65.447,-8.973,-54.336,1.651,-54.336C11.763,-54.336,27.533,-66.112,46.784,-66.112C54.08,-66.112,80.295,-65.447,97.549,-40.717ZM37.645,-87.181C45.607,-96.627,51.239,-109.735,51.239,-122.842C51.239,-124.659,51.085,-126.503,50.752,-127.987C37.799,-127.501,22.387,-119.36,13.095,-108.583C5.799,-100.288,-2.441,-86.916,-0.525,-69.261C13.559,-67.916,29.197,-76.711,37.645,-87.181Z" /></g></g></g></g></g><g display="inline" id="apple-tv-AKCline.com_AppleC7"><g transform="translate(381.837488 285.7739751)"><g transform="scale(0.5311342 0.5311342)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1-8" transform="matrix(1,0,0,1,104.455,128.237)"><path stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="2" stroke-opacity="0" stroke="#ffb200" fill="#ffb200" fill-opacity="0.1" d="M97.549,-40.717C96.064,-39.565,69.85,-24.794,69.85,8.051C69.85,46.041,103.207,59.481,104.205,59.814C104.051,60.633,98.906,78.221,86.618,96.141C75.661,111.91,64.218,127.654,46.81,127.654C29.402,127.654,24.922,117.542,4.826,117.542C-14.758,117.542,-21.721,127.987,-37.645,127.987C-53.568,127.987,-64.678,113.395,-77.453,95.475C-92.249,74.432,-104.205,41.741,-104.205,10.713C-104.205,-39.053,-71.846,-65.447,-40,-65.447C-23.078,-65.447,-8.973,-54.336,1.651,-54.336C11.763,-54.336,27.533,-66.112,46.784,-66.112C54.08,-66.112,80.295,-65.447,97.549,-40.717ZM37.645,-87.181C45.607,-96.627,51.239,-109.735,51.239,-122.842C51.239,-124.659,51.085,-126.503,50.752,-127.987C37.799,-127.501,22.387,-119.36,13.095,-108.583C5.799,-100.288,-2.441,-86.916,-0.525,-69.261C13.559,-67.916,29.197,-76.711,37.645,-87.181Z" /></g></g></g></g></g><g display="inline" id="apple-tv-AKCline.com_AppleC8"><g transform="translate(381.837488 285.7739751)"><g transform="scale(0.5311342 0.5311342)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1-9" transform="matrix(1,0,0,1,104.455,128.237)"><path stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="2" stroke-opacity="0" stroke="#ff0000" fill="#ff0000" fill-opacity="0.1" d="M97.549,-40.717C96.064,-39.565,69.85,-24.794,69.85,8.051C69.85,46.041,103.207,59.481,104.205,59.814C104.051,60.633,98.906,78.221,86.618,96.141C75.661,111.91,64.218,127.654,46.81,127.654C29.402,127.654,24.922,117.542,4.826,117.542C-14.758,117.542,-21.721,127.987,-37.645,127.987C-53.568,127.987,-64.678,113.395,-77.453,95.475C-92.249,74.432,-104.205,41.741,-104.205,10.713C-104.205,-39.053,-71.846,-65.447,-40,-65.447C-23.078,-65.447,-8.973,-54.336,1.651,-54.336C11.763,-54.336,27.533,-66.112,46.784,-66.112C54.08,-66.112,80.295,-65.447,97.549,-40.717ZM37.645,-87.181C45.607,-96.627,51.239,-109.735,51.239,-122.842C51.239,-124.659,51.085,-126.503,50.752,-127.987C37.799,-127.501,22.387,-119.36,13.095,-108.583C5.799,-100.288,-2.441,-86.916,-0.525,-69.261C13.559,-67.916,29.197,-76.711,37.645,-87.181Z" /></g></g></g></g></g><g display="inline" id="apple-tv-AKCline.com_AppleC9"><g transform="translate(381.837488 285.7739751)"><g transform="scale(0.5311342 0.5311342)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1-10" transform="matrix(1,0,0,1,104.455,128.237)"><path stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="2" stroke-opacity="0" stroke="#ff0000" fill="#ff0000" fill-opacity="0.1" d="M97.549,-40.717C96.064,-39.565,69.85,-24.794,69.85,8.051C69.85,46.041,103.207,59.481,104.205,59.814C104.051,60.633,98.906,78.221,86.618,96.141C75.661,111.91,64.218,127.654,46.81,127.654C29.402,127.654,24.922,117.542,4.826,117.542C-14.758,117.542,-21.721,127.987,-37.645,127.987C-53.568,127.987,-64.678,113.395,-77.453,95.475C-92.249,74.432,-104.205,41.741,-104.205,10.713C-104.205,-39.053,-71.846,-65.447,-40,-65.447C-23.078,-65.447,-8.973,-54.336,1.651,-54.336C11.763,-54.336,27.533,-66.112,46.784,-66.112C54.08,-66.112,80.295,-65.447,97.549,-40.717ZM37.645,-87.181C45.607,-96.627,51.239,-109.735,51.239,-122.842C51.239,-124.659,51.085,-126.503,50.752,-127.987C37.799,-127.501,22.387,-119.36,13.095,-108.583C5.799,-100.288,-2.441,-86.916,-0.525,-69.261C13.559,-67.916,29.197,-76.711,37.645,-87.181Z" /></g></g></g></g></g><g display="inline" id="apple-tv-AKCline.com_AppleC10"><g transform="translate(381.6207676 285.7598052)"><g transform="scale(0.545011 0.545011)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1-11" transform="matrix(1,0,0,1,104.455,128.237)"><path stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="2" stroke-opacity="0" stroke="#ff00ff" fill="#ff00ff" fill-opacity="0.1" d="M97.549,-40.717C96.064,-39.565,69.85,-24.794,69.85,8.051C69.85,46.041,103.207,59.481,104.205,59.814C104.051,60.633,98.906,78.221,86.618,96.141C75.661,111.91,64.218,127.654,46.81,127.654C29.402,127.654,24.922,117.542,4.826,117.542C-14.758,117.542,-21.721,127.987,-37.645,127.987C-53.568,127.987,-64.678,113.395,-77.453,95.475C-92.249,74.432,-104.205,41.741,-104.205,10.713C-104.205,-39.053,-71.846,-65.447,-40,-65.447C-23.078,-65.447,-8.973,-54.336,1.651,-54.336C11.763,-54.336,27.533,-66.112,46.784,-66.112C54.08,-66.112,80.295,-65.447,97.549,-40.717ZM37.645,-87.181C45.607,-96.627,51.239,-109.735,51.239,-122.842C51.239,-124.659,51.085,-126.503,50.752,-127.987C37.799,-127.501,22.387,-119.36,13.095,-108.583C5.799,-100.288,-2.441,-86.916,-0.525,-69.261C13.559,-67.916,29.197,-76.711,37.645,-87.181Z" /></g></g></g></g></g><g display="inline" id="apple-tv-AKCline.com_AppleC11"><g transform="translate(381.4208141 285.7467316)"><g transform="scale(0.5517346 0.5517346)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1-12" transform="matrix(1,0,0,1,104.455,128.237)"><path stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="2" stroke-opacity="0.0750001" stroke="#8200ff" fill="#8200ff" fill-opacity="0.1375" d="M 97.6510194 -40.7171491 C 96.1787522 -39.5644114 70.1668487 -24.7940785 70.1668487 8.0509215 C 70.1668487 46.0409215 103.2540859 59.4809725 104.2520859 59.8139725 C 104.0980859 60.6329725 98.9992732 78.2283219 86.8024197 96.1412747 C 75.9313436 111.9116676 64.5842614 127.6539411 47.3024398 127.6543257 C 30.0206182 127.6547102 25.6387687 117.5425846 5.6637363 117.5418862 C -13.8013052 117.5411878 -20.66207 127.9888991 -36.4737387 127.9866704 C -52.2844114 127.9844417 -63.2998081 113.3771074 -75.9796043 95.4746233 C -90.673271 74.4623312 -102.5216798 41.7415572 -102.5216798 10.7135572 C -102.5216798 -39.0524428 -70.4239868 -65.4478554 -38.8208911 -65.4470706 C -22.031685 -65.4466272 -8.0448902 -54.335329 2.4985458 -54.3356351 C 12.5311904 -54.3359451 28.1511042 -66.111227 47.2813446 -66.1117371 C 54.5200921 -66.1120589 80.5245986 -65.4478554 97.6510194 -40.7171491 Z M 38.2119925 -87.1800269 C 46.1129849 -96.6281301 51.7039731 -109.7352276 51.7039731 -122.8422276 C 51.7039731 -124.6592276 51.5499731 -126.5032276 51.2169731 -127.9872276 C 38.3650508 -127.5045864 23.0922837 -119.3510066 13.8601455 -108.581662 C 6.6161754 -100.2845784 -1.5610826 -86.915019 0.3460888 -69.2580728 C 14.3290503 -67.9120762 29.8269071 -76.7119417 38.2119925 -87.1800269 Z" /></g></g></g></g></g><g display="inline" id="apple-tv-AKCline.com_AppleC12"><g transform="translate(381.1897809 285.7316258)"><g transform="scale(0.5596184 0.5596184)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1-13" transform="matrix(1,0,0,1,104.455,128.237)"><path stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="2" stroke-opacity="0.1818173" stroke="#0065ff" fill="#0065ff" fill-opacity="0.1909086" d="M 98.2554928 -40.7180326 C 96.8586685 -39.5609241 72.0442036 -24.7945435 72.0442036 8.0504565 C 72.0442036 46.0404565 103.5330736 59.4808098 104.5310736 59.8138098 C 104.3770736 60.6328098 99.5519246 78.2717044 87.8951216 96.1429021 C 77.5331515 111.9215484 66.7543906 127.6535924 50.2201863 127.6562553 C 33.6859821 127.6589183 29.8856825 117.5460487 10.6273927 117.541212 C -8.1328095 117.5363752 -14.3878222 128.0001516 -29.5339193 127.9847175 C -44.6790436 127.9692833 -55.1339074 113.271092 -67.2496138 95.4723914 C -81.3369471 74.6420457 -92.547869 41.7448585 -92.547869 10.7168585 C -92.547869 -39.0491415 -61.9984416 -65.4529237 -31.8345737 -65.4474891 C -15.8321828 -65.4444186 -2.5457634 -54.3313535 7.5203247 -54.3334729 C 17.082782 -54.3356196 31.8134224 -66.106647 50.2281523 -66.1101794 C 57.127674 -66.1124076 81.8849892 -65.4529237 98.2554928 -40.7180326 Z M 41.5714695 -87.1742611 C 49.1109869 -96.6348258 54.4589768 -109.736576 54.4589768 -122.843576 C 54.4589768 -124.660576 54.3049768 -126.504576 53.9719768 -127.988576 C 41.7189481 -127.5258359 27.2711477 -119.2977199 18.3936959 -108.5737341 C 11.4580072 -100.2643053 3.6525003 -86.9092068 5.5073615 -69.2407291 C 18.8916619 -67.8888272 33.5591582 -76.7175215 41.5714695 -87.1742611 Z" /></g></g></g></g></g><g display="inline" id="apple-tv-AKCline.com_AppleC13"><g transform="translate(380.9217284 285.7140996)"><g transform="scale(0.5687557 0.5687557)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1-14" transform="matrix(1,0,0,1,104.455,128.237)"><path stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="2" stroke-opacity="0.2105239" stroke="#00efff" fill="#00efff" fill-opacity="0.2052619" d="M 98.4261076 -40.7182819 C 97.0505773 -39.5599398 72.5740936 -24.7946747 72.5740936 8.0503253 C 72.5740936 46.0403253 103.6118189 59.4807639 104.6098189 59.8137639 C 104.4558189 60.6327639 99.7079124 78.2839493 88.2035406 96.1433614 C 77.9852675 111.9243373 67.3669173 127.653494 51.0437307 127.6568 C 34.720544 127.660106 31.084389 117.5470265 12.0284024 117.5410217 C -6.5328565 117.5350169 -12.6168935 128.0033277 -27.5751306 127.9841663 C -42.5324015 127.9650048 -52.8290529 113.2411688 -64.7855429 95.4717614 C -78.7017365 74.6927708 -89.7327254 41.7457904 -89.7327254 10.7177904 C -89.7327254 -39.0482096 -59.6203015 -65.4543542 -29.8626608 -65.4476072 C -14.0823512 -65.4437952 -0.9936153 -54.3302313 8.9377397 -54.3328627 C 18.3674849 -54.3355277 32.8471248 -66.1053542 51.0598993 -66.1097398 C 57.8636733 -66.112506 82.2689643 -65.4543542 98.4261076 -40.7182819 Z M 42.5196939 -87.1726337 C 49.9571836 -96.6367157 55.2365863 -109.7369566 55.2365863 -122.8439566 C 55.2365863 -124.6609566 55.0825863 -126.5049566 54.7495863 -127.9889566 C 42.6655975 -127.5318337 28.4506469 -119.2826796 19.6733066 -108.5714964 C 12.8246315 -100.2585832 5.1240526 -86.9075663 6.9641491 -69.2358338 C 20.1794753 -67.8822651 34.6125994 -76.7190964 42.5196939 -87.1726337 Z" /></g></g></g></g></g><g display="inline" id="apple-tv-AKCline.com_AppleC14"><g transform="translate(381.1897116 285.7316213)"><g transform="scale(0.5596223 0.5596223)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1-15" transform="matrix(1,0,0,1,104.455,128.237)"><path stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="2" stroke-opacity="0.1818155" stroke="#ff00ff" fill="#ff00ff" fill-opacity="0.1909078" d="M 98.2554928 -40.7180326 C 96.8586685 -39.5609241 72.0442036 -24.7945435 72.0442036 8.0504565 C 72.0442036 46.0404565 103.5330736 59.4808098 104.5310736 59.8138098 C 104.3770736 60.6328098 99.5519246 78.2717044 87.8951216 96.1429021 C 77.5331515 111.9215484 66.7543906 127.6535924 50.2201863 127.6562553 C 33.6859821 127.6589183 29.8856825 117.5460487 10.6273927 117.541212 C -8.1328095 117.5363752 -14.3878222 128.0001516 -29.5339193 127.9847175 C -44.6790436 127.9692833 -55.1339074 113.271092 -67.2496138 95.4723914 C -81.3369471 74.6420457 -92.547869 41.7448585 -92.547869 10.7168585 C -92.547869 -39.0491415 -61.9984416 -65.4529237 -31.8345737 -65.4474891 C -15.8321828 -65.4444186 -2.5457634 -54.3313535 7.5203247 -54.3334729 C 17.082782 -54.3356196 31.8134224 -66.106647 50.2281523 -66.1101794 C 57.127674 -66.1124076 81.8849892 -65.4529237 98.2554928 -40.7180326 Z M 41.5714695 -87.1742611 C 49.1109869 -96.6348258 54.4589768 -109.736576 54.4589768 -122.843576 C 54.4589768 -124.660576 54.3049768 -126.504576 53.9719768 -127.988576 C 41.7189481 -127.5258359 27.2711477 -119.2977199 18.3936959 -108.5737341 C 11.4580072 -100.2643053 3.6525003 -86.9092068 5.5073615 -69.2407291 C 18.8916619 -67.8888272 33.5591582 -76.7175215 41.5714695 -87.1742611 Z" /></g></g></g></g></g><g display="inline" id="apple-tv-AKCline.com_AppleCWFG"><g transform="translate(381.6922967 285.764482)"><g transform="scale(0.5138702 0.5138702)"><g transform="translate(-214.514,-140.071)"><g id="apple-tv-Group-1-16" transform="matrix(1,0,0,1,104.455,128.237)"><path fill="#ffffff" fill-opacity="0.9031874" d="M 97.9501071 -40.7175862 C 96.5151683 -39.5626859 71.095746 -24.7943085 71.095746 8.0506915 C 71.095746 46.0406915 103.3921263 59.480892 104.3901263 59.813892 C 104.2361263 60.632892 99.2727199 78.2497871 87.3430782 96.1420799 C 76.7239029 111.9165566 65.6580207 127.6537686 48.746113 127.6552805 C 31.8342053 127.6567923 27.7401012 117.5442987 8.1197062 117.5415526 C -10.9965876 117.5388066 -17.557632 127.9944668 -33.0399823 127.9857041 C -48.5213479 127.9769415 -59.2593983 113.324652 -71.6600882 95.473519 C -86.053747 74.5512522 -97.5867333 41.7431907 -97.5867333 10.7151907 C -97.5867333 -39.0508093 -66.2551074 -65.4503631 -35.3641279 -65.4472777 C -18.9642304 -65.4455344 -5.3239747 -54.3333619 4.9832741 -54.3345653 C 14.7832745 -54.335784 29.9631843 -66.1089608 48.739397 -66.1109664 C 55.8102988 -66.1122314 81.1977069 -65.4503631 97.9501071 -40.7175862 Z M 39.8742297 -87.1771741 C 47.5963677 -96.631443 53.0671226 -109.7358948 53.0671226 -122.8428948 C 53.0671226 -124.6598948 52.9131226 -126.5038948 52.5801226 -127.9878948 C 40.0245272 -127.5151005 25.1599458 -119.3246409 16.103303 -108.5777393 C 9.0118677 -100.2745475 1.0185485 -86.9121432 2.8998373 -69.2494913 C 16.586587 -67.9005728 31.6735893 -76.7147025 39.8742297 -87.1771741 Z" /></g></g></g></g></g><g opacity="0.9802954" display="inline" id="apple-tv-AKCline.com_AppletvCWBG"><g transform="translate(400.1250273 300.1118666)"><g transform="scale(1.0078965 1.0078965)"><g transform="translate(0,0)"><g id="apple-tv-Shape-1"><path fill="#ffffff" fill-opacity="1" d="M18,-67C18,-67,0,-67,0,-67C0,-67,0,-46,0,-46C0,-46,-13,-46,-13,-46C-13,-46,-13,-31,-13,-31C-13,-31,0,-31,0,-31C0,-31,0,17,0,25C0,33,9.511,39.876,17.943,39.938C26.375,40,34,40,34,40C34,40,34,25,34,25C34,25,28.5,25,24.5,25C20.5,25,18,22.125,18,18C18,13.875,18,-31,18,-31C18,-31,34,-31,34,-31C34,-31,34,-46,34,-46C34,-46,18,-46,18,-46C18,-46,18,-67,18,-67Z" /></g><g id="apple-tv-Shape-2"><path fill="#ffffff" fill-opacity="1" d="M120,-46C120,-46,103,-46,103,-46C103,-46,82,20.375,82,20.375C82,20.375,61,-46,61,-46C61,-46,42,-46,42,-46C42,-46,72.625,40,72.625,40C72.625,40,91.375,40,91.375,40C91.375,40,120,-46,120,-46Z" /></g></g></g></g></g><g opacity="0.25" id="apple-tv-AKCline.com_AppletvC1"><g transform="translate(400.031452 300.0281413)"><g transform="scale(1.0019864 1.0019864)"><g transform="translate(0,0)"><g id="apple-tv-Shape-1-2"><path fill="#ef00ff" fill-opacity="1" d="M18,-67C18,-67,0,-67,0,-67C0,-67,0,-46,0,-46C0,-46,-13,-46,-13,-46C-13,-46,-13,-31,-13,-31C-13,-31,0,-31,0,-31C0,-31,0,17,0,25C0,33,9.511,39.876,17.943,39.938C26.375,40,34,40,34,40C34,40,34,25,34,25C34,25,28.5,25,24.5,25C20.5,25,18,22.125,18,18C18,13.875,18,-31,18,-31C18,-31,34,-31,34,-31C34,-31,34,-46,34,-46C34,-46,18,-46,18,-46C18,-46,18,-67,18,-67Z" /></g><g id="apple-tv-Shape-2-2" opacity="1"><path fill="#ef00ff" fill-opacity="1" d="M120,-46C120,-46,103,-46,103,-46C103,-46,82,20.375,82,20.375C82,20.375,61,-46,61,-46C61,-46,42,-46,42,-46C42,-46,72.625,40,72.625,40C72.625,40,91.375,40,91.375,40C91.375,40,120,-46,120,-46Z" /></g></g></g></g></g><g opacity="0.35" display="inline" id="apple-tv-AKCline.com_AppletvC2"><g transform="translate(400.0330664 300.0295857)"><g transform="scale(1.0020884 1.0020884)"><g transform="translate(0,0)"><g id="apple-tv-Shape-1-3"><path fill="#8200ff" fill-opacity="1" d="M18,-67C18,-67,0,-67,0,-67C0,-67,0,-46,0,-46C0,-46,-13,-46,-13,-46C-13,-46,-13,-31,-13,-31C-13,-31,0,-31,0,-31C0,-31,0,17,0,25C0,33,9.511,39.876,17.943,39.938C26.375,40,34,40,34,40C34,40,34,25,34,25C34,25,28.5,25,24.5,25C20.5,25,18,22.125,18,18C18,13.875,18,-31,18,-31C18,-31,34,-31,34,-31C34,-31,34,-46,34,-46C34,-46,18,-46,18,-46C18,-46,18,-67,18,-67Z" /></g><g id="apple-tv-Shape-2-3" opacity="1"><path fill="#8200ff" fill-opacity="1" d="M120,-46C120,-46,103,-46,103,-46C103,-46,82,20.375,82,20.375C82,20.375,61,-46,61,-46C61,-46,42,-46,42,-46C42,-46,72.625,40,72.625,40C72.625,40,91.375,40,91.375,40C91.375,40,120,-46,120,-46Z" /></g></g></g></g></g><g opacity="0.35" display="inline" id="apple-tv-AKCline.com_AppletvC3"><g transform="translate(400.1384594 300.1238847)"><g transform="scale(1.0087448 1.0087448)"><g transform="translate(0,0)"><g id="apple-tv-Shape-1-4"><path fill="#0065ff" fill-opacity="1" d="M18,-67C18,-67,0,-67,0,-67C0,-67,0,-46,0,-46C0,-46,-13,-46,-13,-46C-13,-46,-13,-31,-13,-31C-13,-31,0,-31,0,-31C0,-31,0,17,0,25C0,33,9.511,39.876,17.943,39.938C26.375,40,34,40,34,40C34,40,34,25,34,25C34,25,28.5,25,24.5,25C20.5,25,18,22.125,18,18C18,13.875,18,-31,18,-31C18,-31,34,-31,34,-31C34,-31,34,-46,34,-46C34,-46,18,-46,18,-46C18,-46,18,-67,18,-67Z" /></g><g id="apple-tv-Shape-2-4"><path fill="#0065ff" fill-opacity="1" d="M120,-46C120,-46,103,-46,103,-46C103,-46,82,20.375,82,20.375C82,20.375,61,-46,61,-46C61,-46,42,-46,42,-46C42,-46,72.625,40,72.625,40C72.625,40,91.375,40,91.375,40C91.375,40,120,-46,120,-46Z" /></g></g></g></g></g><g opacity="0.25" display="inline" id="apple-tv-AKCline.com_AppletvC4"><g transform="translate(400.1460028 300.1306341)"><g transform="scale(1.0092212 1.0092212)"><g transform="translate(0,0)"><g id="apple-tv-Shape-1-5"><path fill="#00efff" fill-opacity="1" d="M18,-67C18,-67,0,-67,0,-67C0,-67,0,-46,0,-46C0,-46,-13,-46,-13,-46C-13,-46,-13,-31,-13,-31C-13,-31,0,-31,0,-31C0,-31,0,17,0,25C0,33,9.511,39.876,17.943,39.938C26.375,40,34,40,34,40C34,40,34,25,34,25C34,25,28.5,25,24.5,25C20.5,25,18,22.125,18,18C18,13.875,18,-31,18,-31C18,-31,34,-31,34,-31C34,-31,34,-46,34,-46C34,-46,18,-46,18,-46C18,-46,18,-67,18,-67Z" /></g><g id="apple-tv-Shape-2-5"><path fill="#00efff" fill-opacity="1" d="M120,-46C120,-46,103,-46,103,-46C103,-46,82,20.375,82,20.375C82,20.375,61,-46,61,-46C61,-46,42,-46,42,-46C42,-46,72.625,40,72.625,40C72.625,40,91.375,40,91.375,40C91.375,40,120,-46,120,-46Z" /></g></g></g></g></g><g opacity="0.25" display="inline" id="apple-tv-AKCline.com_AppletvC5"><g transform="translate(400.3452767 300.3089318)"><g transform="scale(1.021807 1.021807)"><g transform="translate(0,0)"><g id="apple-tv-Shape-1-6"><path fill="#00ff33" fill-opacity="1" d="M18,-67C18,-67,0,-67,0,-67C0,-67,0,-46,0,-46C0,-46,-13,-46,-13,-46C-13,-46,-13,-31,-13,-31C-13,-31,0,-31,0,-31C0,-31,0,17,0,25C0,33,9.511,39.876,17.943,39.938C26.375,40,34,40,34,40C34,40,34,25,34,25C34,25,28.5,25,24.5,25C20.5,25,18,22.125,18,18C18,13.875,18,-31,18,-31C18,-31,34,-31,34,-31C34,-31,34,-46,34,-46C34,-46,18,-46,18,-46C18,-46,18,-67,18,-67Z" /></g><g id="apple-tv-Shape-2-6"><path fill="#00ff33" fill-opacity="1" d="M120,-46C120,-46,103,-46,103,-46C103,-46,82,20.375,82,20.375C82,20.375,61,-46,61,-46C61,-46,42,-46,42,-46C42,-46,72.625,40,72.625,40C72.625,40,91.375,40,91.375,40C91.375,40,120,-46,120,-46Z" /></g></g></g></g></g><g opacity="0.25" display="inline" id="apple-tv-AKCline.com_AppletvC6"><g transform="translate(400.3651674 300.3267287)"><g transform="scale(1.0230632 1.0230632)"><g transform="translate(0,0)"><g id="apple-tv-Shape-1-7"><path fill="#f3ff00" fill-opacity="1" d="M18,-67C18,-67,0,-67,0,-67C0,-67,0,-46,0,-46C0,-46,-13,-46,-13,-46C-13,-46,-13,-31,-13,-31C-13,-31,0,-31,0,-31C0,-31,0,17,0,25C0,33,9.511,39.876,17.943,39.938C26.375,40,34,40,34,40C34,40,34,25,34,25C34,25,28.5,25,24.5,25C20.5,25,18,22.125,18,18C18,13.875,18,-31,18,-31C18,-31,34,-31,34,-31C34,-31,34,-46,34,-46C34,-46,18,-46,18,-46C18,-46,18,-67,18,-67Z" /></g><g id="apple-tv-Shape-2-7"><path fill="#f3ff00" fill-opacity="1" d="M120,-46C120,-46,103,-46,103,-46C103,-46,82,20.375,82,20.375C82,20.375,61,-46,61,-46C61,-46,42,-46,42,-46C42,-46,72.625,40,72.625,40C72.625,40,91.375,40,91.375,40C91.375,40,120,-46,120,-46Z" /></g></g></g></g></g><g opacity="0.25" display="inline" id="apple-tv-AKCline.com_AppletvC7"><g transform="translate(400.6856192 300.6134487)"><g transform="scale(1.0433023 1.0433023)"><g transform="translate(0,0)"><g id="apple-tv-Shape-1-8"><path fill="#ffb200" fill-opacity="1" d="M18,-67C18,-67,0,-67,0,-67C0,-67,0,-46,0,-46C0,-46,-13,-46,-13,-46C-13,-46,-13,-31,-13,-31C-13,-31,0,-31,0,-31C0,-31,0,17,0,25C0,33,9.511,39.876,17.943,39.938C26.375,40,34,40,34,40C34,40,34,25,34,25C34,25,28.5,25,24.5,25C20.5,25,18,22.125,18,18C18,13.875,18,-31,18,-31C18,-31,34,-31,34,-31C34,-31,34,-46,34,-46C34,-46,18,-46,18,-46C18,-46,18,-67,18,-67Z" /></g><g id="apple-tv-Shape-2-8"><path fill="#ffb200" fill-opacity="1" d="M120,-46C120,-46,103,-46,103,-46C103,-46,82,20.375,82,20.375C82,20.375,61,-46,61,-46C61,-46,42,-46,42,-46C42,-46,72.625,40,72.625,40C72.625,40,91.375,40,91.375,40C91.375,40,120,-46,120,-46Z" /></g></g></g></g></g><g opacity="0.25" display="inline" id="apple-tv-AKCline.com_AppletvC8"><g transform="translate(401.1355906 301.0160548)"><g transform="scale(1.0717215 1.0717215)"><g transform="translate(0,0)"><g id="apple-tv-Shape-1-9"><path fill="#ff0000" fill-opacity="1" d="M18,-67C18,-67,0,-67,0,-67C0,-67,0,-46,0,-46C0,-46,-13,-46,-13,-46C-13,-46,-13,-31,-13,-31C-13,-31,0,-31,0,-31C0,-31,0,17,0,25C0,33,9.511,39.876,17.943,39.938C26.375,40,34,40,34,40C34,40,34,25,34,25C34,25,28.5,25,24.5,25C20.5,25,18,22.125,18,18C18,13.875,18,-31,18,-31C18,-31,34,-31,34,-31C34,-31,34,-46,34,-46C34,-46,18,-46,18,-46C18,-46,18,-67,18,-67Z" /></g><g id="apple-tv-Shape-2-9"><path fill="#ff0000" fill-opacity="1" d="M120,-46C120,-46,103,-46,103,-46C103,-46,82,20.375,82,20.375C82,20.375,61,-46,61,-46C61,-46,42,-46,42,-46C42,-46,72.625,40,72.625,40C72.625,40,91.375,40,91.375,40C91.375,40,120,-46,120,-46Z" /></g></g></g></g></g><g opacity="0.9258483" display="inline" id="apple-tv-AKCline.com_AppletvCWFG"><g transform="translate(400.4363869 300.3904515)"><g transform="scale(1.0275613 1.0275613)"><g transform="translate(0,0)"><g id="apple-tv-Shape-1-10"><path fill="#ffffff" fill-opacity="1" d="M18,-67C18,-67,0,-67,0,-67C0,-67,0,-46,0,-46C0,-46,-13,-46,-13,-46C-13,-46,-13,-31,-13,-31C-13,-31,0,-31,0,-31C0,-31,0,17,0,25C0,33,9.511,39.876,17.943,39.938C26.375,40,34,40,34,40C34,40,34,25,34,25C34,25,28.5,25,24.5,25C20.5,25,18,22.125,18,18C18,13.875,18,-31,18,-31C18,-31,34,-31,34,-31C34,-31,34,-46,34,-46C34,-46,18,-46,18,-46C18,-46,18,-67,18,-67Z" /></g><g id="apple-tv-Shape-2-10"><path fill="#ffffff" fill-opacity="1" d="M120,-46C120,-46,103,-46,103,-46C103,-46,82,20.375,82,20.375C82,20.375,61,-46,61,-46C61,-46,42,-46,42,-46C42,-46,72.625,40,72.625,40C72.625,40,91.375,40,91.375,40C91.375,40,120,-46,120,-46Z" /></g></g></g></g></g></g></g>
+<g id="ui-selection" aria-hidden="true"><rect x="510" y="149" width="560" height="420" fill="none" stroke="#1F7CF0" stroke-width="1.2" />
+<use href="#ui-handle" x="510" y="149" />
+<use href="#ui-handle" x="510" y="569" />
+<use href="#ui-handle" x="1070" y="149" />
+<use href="#ui-handle" x="1070" y="569" />
+</g>
+<rect x="733" y="578" width="114" height="30" rx="7" fill="#2A2A2A" stroke="#3D3D3D" />
+<use href="#ui-fit" x="746" y="585" width="16" height="16" color="#AAAAAA" />
+<text x="772" y="597" class="small muted" text-anchor="start">Artboard</text>
+<rect x="0" y="70" width="254" height="562" rx="0" fill="#252525" />
+<path d="M253.5 70L253.5 632" stroke="#343434" />
+<use href="#ui-layers" x="18" y="91" width="16" height="16" color="#66A9FF" />
+<text x="44" y="104" class="heading" text-anchor="start">Layers</text>
+<use href="#ui-plus" x="192" y="91" width="16" height="16" color="#A1A1A1" />
+<use href="#ui-more" x="220" y="91" width="16" height="16" color="#A1A1A1" />
+<rect x="16" y="122" width="222" height="34" rx="7" fill="#1B1B1B" stroke="#343434" />
+<use href="#ui-zoom" x="27" y="131" width="15" height="15" color="#A1A1A1" />
+<text x="51" y="144" class="small muted" text-anchor="start">Search layers</text>
+<rect x="12" y="170" width="230" height="37" rx="6" fill="#2A2A2A" />
+<use href="#ui-chev-down" x="22" y="181" width="14" height="14" color="#A1A1A1" />
+<use href="#ui-canvas" x="46" y="180" width="16" height="16" color="#A1A1A1" />
+<text x="73" y="194" class="heading" text-anchor="start">Artboard</text>
+<use href="#ui-lock" x="218" y="181" width="14" height="14" color="#A1A1A1" />
+<path d="M29 207L29 366" stroke="#404040" />
+<rect x="12" y="213" width="230" height="37" rx="6" fill="#1F7CF0" />
+<rect x="12" y="219" width="3" height="25" rx="1.5" fill="#7CB7FF" />
+<use href="#ui-chev-down" x="23" y="224" width="14" height="14" color="#FFFFFF" />
+<use href="#ui-folder" x="47" y="223" width="16" height="16" color="#FFFFFF" />
+<text x="73" y="237" class="heading" text-anchor="start">Artwork</text>
+<use href="#ui-eye" x="216" y="224" width="16" height="16" color="#FFFFFF" />
+<path d="M29 264L48 264" stroke="#404040" />
+<use href="#ui-circle" x="53" y="256" width="15" height="15" color="#ABABAB" />
+<text x="77" y="268" class="small" text-anchor="start">Apple logo</text>
+<use href="#ui-eye" x="216" y="256" width="15" height="15" color="#8E8E8E" />
+<path d="M29 298L48 298" stroke="#404040" />
+<use href="#ui-type" x="53" y="290" width="15" height="15" color="#ABABAB" />
+<text x="77" y="302" class="small" text-anchor="start">TV wordmark</text>
+<use href="#ui-eye" x="216" y="290" width="15" height="15" color="#8E8E8E" />
+<path d="M29 332L48 332" stroke="#404040" />
+<use href="#ui-layers" x="53" y="324" width="15" height="15" color="#ABABAB" />
+<text x="77" y="336" class="small" text-anchor="start">Color passes</text>
+<use href="#ui-eye" x="216" y="324" width="15" height="15" color="#8E8E8E" />
+<path d="M29 366L48 366" stroke="#404040" />
+<use href="#ui-canvas" x="53" y="358" width="15" height="15" color="#ABABAB" />
+<text x="77" y="370" class="small" text-anchor="start">Background</text>
+<use href="#ui-eye" x="216" y="358" width="15" height="15" color="#8E8E8E" />
+<rect x="1326" y="70" width="274" height="562" rx="0" fill="#252525" />
+<path d="M1326.5 70L1326.5 632" stroke="#343434" />
+<text x="1345" y="104" class="heading accent" text-anchor="start">Properties</text>
+<text x="1442" y="104" class="heading muted" text-anchor="start">Animation</text>
+<path d="M1327 120L1600 120" stroke="#343434" />
+<path d="M1344 119L1415 119" stroke="#1F7CF0" />
+<rect x="1344" y="139" width="238" height="54" rx="8" fill="#2A2A2A" stroke="#3B3B3B" />
+<rect x="1353" y="149" width="34" height="34" rx="8" fill="#1F7CF0" />
+<use href="#ui-folder" x="1361" y="157" width="18" height="18" color="#FFFFFF" />
+<text x="1398" y="162" class="heading" text-anchor="start">Artwork</text>
+<text x="1398" y="178" class="tiny muted" text-anchor="start">Animation group</text>
+<use href="#ui-more" x="1553" y="158" width="15" height="15" color="#A1A1A1" />
+<text x="1345" y="225" class="heading" text-anchor="start">Transform</text>
+<use href="#ui-chev-down" x="1565" y="213" width="14" height="14" color="#A1A1A1" />
+<text x="1345" y="249" class="small muted" text-anchor="start">Position</text>
+<rect x="1344" y="256" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1354" y="276" class="tiny muted" text-anchor="start">X</text>
+<text x="1377" y="276" class="mono" text-anchor="start">0</text>
+<rect x="1469" y="256" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1479" y="276" class="tiny muted" text-anchor="start">Y</text>
+<text x="1502" y="276" class="mono" text-anchor="start">0</text>
+<text x="1345" y="320" class="small muted" text-anchor="start">Anchor</text>
+<rect x="1344" y="327" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1354" y="347" class="tiny muted" text-anchor="start">X</text>
+<text x="1377" y="347" class="mono" text-anchor="start">400</text>
+<rect x="1469" y="327" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1479" y="347" class="tiny muted" text-anchor="start">Y</text>
+<text x="1502" y="347" class="mono" text-anchor="start">300</text>
+<text x="1345" y="391" class="small muted" text-anchor="start">Scale</text>
+<rect x="1344" y="398" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1354" y="418" class="tiny muted" text-anchor="start">X</text>
+<rect x="1469" y="398" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1479" y="418" class="tiny muted" text-anchor="start">Y</text>
+<text x="1502" y="418" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="418" class="mono" text-anchor="start">100%</text>
+<path d="M1344 453L1582 453" stroke="#343434" />
+<text x="1345" y="480" class="heading" text-anchor="start">Appearance</text>
+<use href="#ui-chev-down" x="1565" y="468" width="14" height="14" color="#A1A1A1" />
+<text x="1345" y="511" class="small muted" text-anchor="start">Opacity</text>
+<rect x="1469" y="490" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1481" y="510" class="mono" text-anchor="start">100%</text>
+<text x="1345" y="553" class="small muted" text-anchor="start">Blend mode</text>
+<rect x="1469" y="533" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1481" y="553" class="small" text-anchor="start">Normal</text>
+<use href="#ui-chev-down" x="1557" y="543" width="13" height="13" color="#A1A1A1" />
+<rect x="0" y="632" width="1600" height="234" rx="0" fill="#242424" />
+<rect x="0" y="632" width="1600" height="50" rx="0" fill="#2A2A2A" />
+<path d="M0 632.5L1600 632.5" stroke="#343434" />
+<path d="M0 682.5L1600 682.5" stroke="#343434" />
+<text x="19" y="662" class="heading" text-anchor="start">Timeline</text>
+<use href="#ui-start" x="93" y="650" width="16" height="16" color="#B4B4B4" />
+<rect x="119" y="642" width="30" height="30" rx="6" fill="#203955" />
+<use href="#ui-pause" x="126" y="649" width="16" height="16" color="#72B0FF" />
+<use href="#ui-repeat" x="159" y="650" width="15" height="15" color="#66A9FF" />
+<g clip-path="url(#ui-clock-clip)"><text x="184" y="662" class="time" text-anchor="start">00:02.00</text>
+</g>
+<use href="#ui-diamond" x="268" y="650" width="15" height="15" color="#66A9FF" />
+<use href="#ui-curve" x="303" y="650" width="16" height="16" color="#ABABAB" />
+<rect x="1426" y="643" width="156" height="28" rx="6" fill="#1E1E1E" stroke="#3B3B3B" />
+<text x="1440" y="661" class="small muted" text-anchor="start">Loop duration</text>
+<text x="1570" y="661" class="mono accent" text-anchor="end">7 s</text>
+<rect x="0" y="683" width="254" height="183" rx="0" fill="#1E1E1E" />
+<rect x="255" y="683" width="1345" height="30" rx="0" fill="#2A2A2A" />
+<rect x="282" y="683" width="1250" height="30" rx="0" fill="#2F3646" />
+<path d="M254.5 682L254.5 866" stroke="#343434" />
+<path d="M282 713L282 702" stroke="#858B97" />
+<text x="287" y="698" class="tiny muted" text-anchor="start">0.0s</text>
+<path d="M317.7142857 713L317.7142857 708" stroke="#545A65" />
+<path d="M353.4285714 713L353.4285714 708" stroke="#545A65" />
+<path d="M389.1428571 713L389.1428571 708" stroke="#545A65" />
+<path d="M424.8571429 713L424.8571429 708" stroke="#545A65" />
+<path d="M460.5714286 713L460.5714286 702" stroke="#858B97" />
+<text x="465.5714286" y="698" class="tiny muted" text-anchor="start">1.0s</text>
+<path d="M496.2857143 713L496.2857143 708" stroke="#545A65" />
+<path d="M532 713L532 708" stroke="#545A65" />
+<path d="M567.7142857 713L567.7142857 708" stroke="#545A65" />
+<path d="M603.4285714 713L603.4285714 708" stroke="#545A65" />
+<path d="M639.1428571 713L639.1428571 702" stroke="#858B97" />
+<text x="644.1428571" y="698" class="tiny muted" text-anchor="start">2.0s</text>
+<path d="M674.8571429 713L674.8571429 708" stroke="#545A65" />
+<path d="M710.5714286 713L710.5714286 708" stroke="#545A65" />
+<path d="M746.2857143 713L746.2857143 708" stroke="#545A65" />
+<path d="M782 713L782 708" stroke="#545A65" />
+<path d="M817.7142857 713L817.7142857 702" stroke="#858B97" />
+<text x="822.7142857" y="698" class="tiny muted" text-anchor="start">3.0s</text>
+<path d="M853.4285714 713L853.4285714 708" stroke="#545A65" />
+<path d="M889.1428571 713L889.1428571 708" stroke="#545A65" />
+<path d="M924.8571429 713L924.8571429 708" stroke="#545A65" />
+<path d="M960.5714286 713L960.5714286 708" stroke="#545A65" />
+<path d="M996.2857143 713L996.2857143 702" stroke="#858B97" />
+<text x="1001.2857143" y="698" class="tiny muted" text-anchor="start">4.0s</text>
+<path d="M1032 713L1032 708" stroke="#545A65" />
+<path d="M1067.7142857 713L1067.7142857 708" stroke="#545A65" />
+<path d="M1103.4285714 713L1103.4285714 708" stroke="#545A65" />
+<path d="M1139.1428571 713L1139.1428571 708" stroke="#545A65" />
+<path d="M1174.8571429 713L1174.8571429 702" stroke="#858B97" />
+<text x="1179.8571429" y="698" class="tiny muted" text-anchor="start">5.0s</text>
+<path d="M1210.5714286 713L1210.5714286 708" stroke="#545A65" />
+<path d="M1246.2857143 713L1246.2857143 708" stroke="#545A65" />
+<path d="M1282 713L1282 708" stroke="#545A65" />
+<path d="M1317.7142857 713L1317.7142857 708" stroke="#545A65" />
+<path d="M1353.4285714 713L1353.4285714 702" stroke="#858B97" />
+<text x="1358.4285714" y="698" class="tiny muted" text-anchor="start">6.0s</text>
+<path d="M1389.1428571 713L1389.1428571 708" stroke="#545A65" />
+<path d="M1424.8571429 713L1424.8571429 708" stroke="#545A65" />
+<path d="M1460.5714286 713L1460.5714286 708" stroke="#545A65" />
+<path d="M1496.2857143 713L1496.2857143 708" stroke="#545A65" />
+<path d="M1532 683L1532 866" stroke="#4C576A" />
+<text x="19" y="703" class="tiny muted" text-anchor="start">Tracks</text>
+<rect x="1" y="714" width="1599" height="31" fill="#2F3646" />
+<path d="M0 745L1600 745" stroke="#323232" />
+<use href="#ui-chev-down" x="20" y="722" width="14" height="14" color="#79B4FF" />
+<use href="#ui-folder" x="42" y="721" width="16" height="16" color="#79B4FF" />
+<text x="67" y="734" class="heading" text-anchor="start">Artwork</text>
+<rect x="282" y="723" width="1250" height="13" rx="4" fill="url(#ui-track)" stroke="#466689" />
+<use href="#ui-eye" x="218" y="722" width="15" height="15" color="#929292" />
+<rect x="1" y="746" width="1599" height="31" fill="#2A2A2A" />
+<path d="M0 777L1600 777" stroke="#323232" />
+<use href="#ui-layers" x="43" y="754" width="14" height="14" color="#A7A7A7" />
+<text x="67" y="766" class="small muted" text-anchor="start">Color visibility</text>
+<path d="M282 761.5L1532 761.5" stroke="#454545" />
+<use href="#ui-eye" x="218" y="754" width="15" height="15" color="#929292" />
+<use href="#ui-key" x="282" y="761.5" fill="#6FAEFF" />
+<use href="#ui-key" x="311.46375" y="761.5" fill="#6FAEFF" />
+<use href="#ui-key" x="1532" y="761.5" fill="#6FAEFF" />
+<rect x="1" y="778" width="1599" height="31" fill="#252525" />
+<path d="M0 809L1600 809" stroke="#323232" />
+<use href="#ui-nodes" x="43" y="786" width="14" height="14" color="#A7A7A7" />
+<text x="67" y="798" class="small muted" text-anchor="start">Logo morph</text>
+<path d="M282 793.5L1532 793.5" stroke="#454545" />
+<use href="#ui-eye" x="218" y="786" width="15" height="15" color="#929292" />
+<use href="#ui-key" x="282" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="460.57125" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="502.2375" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="543.905" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="591.52375" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="621.28625" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="657" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="686.76125" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="1151.0475" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="1186.7625" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="1222.47625" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="1258.19" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="1293.905" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="1329.61875" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="1377.2375" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="1532" y="793.5" fill="#538ACB" />
+<rect x="1" y="810" width="1599" height="31" fill="#2A2A2A" />
+<path d="M0 841L1600 841" stroke="#323232" />
+<use href="#ui-diamond" x="43" y="818" width="14" height="14" color="#A7A7A7" />
+<text x="67" y="830" class="small muted" text-anchor="start">Logo scale</text>
+<path d="M282 825.5L1532 825.5" stroke="#454545" />
+<use href="#ui-eye" x="218" y="818" width="15" height="15" color="#929292" />
+<use href="#ui-key" x="282" y="825.5" fill="#ADBCCC" />
+<use href="#ui-key" x="520.095" y="825.5" fill="#ADBCCC" />
+<use href="#ui-key" x="549.8575" y="825.5" fill="#ADBCCC" />
+<use href="#ui-key" x="645.095" y="825.5" fill="#ADBCCC" />
+<use href="#ui-key" x="674.85625" y="825.5" fill="#ADBCCC" />
+<use href="#ui-key" x="1109.38125" y="825.5" fill="#ADBCCC" />
+<use href="#ui-key" x="1139.1425" y="825.5" fill="#ADBCCC" />
+<use href="#ui-key" x="1228.42875" y="825.5" fill="#ADBCCC" />
+<use href="#ui-key" x="1258.19" y="825.5" fill="#ADBCCC" />
+<use href="#ui-key" x="1353.42875" y="825.5" fill="#ADBCCC" />
+<use href="#ui-key" x="1383.19" y="825.5" fill="#ADBCCC" />
+<use href="#ui-key" x="1532" y="825.5" fill="#ADBCCC" />
+<path d="M254.5 713L254.5 866" stroke="#343434" />
+<g clip-path="url(#ui-tracks-clip)">
+<rect x="282" y="711" height="155" width="357.1428571" fill="#1F7CF0" opacity=".045">
+</rect><g transform="translate(639.1428571 0)">
+<path d="M0 703V866" stroke="#84BDFF" stroke-width="1.4" /><path d="M-5 701h10v8l-5 5-5-5z" fill="#84BDFF" /></g></g>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1E1E1E" />
+<path d="M0 866.5L1600 866.5" stroke="#343434" />
+<use href="#ui-repeat" x="21" y="876" width="13" height="13" color="#66A9FF" />
+<text x="44" y="887" class="small muted" text-anchor="start">Loop playback</text>
+<path d="M143 877L143 891" stroke="#343434" />
+<text x="157" y="887" class="small muted" text-anchor="start">800 × 600 canvas</text>
+<use href="#ui-minus" x="712" y="875" width="15" height="15" color="#A1A1A1" />
+<path d="M736 882.5L850 882.5" stroke="#505050" />
+<path d="M736 882.5L782 882.5" stroke="#1F7CF0" />
+<circle cx="782" cy="882.5" r="4" fill="#1F7CF0" />
+<use href="#ui-plus" x="861" y="875" width="15" height="15" color="#A1A1A1" />
+<use href="#ui-check" x="1492" y="875" width="14" height="14" color="#a3ccac" />
+<text x="1514" y="887" class="small muted" text-anchor="start">SVG preview</text>
+</svg>

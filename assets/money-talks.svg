@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="836" height="476" viewBox="0 0 418 238" overflow="hidden" role="img" aria-labelledby="title description">
+  <title id="title">Money Talks</title>
+  <desc id="description">A full-bleed collage of overlapping green dollar bills turned at different angles.</desc>
+
+  <defs>
+    <g id="dollar-bill">
+      <rect x="-73" y="-34" width="146" height="68" rx="1.5" fill="#91d449"/>
+      <rect x="-68" y="-29" width="136" height="58" rx="2" fill="#248f33"/>
+      <path d="M-57-24h114q0 6 6 6v36q-6 0-6 6H-57q0-6-6-6v-36q6 0 6-6Z" fill="#91d449"/>
+      <g fill="#248f33">
+        <circle cx="-45" cy="0" r="6.2"/>
+        <circle cx="45" cy="0" r="6.2"/>
+        <circle r="27"/>
+      </g>
+      <g fill="none" stroke="#91d449" stroke-linecap="round">
+        <path d="M0-15v3m0 24v3" stroke-width="4.5"/>
+        <path d="M7.6-9.1c-1.7-2-4.6-3-7.6-3-4.4 0-7.6 2.4-7.6 6 0 3.8 3.3 5.2 7.6 6.1 4.2 1 7.9 2.3 7.9 6.2 0 3.6-3.3 6.1-7.9 6.1-3.5 0-6.8-1.3-8.6-3.5" stroke-width="5.5"/>
+      </g>
+    </g>
+  </defs>
+
+  <rect width="418" height="238" fill="#91d449"/>
+
+  <g aria-hidden="true">
+    <use href="#dollar-bill" transform="translate(23 21) rotate(42) scale(.86)"/>
+    <use href="#dollar-bill" transform="translate(127 9) rotate(32) scale(.94)"/>
+    <use href="#dollar-bill" transform="translate(228 18) rotate(17) scale(.88)"/>
+    <use href="#dollar-bill" transform="translate(332 15) rotate(43) scale(.98)"/>
+    <use href="#dollar-bill" transform="translate(411 13) rotate(-23) scale(.99)"/>
+    <use href="#dollar-bill" transform="translate(15 91) rotate(-44) scale(.84)"/>
+    <use href="#dollar-bill" transform="translate(117 89) rotate(-7) scale(.9)"/>
+    <use href="#dollar-bill" transform="translate(196 83) rotate(39) scale(.91)"/>
+    <use href="#dollar-bill" transform="translate(284 74) rotate(-14) scale(.89)"/>
+    <use href="#dollar-bill" transform="translate(391 92) rotate(32) scale(1.03)"/>
+    <use href="#dollar-bill" transform="translate(11 159) rotate(-41) scale(.97)"/>
+    <use href="#dollar-bill" transform="translate(111 153) rotate(25) scale(.9)"/>
+    <use href="#dollar-bill" transform="translate(205 138) rotate(-33) scale(.87)"/>
+    <use href="#dollar-bill" transform="translate(277 154) rotate(15) scale(.94)"/>
+    <use href="#dollar-bill" transform="translate(381 161) rotate(-38) scale(.92)"/>
+    <use href="#dollar-bill" transform="translate(23 219) rotate(-32) scale(.95)"/>
+    <use href="#dollar-bill" transform="translate(104 233) rotate(17) scale(.86)"/>
+    <use href="#dollar-bill" transform="translate(189 225) rotate(53) scale(.93)"/>
+    <use href="#dollar-bill" transform="translate(258 233) rotate(6) scale(.96)"/>
+    <use href="#dollar-bill" transform="translate(397 225) rotate(32) scale(.88)"/>
+
+    <use href="#dollar-bill" transform="translate(68 -1) rotate(-27) scale(.86)"/>
+    <use href="#dollar-bill" transform="translate(179 21) rotate(-50) scale(.81)"/>
+    <use href="#dollar-bill" transform="translate(272 12) rotate(13) scale(.78)"/>
+    <use href="#dollar-bill" transform="translate(375 6) rotate(-26) scale(.82)"/>
+    <use href="#dollar-bill" transform="translate(170 60) rotate(29) scale(.74)"/>
+    <use href="#dollar-bill" transform="translate(280 39) rotate(12) scale(.82)"/>
+    <use href="#dollar-bill" transform="translate(13 113) rotate(-35) scale(.91)"/>
+    <use href="#dollar-bill" transform="translate(116 97) rotate(-26) scale(.74)"/>
+    <use href="#dollar-bill" transform="translate(237 113) rotate(-18) scale(.82)"/>
+    <use href="#dollar-bill" transform="translate(373 128) rotate(-27) scale(.78)"/>
+    <use href="#dollar-bill" transform="translate(45 218) rotate(-30) scale(.91)"/>
+    <use href="#dollar-bill" transform="translate(182 185) rotate(-72) scale(.85)"/>
+    <use href="#dollar-bill" transform="translate(303 180) rotate(41) scale(.83)"/>
+    <use href="#dollar-bill" transform="translate(420 141) rotate(-37) scale(.91)"/>
+    <use href="#dollar-bill" transform="translate(329 229) rotate(-51) scale(1.04)"/>
+
+    <use href="#dollar-bill" transform="translate(196 94) rotate(-26) scale(.79)"/>
+    <use href="#dollar-bill" transform="translate(319 61) rotate(-31) scale(.91)"/>
+    <use href="#dollar-bill" transform="translate(100 45) rotate(-30) scale(1.06)"/>
+    <use href="#dollar-bill" transform="translate(235 185) rotate(-14)"/>
+    <use href="#dollar-bill" transform="translate(102 153) rotate(-15) scale(1.04)"/>
+  </g>
+</svg>

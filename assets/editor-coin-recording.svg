@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="recording-title recording-description">
+<title id="recording-title">Rupee Coin — motion editor recording</title>
+<desc id="recording-description">A looping vector recording of a motion editor. The rupee coin spins on a square artboard as the playhead moves through the animation tracks.</desc>
+<style>
+text { fill: #FFFFFF; font: 13px 'Segoe UI', system-ui, sans-serif; }
+.title { font-weight: 650; font-size: 16px; }
+.heading { font-weight: 650; font-size: 13px; }
+.small { font-size: 12px; }
+.tiny { font-size: 11px; }
+.muted { fill: #A6A6A6; }
+.accent { fill: #66A9FF; }
+.mono { font: 12px Consolas, 'Courier New', monospace; font-variant-numeric: tabular-nums; }
+.time { font: 600 14px Consolas, 'Courier New', monospace; fill: #FFFFFF; }
+.badge { font: 600 11px 'Segoe UI', system-ui, sans-serif; letter-spacing: .9px; fill: #ffb0b8; }
+</style>
+<defs>
+<symbol id="ui-project-mark" viewBox="0 0 512 512">
+  <path fill="#F52477" d="M334.857,166.955l-65.516-65.531c-39.469,23.672-126.656,62.688-126.656,62.688 c-19.719,8.172-33.938,25.813-37.734,46.813L60.826,416.596l-25.313,25.313c-9.125-0.109-18.281,3.297-25.234,10.25 c-13.703,13.688-13.703,35.875,0,49.563c13.688,13.703,35.891,13.703,49.578,0c6.953-6.953,10.359-16.109,10.234-25.219 l25.313-25.313l205.688-44.125c21-3.813,38.625-18.031,46.797-37.734c0,0,39.047-87.156,62.734-126.609l-65.531-65.531 L334.857,166.955z M269.889,302.127c-15.25,15.25-39.188,16.438-55.813,3.641L63.436,456.408c-1.094-1.484-2.25-2.922-3.578-4.25 c-1.344-1.344-2.766-2.5-4.25-3.578l150.641-150.641c-12.813-16.641-11.625-40.563,3.625-55.813 c16.578-16.578,43.438-16.578,60.016,0S286.467,285.564,269.889,302.127z"/>
+  <path fill="#F52477" d="M511.998,139.705L372.311,0.002c0,0-29.375,29.375-45.156,45.156s-36.297,11.047-36.297,11.047l-18.953,18.938 l66.297,66.297l15.781,15.781l82.875,82.875l18.938-18.938c0,0-4.734-20.516,11.047-36.313 C482.639,169.064,511.998,139.705,511.998,139.705z"/>
+</symbol>
+  <pattern id="ui-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#747474" opacity=".21"/>
+  </pattern>
+  <radialGradient id="ui-vignette">
+    <stop stop-color="#242424"/>
+    <stop offset="1" stop-color="#1E1E1E"/>
+  </radialGradient>
+  <linearGradient id="ui-track" x1="0" x2="1" y1="0" y2="0">
+    <stop stop-color="#355D91" stop-opacity=".83"/>
+    <stop offset="1" stop-color="#2F3646" stop-opacity=".64"/>
+  </linearGradient>
+  <filter id="ui-artboard-shadow" x="-20%" y="-20%" width="140%" height="145%" color-interpolation-filters="sRGB">
+    <feDropShadow dx="0" dy="12" stdDeviation="24" flood-color="#121212" flood-opacity=".52"/>
+  </filter>
+  <clipPath id="ui-canvas-clip"><rect x="590" y="155" width="400" height="400"/></clipPath>
+  <clipPath id="ui-clock-clip"><rect x="183" y="649" width="71" height="22"/></clipPath>
+  <clipPath id="ui-scale-clip"><rect x="1370" y="402" width="66" height="21"/></clipPath>
+  <clipPath id="ui-tracks-clip"><rect x="255" y="682" width="1345" height="184"/></clipPath>
+<symbol id="ui-chev-down" viewBox="0 0 16 16"><path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-chev-right" viewBox="0 0 16 16"><path d="M6 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-chev-left" viewBox="0 0 16 16"><path d="M10 4L6 8l4 4" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-back" viewBox="0 0 16 16"><path d="M3 8h10M7 4L3 8l4 4" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-pointer" viewBox="0 0 16 16"><path d="M3 2l10 6-5 1-2 5z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-nodes" viewBox="0 0 16 16"><path d="M4 4l8 8M4 12l8-8M2 2h4v4H2zM10 10h4v4h-4z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-shape" viewBox="0 0 16 16"><path d="M3.5 3.5h9v9h-9z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-pen" viewBox="0 0 16 16"><path d="M3 13l1.5-6L10 2l4 4-5.5 5.5L3 13zm0 0l4-4" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-type" viewBox="0 0 16 16"><path d="M3 4V2.5h10V4M8 3v10m-3 0h6" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-hand" viewBox="0 0 16 16"><path d="M4.5 8V5a1 1 0 012 0v3-5a1 1 0 012 0v5-4a1 1 0 012 0v4-2a1 1 0 012 0v4c0 2-1.5 4-4 4H8c-2 0-3-1-4-2.5L2 9.5c-.7-1 .5-2.2 1.5-1.5l1 1" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-undo" viewBox="0 0 16 16"><path d="M6 3L3 6l3 3M3 6h6a3.5 3.5 0 010 7H8" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-redo" viewBox="0 0 16 16"><path d="M10 3l3 3-3 3m3-3H7a3.5 3.5 0 000 7h1" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-zoom" viewBox="0 0 16 16"><path d="M11 11l3 3M12 7a5 5 0 11-10 0 5 5 0 0110 0z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-grid" viewBox="0 0 16 16"><path d="M3 3h10v10H3zm0 5h10M8 3v10" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-fit" viewBox="0 0 16 16"><path d="M6 3H3v3m7-3h3v3m0 4v3h-3m-4 0H3v-3" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-plus" viewBox="0 0 16 16"><path d="M3 8h10M8 3v10" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-minus" viewBox="0 0 16 16"><path d="M3 8h10" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-more" viewBox="0 0 16 16"><path d="M3.5 8h.1M8 8h.1m4.4 0h.1" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-layers" viewBox="0 0 16 16"><path d="M8 2l6 4-6 4-6-4 6-4zm-6 7l6 4 6-4" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-canvas" viewBox="0 0 16 16"><path d="M3 3h10v10H3zM6 1.5v3m4-3v3M1.5 6h3m-3 4h3m7-4h3m-3 4h3M6 11.5v3m4-3v3" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-folder" viewBox="0 0 16 16"><path d="M2 4h5l1.5 2H14v7H2z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-circle" viewBox="0 0 16 16"><path d="M13 8a5 5 0 11-10 0 5 5 0 0110 0z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-edge" viewBox="0 0 16 16"><path d="M10 3a5.5 5.5 0 100 10 6 6 0 010-10z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-sparkle" viewBox="0 0 16 16"><path d="M8 2l1.6 4.4L14 8 9.6 9.6 8 14 6.4 9.6 2 8l4.4-1.6L8 2z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-eye" viewBox="0 0 16 16"><path d="M1.5 8S4 4 8 4s6.5 4 6.5 4S12 12 8 12 1.5 8 1.5 8zm8 0a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-lock" viewBox="0 0 16 16"><path d="M4 7h8v6H4zm2 0V5a2 2 0 114 0v2" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-link" viewBox="0 0 16 16"><path d="M6 9l4-4M6.5 5.5L8 4a2.8 2.8 0 014 4l-1.5 1.5m-1-1L8 10a2.8 2.8 0 11-4-4l1.5-1.5" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-target" viewBox="0 0 16 16"><path d="M8 2v12M2 8h12m-2 0a4 4 0 11-8 0 4 4 0 018 0z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-diamond" viewBox="0 0 16 16"><path d="M8 2.5L13.5 8 8 13.5 2.5 8 8 2.5z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-start" viewBox="0 0 16 16"><path d="M3.5 3.5v9m8.5-9L5.8 8l6.2 4.5z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-pause" viewBox="0 0 16 16"><path d="M6 4v8m4-8v8" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-repeat" viewBox="0 0 16 16"><path d="M3 7V5a2 2 0 012-2h7m-2-2 2 2-2 2m3 4v2a2 2 0 01-2 2H4m2-2-2 2 2 2" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-curve" viewBox="0 0 16 16"><path d="M2 11C6 11 6 5 14 5m-12 6h.1m11.9-6h.1" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-export" viewBox="0 0 16 16"><path d="M8 10V2m-3 3 3-3 3 3M3 9v4h10V9" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="ui-check" viewBox="0 0 16 16"><path d="M3.5 8l3 3 6-6" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<path id="ui-key" d="M0-4.5L4.5 0 0 4.5-4.5 0Z"/>
+<rect id="ui-handle" x="-3" y="-3" width="6" height="6" rx="1" fill="#FFFFFF" stroke="#1F7CF0" stroke-width="1.15"/>
+</defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#1E1E1E"/>
+<rect x="0" y="0" width="1600" height="70" rx="0" fill="#1E1E1E"/>
+<path d="M0 69.5L1600 69.5" stroke="#343434"/>
+<use href="#ui-project-mark" x="21" y="19" width="32" height="32"/>
+<text x="69" y="32" class="title" text-anchor="start">Rupee Coin</text>
+<text x="69" y="49" class="tiny muted" text-anchor="start">Motion project</text>
+<use href="#ui-chev-down" x="173" y="28" width="13" height="13" color="#A1A1A1"/>
+<path d="M215 20L215 50" stroke="#343434"/>
+<use href="#ui-undo" x="232" y="27" width="16" height="16" color="#909090"/>
+<use href="#ui-redo" x="267" y="27" width="16" height="16" color="#909090"/>
+<path d="M307 20L307 50" stroke="#343434"/>
+<rect x="327" y="16" width="37" height="38" rx="8" fill="#203955" stroke="#345373"/>
+<use href="#ui-pointer" x="337" y="26" width="18" height="18" color="#66A9FF"/>
+<use href="#ui-nodes" x="381" y="26" width="18" height="18" color="#A1A1A1"/>
+<use href="#ui-shape" x="424" y="26" width="18" height="18" color="#A1A1A1"/>
+<use href="#ui-pen" x="467" y="26" width="18" height="18" color="#A1A1A1"/>
+<use href="#ui-type" x="510" y="26" width="18" height="18" color="#A1A1A1"/>
+<use href="#ui-hand" x="553" y="26" width="18" height="18" color="#A1A1A1"/>
+<path d="M591 20L591 50" stroke="#343434"/>
+<use href="#ui-grid" x="610" y="26" width="18" height="18" color="#A1A1A1"/>
+<use href="#ui-fit" x="650" y="26" width="18" height="18" color="#A1A1A1"/>
+<rect x="690" y="18" width="82" height="34" rx="7" fill="#1C1C1C" stroke="#353535"/>
+<text x="703" y="40" class="mono" text-anchor="start">100%</text>
+<use href="#ui-chev-down" x="745" y="28" width="13" height="13" color="#A1A1A1"/>
+<rect x="1354" y="19" width="77" height="32" rx="16" fill="#36282A" stroke="#604144"/>
+<circle cx="1370" cy="35" r="4" fill="#ff7186"><animate attributeName="opacity" values="1;1;.4;1" keyTimes="0;.45;.72;1" dur="2.55s" repeatCount="indefinite"/></circle>
+<text x="1382" y="39" class="badge" text-anchor="start">REC</text>
+<rect x="1447" y="17" width="134" height="36" rx="8" fill="#1F7CF0"/>
+<use href="#ui-export" x="1462" y="27" width="16" height="16" color="#FFFFFF"/>
+<text x="1488" y="40" style="fill:#FFFFFF;font-weight:650">Export SVG</text>
+<rect x="254" y="70" width="1072" height="562" rx="0" fill="url(#ui-vignette)"/>
+<rect x="274" y="94" width="1052" height="538" rx="0" fill="url(#ui-dots)"/>
+<rect x="254" y="70" width="1072" height="24" rx="0" fill="#2A2A2A"/>
+<rect x="254" y="94" width="20" height="538" rx="0" fill="#2A2A2A"/>
+<path d="M254 94L1326 94" stroke="#343434"/>
+<path d="M274 94L274 632" stroke="#343434"/>
+<path d="M274 70L274 94" stroke="#343434"/>
+<path d="M280.5 94L280.5 90" stroke="#4A4A4A"/>
+<path d="M290.5 94L290.5 86" stroke="#7D7D7D"/>
+<text x="294" y="82" class="tiny muted" text-anchor="start">-300</text>
+<path d="M300.5 94L300.5 90" stroke="#4A4A4A"/>
+<path d="M310.5 94L310.5 90" stroke="#4A4A4A"/>
+<path d="M320.5 94L320.5 90" stroke="#4A4A4A"/>
+<path d="M330.5 94L330.5 90" stroke="#4A4A4A"/>
+<path d="M340.5 94L340.5 90" stroke="#4A4A4A"/>
+<path d="M350.5 94L350.5 90" stroke="#4A4A4A"/>
+<path d="M360.5 94L360.5 90" stroke="#4A4A4A"/>
+<path d="M370.5 94L370.5 90" stroke="#4A4A4A"/>
+<path d="M380.5 94L380.5 90" stroke="#4A4A4A"/>
+<path d="M390.5 94L390.5 86" stroke="#7D7D7D"/>
+<text x="394" y="82" class="tiny muted" text-anchor="start">-200</text>
+<path d="M400.5 94L400.5 90" stroke="#4A4A4A"/>
+<path d="M410.5 94L410.5 90" stroke="#4A4A4A"/>
+<path d="M420.5 94L420.5 90" stroke="#4A4A4A"/>
+<path d="M430.5 94L430.5 90" stroke="#4A4A4A"/>
+<path d="M440.5 94L440.5 90" stroke="#4A4A4A"/>
+<path d="M450.5 94L450.5 90" stroke="#4A4A4A"/>
+<path d="M460.5 94L460.5 90" stroke="#4A4A4A"/>
+<path d="M470.5 94L470.5 90" stroke="#4A4A4A"/>
+<path d="M480.5 94L480.5 90" stroke="#4A4A4A"/>
+<path d="M490.5 94L490.5 86" stroke="#7D7D7D"/>
+<text x="494" y="82" class="tiny muted" text-anchor="start">-100</text>
+<path d="M500.5 94L500.5 90" stroke="#4A4A4A"/>
+<path d="M510.5 94L510.5 90" stroke="#4A4A4A"/>
+<path d="M520.5 94L520.5 90" stroke="#4A4A4A"/>
+<path d="M530.5 94L530.5 90" stroke="#4A4A4A"/>
+<path d="M540.5 94L540.5 90" stroke="#4A4A4A"/>
+<path d="M550.5 94L550.5 90" stroke="#4A4A4A"/>
+<path d="M560.5 94L560.5 90" stroke="#4A4A4A"/>
+<path d="M570.5 94L570.5 90" stroke="#4A4A4A"/>
+<path d="M580.5 94L580.5 90" stroke="#4A4A4A"/>
+<path d="M590.5 94L590.5 86" stroke="#7D7D7D"/>
+<text x="594" y="82" class="tiny muted" text-anchor="start">0</text>
+<path d="M600.5 94L600.5 90" stroke="#4A4A4A"/>
+<path d="M610.5 94L610.5 90" stroke="#4A4A4A"/>
+<path d="M620.5 94L620.5 90" stroke="#4A4A4A"/>
+<path d="M630.5 94L630.5 90" stroke="#4A4A4A"/>
+<path d="M640.5 94L640.5 90" stroke="#4A4A4A"/>
+<path d="M650.5 94L650.5 90" stroke="#4A4A4A"/>
+<path d="M660.5 94L660.5 90" stroke="#4A4A4A"/>
+<path d="M670.5 94L670.5 90" stroke="#4A4A4A"/>
+<path d="M680.5 94L680.5 90" stroke="#4A4A4A"/>
+<path d="M690.5 94L690.5 86" stroke="#7D7D7D"/>
+<text x="694" y="82" class="tiny muted" text-anchor="start">100</text>
+<path d="M700.5 94L700.5 90" stroke="#4A4A4A"/>
+<path d="M710.5 94L710.5 90" stroke="#4A4A4A"/>
+<path d="M720.5 94L720.5 90" stroke="#4A4A4A"/>
+<path d="M730.5 94L730.5 90" stroke="#4A4A4A"/>
+<path d="M740.5 94L740.5 90" stroke="#4A4A4A"/>
+<path d="M750.5 94L750.5 90" stroke="#4A4A4A"/>
+<path d="M760.5 94L760.5 90" stroke="#4A4A4A"/>
+<path d="M770.5 94L770.5 90" stroke="#4A4A4A"/>
+<path d="M780.5 94L780.5 90" stroke="#4A4A4A"/>
+<path d="M790.5 94L790.5 86" stroke="#7D7D7D"/>
+<text x="794" y="82" class="tiny muted" text-anchor="start">200</text>
+<path d="M800.5 94L800.5 90" stroke="#4A4A4A"/>
+<path d="M810.5 94L810.5 90" stroke="#4A4A4A"/>
+<path d="M820.5 94L820.5 90" stroke="#4A4A4A"/>
+<path d="M830.5 94L830.5 90" stroke="#4A4A4A"/>
+<path d="M840.5 94L840.5 90" stroke="#4A4A4A"/>
+<path d="M850.5 94L850.5 90" stroke="#4A4A4A"/>
+<path d="M860.5 94L860.5 90" stroke="#4A4A4A"/>
+<path d="M870.5 94L870.5 90" stroke="#4A4A4A"/>
+<path d="M880.5 94L880.5 90" stroke="#4A4A4A"/>
+<path d="M890.5 94L890.5 86" stroke="#7D7D7D"/>
+<text x="894" y="82" class="tiny muted" text-anchor="start">300</text>
+<path d="M900.5 94L900.5 90" stroke="#4A4A4A"/>
+<path d="M910.5 94L910.5 90" stroke="#4A4A4A"/>
+<path d="M920.5 94L920.5 90" stroke="#4A4A4A"/>
+<path d="M930.5 94L930.5 90" stroke="#4A4A4A"/>
+<path d="M940.5 94L940.5 90" stroke="#4A4A4A"/>
+<path d="M950.5 94L950.5 90" stroke="#4A4A4A"/>
+<path d="M960.5 94L960.5 90" stroke="#4A4A4A"/>
+<path d="M970.5 94L970.5 90" stroke="#4A4A4A"/>
+<path d="M980.5 94L980.5 90" stroke="#4A4A4A"/>
+<path d="M990.5 94L990.5 86" stroke="#7D7D7D"/>
+<text x="994" y="82" class="tiny muted" text-anchor="start">400</text>
+<path d="M1000.5 94L1000.5 90" stroke="#4A4A4A"/>
+<path d="M1010.5 94L1010.5 90" stroke="#4A4A4A"/>
+<path d="M1020.5 94L1020.5 90" stroke="#4A4A4A"/>
+<path d="M1030.5 94L1030.5 90" stroke="#4A4A4A"/>
+<path d="M1040.5 94L1040.5 90" stroke="#4A4A4A"/>
+<path d="M1050.5 94L1050.5 90" stroke="#4A4A4A"/>
+<path d="M1060.5 94L1060.5 90" stroke="#4A4A4A"/>
+<path d="M1070.5 94L1070.5 90" stroke="#4A4A4A"/>
+<path d="M1080.5 94L1080.5 90" stroke="#4A4A4A"/>
+<path d="M1090.5 94L1090.5 86" stroke="#7D7D7D"/>
+<text x="1094" y="82" class="tiny muted" text-anchor="start">500</text>
+<path d="M1100.5 94L1100.5 90" stroke="#4A4A4A"/>
+<path d="M1110.5 94L1110.5 90" stroke="#4A4A4A"/>
+<path d="M1120.5 94L1120.5 90" stroke="#4A4A4A"/>
+<path d="M1130.5 94L1130.5 90" stroke="#4A4A4A"/>
+<path d="M1140.5 94L1140.5 90" stroke="#4A4A4A"/>
+<path d="M1150.5 94L1150.5 90" stroke="#4A4A4A"/>
+<path d="M1160.5 94L1160.5 90" stroke="#4A4A4A"/>
+<path d="M1170.5 94L1170.5 90" stroke="#4A4A4A"/>
+<path d="M1180.5 94L1180.5 90" stroke="#4A4A4A"/>
+<path d="M1190.5 94L1190.5 86" stroke="#7D7D7D"/>
+<text x="1194" y="82" class="tiny muted" text-anchor="start">600</text>
+<path d="M1200.5 94L1200.5 90" stroke="#4A4A4A"/>
+<path d="M1210.5 94L1210.5 90" stroke="#4A4A4A"/>
+<path d="M1220.5 94L1220.5 90" stroke="#4A4A4A"/>
+<path d="M1230.5 94L1230.5 90" stroke="#4A4A4A"/>
+<path d="M1240.5 94L1240.5 90" stroke="#4A4A4A"/>
+<path d="M1250.5 94L1250.5 90" stroke="#4A4A4A"/>
+<path d="M1260.5 94L1260.5 90" stroke="#4A4A4A"/>
+<path d="M1270.5 94L1270.5 90" stroke="#4A4A4A"/>
+<path d="M1280.5 94L1280.5 90" stroke="#4A4A4A"/>
+<path d="M1290.5 94L1290.5 86" stroke="#7D7D7D"/>
+<text x="1294" y="82" class="tiny muted" text-anchor="start">700</text>
+<path d="M1300.5 94L1300.5 90" stroke="#4A4A4A"/>
+<path d="M1310.5 94L1310.5 90" stroke="#4A4A4A"/>
+<path d="M1320.5 94L1320.5 90" stroke="#4A4A4A"/>
+<path d="M274 95.5L270 95.5" stroke="#4A4A4A"/>
+<path d="M274 105.5L270 105.5" stroke="#4A4A4A"/>
+<path d="M274 115.5L270 115.5" stroke="#4A4A4A"/>
+<path d="M274 125.5L270 125.5" stroke="#4A4A4A"/>
+<path d="M274 135.5L270 135.5" stroke="#4A4A4A"/>
+<path d="M274 145.5L270 145.5" stroke="#4A4A4A"/>
+<path d="M274 155.5L266 155.5" stroke="#7D7D7D"/>
+<text transform="translate(263 159) rotate(-90)" text-anchor="end" class="tiny muted">0</text>
+<path d="M274 165.5L270 165.5" stroke="#4A4A4A"/>
+<path d="M274 175.5L270 175.5" stroke="#4A4A4A"/>
+<path d="M274 185.5L270 185.5" stroke="#4A4A4A"/>
+<path d="M274 195.5L270 195.5" stroke="#4A4A4A"/>
+<path d="M274 205.5L270 205.5" stroke="#4A4A4A"/>
+<path d="M274 215.5L270 215.5" stroke="#4A4A4A"/>
+<path d="M274 225.5L270 225.5" stroke="#4A4A4A"/>
+<path d="M274 235.5L270 235.5" stroke="#4A4A4A"/>
+<path d="M274 245.5L270 245.5" stroke="#4A4A4A"/>
+<path d="M274 255.5L266 255.5" stroke="#7D7D7D"/>
+<text transform="translate(263 259) rotate(-90)" text-anchor="end" class="tiny muted">100</text>
+<path d="M274 265.5L270 265.5" stroke="#4A4A4A"/>
+<path d="M274 275.5L270 275.5" stroke="#4A4A4A"/>
+<path d="M274 285.5L270 285.5" stroke="#4A4A4A"/>
+<path d="M274 295.5L270 295.5" stroke="#4A4A4A"/>
+<path d="M274 305.5L270 305.5" stroke="#4A4A4A"/>
+<path d="M274 315.5L270 315.5" stroke="#4A4A4A"/>
+<path d="M274 325.5L270 325.5" stroke="#4A4A4A"/>
+<path d="M274 335.5L270 335.5" stroke="#4A4A4A"/>
+<path d="M274 345.5L270 345.5" stroke="#4A4A4A"/>
+<path d="M274 355.5L266 355.5" stroke="#7D7D7D"/>
+<text transform="translate(263 359) rotate(-90)" text-anchor="end" class="tiny muted">200</text>
+<path d="M274 365.5L270 365.5" stroke="#4A4A4A"/>
+<path d="M274 375.5L270 375.5" stroke="#4A4A4A"/>
+<path d="M274 385.5L270 385.5" stroke="#4A4A4A"/>
+<path d="M274 395.5L270 395.5" stroke="#4A4A4A"/>
+<path d="M274 405.5L270 405.5" stroke="#4A4A4A"/>
+<path d="M274 415.5L270 415.5" stroke="#4A4A4A"/>
+<path d="M274 425.5L270 425.5" stroke="#4A4A4A"/>
+<path d="M274 435.5L270 435.5" stroke="#4A4A4A"/>
+<path d="M274 445.5L270 445.5" stroke="#4A4A4A"/>
+<path d="M274 455.5L266 455.5" stroke="#7D7D7D"/>
+<text transform="translate(263 459) rotate(-90)" text-anchor="end" class="tiny muted">300</text>
+<path d="M274 465.5L270 465.5" stroke="#4A4A4A"/>
+<path d="M274 475.5L270 475.5" stroke="#4A4A4A"/>
+<path d="M274 485.5L270 485.5" stroke="#4A4A4A"/>
+<path d="M274 495.5L270 495.5" stroke="#4A4A4A"/>
+<path d="M274 505.5L270 505.5" stroke="#4A4A4A"/>
+<path d="M274 515.5L270 515.5" stroke="#4A4A4A"/>
+<path d="M274 525.5L270 525.5" stroke="#4A4A4A"/>
+<path d="M274 535.5L270 535.5" stroke="#4A4A4A"/>
+<path d="M274 545.5L270 545.5" stroke="#4A4A4A"/>
+<path d="M274 555.5L266 555.5" stroke="#7D7D7D"/>
+<text transform="translate(263 559) rotate(-90)" text-anchor="end" class="tiny muted">400</text>
+<path d="M274 565.5L270 565.5" stroke="#4A4A4A"/>
+<path d="M274 575.5L270 575.5" stroke="#4A4A4A"/>
+<path d="M274 585.5L270 585.5" stroke="#4A4A4A"/>
+<path d="M274 595.5L270 595.5" stroke="#4A4A4A"/>
+<path d="M274 605.5L270 605.5" stroke="#4A4A4A"/>
+<path d="M274 615.5L270 615.5" stroke="#4A4A4A"/>
+<path d="M274 625.5L270 625.5" stroke="#4A4A4A"/>
+<text x="590" y="140" class="small muted" text-anchor="start">Rupee Coin</text>
+<text x="990" y="140" class="mono muted" text-anchor="end">400 × 400</text>
+<rect x="590" y="155" width="400" height="400" fill="#FFFFFF" filter="url(#ui-artboard-shadow)"/>
+<g id="coin-artboard" clip-path="url(#ui-canvas-clip)" aria-label="Spinning rupee coin"><g transform="translate(550 115)" fill="none">
+<defs>
+    <linearGradient id="i0" gradientUnits="userSpaceOnUse" spreadMethod="pad" x2="70.082" y2="67.803" x1="-50.07" y1="-91.039">
+      <stop offset="0%" stop-color="#ffea00" />
+      <stop offset="50%" stop-color="#ffe400" />
+      <stop offset="100%" stop-color="#ffdd00" />
+    </linearGradient>
+    <linearGradient id="i1" gradientUnits="userSpaceOnUse" spreadMethod="pad" x2="52.76" y2="47.957" x1="-36.176" y1="-68.439">
+      <stop offset="0%" stop-color="#ffea00" />
+      <stop offset="50%" stop-color="#ffe400" />
+      <stop offset="100%" stop-color="#ffdd00" />
+    </linearGradient>
+    <clipPath id="coin-shine-clip" clipPathUnits="userSpaceOnUse">
+      <path transform="matrix(1,0,0,1,237,247)" d="M3,-107C-52.228,-107,-97,-62.229,-97,-7C-97,48.228,-52.228,93,3,93C58.228,93,103,48.228,103,-7C103,-62.229,58.228,-107,3,-107ZM3,73C-41.183,73,-77,37.183,-77,-7C-77,-51.183,-41.183,-87,3,-87C47.183,-87,83,-51.183,83,-7C83,37.183,47.183,73,3,73Z" />
+      <path transform="matrix(1,0,0,1,237,247)" d="M3,-79.5C-37.041,-79.5,-69.5,-47.041,-69.5,-7C-69.5,33.041,-37.041,65.5,3,65.5C43.041,65.5,75.5,33.041,75.5,-7C75.5,-47.041,43.041,-79.5,3,-79.5Z" />
+    </clipPath>
+  </defs>
+  <g transform="matrix(1,0,0,1,237,247)" id="shadow">
+    <g>
+      <path fill="#ff9f00" fill-opacity="1" d="M3,93C3,93,9.375,93,3,93C-56.125,93,-96.812,46.75,-96.812,-7.102C-96.812,-59.25,-57,-107,3,-107C8.5,-107,3,-107,3,-107C3,-107,3,-7.366,3,-7.366C3,-7.366,3,93,3,93Z">
+        <animate repeatCount="indefinite" attributeName="d" dur="2.55s" begin="0s" calcMode="spline" values="M3,93C3,93,9.375,93,3,93C-56.125,93,-96.812,46.75,-96.812,-7.102C-96.812,-59.25,-57,-107,3,-107C8.5,-107,3,-107,3,-107C3,-107,3,-7.366,3,-7.366C3,-7.366,3,93,3,93Z; M3,93.625C3,93.625,-8.812,93.156,-12,93.156C-39.562,93.156,-86.875,63,-86.875,-7.076C-86.875,-77,-39.562,-107.625,-12,-107.625C-9.25,-107.625,3,-107.625,3,-107.625C3,-107.625,3,-7.37,3,-7.37C3,-7.37,3,93.625,3,93.625Z; M20.19,94.612C20.19,94.612,-13.017,94.629,-13.548,94.629C-20.875,94.629,-32.056,55,-32.056,-7.055C-32.056,-69,-20.875,-108.629,-13.548,-108.629C-13.09,-108.629,20.19,-108.647,20.19,-108.647C20.19,-108.647,20.19,-7.391,20.19,-7.391C20.19,-7.391,20.19,94.612,20.19,94.612Z; M23,94.875C23,94.875,-17,94.875,-17,94.875C-17,94.875,-17,53,-17,-7.051C-17,-67,-17,-108.875,-17,-108.875C-17,-108.875,23,-108.875,23,-108.875C23,-108.875,23,-7.375,23,-7.375C23,-7.375,23,94.875,23,94.875Z; M20.813,94.25C12.25,94.25,-14.188,94.25,-14.188,94.25C-14.188,94.25,-14.188,53,-14.188,-7.051C-14.188,-67,-14.188,-108.25,-14.188,-108.25C-14.188,-108.25,11.875,-108.25,20.813,-108.25C26.125,-108.25,38.312,-77,38.312,-7.313C38.312,63,26.125,94.25,20.813,94.25Z; M22.551,94.023C14.75,94.023,-7.335,94.023,-7.335,94.023C-7.335,94.023,-7.335,53,-7.335,-7.051C-7.335,-67,-7.335,-108.023,-7.335,-108.023C-7.335,-108.023,14.488,-108.023,22.551,-108.023C37.738,-108.023,60.028,-77,60.028,-7.301C60.028,63,37.693,94.023,22.551,94.023Z; M18.179,93.795C11.139,93.795,-5.066,93.795,-5.066,93.795C-5.066,93.795,-5.066,53,-5.066,-7.051C-5.066,-67,-5.066,-107.795,-5.066,-107.795C-5.066,-107.795,10.991,-107.795,18.179,-107.795C43.241,-107.795,82.022,-77,82.022,-7.29C82.022,63,43.151,93.795,18.179,93.795Z; M13.806,92.943C7.528,92.943,-2.797,92.943,-2.797,92.943C-2.797,92.943,-2.797,53,-2.797,-7.051C-2.797,-67,-2.797,-106.943,-2.797,-106.943C-2.797,-106.943,7.494,-106.943,13.806,-106.943C48.744,-106.943,92.944,-71.642,92.944,-7.278C92.944,58,48.607,92.943,13.806,92.943Z; M2.875,93C-1.5,93,2.875,93,2.875,93C2.875,93,2.875,53,2.875,-7.051C2.875,-67,2.875,-107,2.875,-107C2.875,-107,-1.25,-107,2.875,-107C60,-107,102.75,-58.25,102.75,-7.25C102.75,45.5,59.5,93,2.875,93Z; M4.667,93.156C4.667,93.156,7.177,93.156,1.333,93.156C-52.865,93.156,-90.161,47.271,-90.161,-7.097C-90.161,-59.895,-53.667,-107.156,1.333,-107.156C6.375,-107.156,4.667,-107.156,4.667,-107.156C4.667,-107.156,4.667,-7.367,4.667,-7.367C4.667,-7.367,4.667,93.156,4.667,93.156Z; M3.333,93.037C3.333,93.037,-6.614,93.156,-10.333,93.156C-43,93.156,-88.557,55.75,-88.557,-7.08C-88.557,-68.5,-43,-107.156,-10.333,-107.156C-7.125,-107.156,3.333,-107.276,3.333,-107.276C3.333,-107.276,3.333,-7.489,3.333,-7.489C3.333,-7.489,3.333,93.037,3.333,93.037Z; M8.952,93.562C8.952,93.562,-9.582,93.647,-12.238,93.647C-35.571,93.647,-75.612,63,-75.612,-7.072C-75.612,-77,-35.571,-107.647,-12.238,-107.647C-9.946,-107.647,8.952,-107.733,8.952,-107.733C8.952,-107.733,8.952,-7.457,8.952,-7.457C8.952,-7.457,8.952,93.562,8.952,93.562Z; M14.571,94.087C14.571,94.087,-12.549,94.138,-14.143,94.138C-28.143,94.138,-54.667,59,-54.667,-7.064C-54.667,-73,-28.143,-108.138,-14.143,-108.138C-12.768,-108.138,14.571,-108.19,14.571,-108.19C14.571,-108.19,14.571,-7.424,14.571,-7.424C14.571,-7.424,14.571,94.087,14.571,94.087Z; M20.19,94.612C20.19,94.612,-13.017,94.629,-13.548,94.629C-20.875,94.629,-32.056,55,-32.056,-7.055C-32.056,-69,-20.875,-108.629,-13.548,-108.629C-13.09,-108.629,20.19,-108.647,20.19,-108.647C20.19,-108.647,20.19,-7.391,20.19,-7.391C20.19,-7.391,20.19,94.612,20.19,94.612Z; M23,94.875C23,94.875,-17,94.875,-17,94.875C-17,94.875,-17,53,-17,-7.051C-17,-67,-17,-108.875,-17,-108.875C-17,-108.875,23,-108.875,23,-108.875C23,-108.875,23,-7.375,23,-7.375C23,-7.375,23,94.875,23,94.875Z; M20.813,94.25C12.25,94.25,-14.188,94.25,-14.188,94.25C-14.188,94.25,-14.188,53,-14.188,-7.051C-14.188,-67,-14.188,-108.25,-14.188,-108.25C-14.188,-108.25,11.875,-108.25,20.813,-108.25C26.125,-108.25,38.312,-77,38.312,-7.313C38.312,63,26.125,94.25,20.813,94.25Z; M22.551,94.023C14.75,94.023,-7.335,94.023,-7.335,94.023C-7.335,94.023,-7.335,53,-7.335,-7.051C-7.335,-67,-7.335,-108.023,-7.335,-108.023C-7.335,-108.023,14.488,-108.023,22.551,-108.023C37.738,-108.023,60.028,-77,60.028,-7.301C60.028,63,37.693,94.023,22.551,94.023Z; M18.179,93.795C11.139,93.795,-5.066,93.795,-5.066,93.795C-5.066,93.795,-5.066,53,-5.066,-7.051C-5.066,-67,-5.066,-107.795,-5.066,-107.795C-5.066,-107.795,10.991,-107.795,18.179,-107.795C43.241,-107.795,82.022,-77,82.022,-7.29C82.022,63,43.151,93.795,18.179,93.795Z; M13.806,92.943C7.528,92.943,-2.797,92.943,-2.797,92.943C-2.797,92.943,-2.797,53,-2.797,-7.051C-2.797,-67,-2.797,-106.943,-2.797,-106.943C-2.797,-106.943,7.494,-106.943,13.806,-106.943C48.744,-106.943,92.944,-71.642,92.944,-7.278C92.944,58,48.607,92.943,13.806,92.943Z; M2.875,93C-1.5,93,2.875,93,2.875,93C2.875,93,2.875,53,2.875,-7.051C2.875,-67,2.875,-107,2.875,-107C2.875,-107,-1.25,-107,2.875,-107C60,-107,102.75,-58.25,102.75,-7.25C102.75,45.5,59.5,93,2.875,93Z; M4.667,93.156C4.667,93.156,7.177,93.156,1.333,93.156C-52.865,93.156,-90.161,47.271,-90.161,-7.097C-90.161,-59.895,-53.667,-107.156,1.333,-107.156C6.375,-107.156,4.667,-107.156,4.667,-107.156C4.667,-107.156,4.667,-7.367,4.667,-7.367C4.667,-7.367,4.667,93.156,4.667,93.156Z; M3.333,93.037C3.333,93.037,-6.614,93.156,-10.333,93.156C-43,93.156,-88.557,55.75,-88.557,-7.08C-88.557,-68.5,-43,-107.156,-10.333,-107.156C-7.125,-107.156,3.333,-107.276,3.333,-107.276C3.333,-107.276,3.333,-7.489,3.333,-7.489C3.333,-7.489,3.333,93.037,3.333,93.037Z; M8.952,93.562C8.952,93.562,-9.582,93.647,-12.238,93.647C-35.571,93.647,-75.612,63,-75.612,-7.072C-75.612,-77,-35.571,-107.647,-12.238,-107.647C-9.946,-107.647,8.952,-107.733,8.952,-107.733C8.952,-107.733,8.952,-7.457,8.952,-7.457C8.952,-7.457,8.952,93.562,8.952,93.562Z; M14.571,94.087C14.571,94.087,-12.549,94.138,-14.143,94.138C-28.143,94.138,-54.667,59,-54.667,-7.064C-54.667,-73,-28.143,-108.138,-14.143,-108.138C-12.768,-108.138,14.571,-108.19,14.571,-108.19C14.571,-108.19,14.571,-7.424,14.571,-7.424C14.571,-7.424,14.571,94.087,14.571,94.087Z; M20.19,94.612C20.19,94.612,-13.017,94.629,-13.548,94.629C-20.875,94.629,-32.056,55,-32.056,-7.055C-32.056,-69,-20.875,-108.629,-13.548,-108.629C-13.09,-108.629,20.19,-108.647,20.19,-108.647C20.19,-108.647,20.19,-7.391,20.19,-7.391C20.19,-7.391,20.19,94.612,20.19,94.612Z; M23,94.875C23,94.875,-17,94.875,-17,94.875C-17,94.875,-17,53,-17,-7.051C-17,-67,-17,-108.875,-17,-108.875C-17,-108.875,23,-108.875,23,-108.875C23,-108.875,23,-7.375,23,-7.375C23,-7.375,23,94.875,23,94.875Z; M18.625,94.25C7.167,94.25,-13.25,94.25,-13.25,94.25C-13.25,94.25,-13.25,53,-13.25,-7.051C-13.25,-67,-13.25,-108.25,-13.25,-108.25C-13.25,-108.25,12.75,-108.25,18.625,-108.25C25.5,-108.25,37.375,-84.25,37.375,-7.25C37.375,70,25.5,94.25,18.625,94.25Z; M20.5,92.5C18.625,92.5,3.232,92.503,3.232,92.503C3.232,92.503,3.232,52.949,3.232,-7.102C3.232,-67.051,3.232,-106.604,3.232,-106.604C3.232,-106.604,18.732,-106.607,20.5,-106.607C48.5,-106.607,97.893,-77,97.893,-7.25C97.893,63,48.5,92.5,20.5,92.5Z; M2.875,93C-1.5,93,2.875,93,2.875,93C2.875,93,2.875,53,2.875,-7.051C2.875,-67,2.875,-107,2.875,-107C2.875,-107,-1.25,-107,2.875,-107C60,-107,102.75,-58.25,102.75,-7.25C102.75,45.5,59.5,93,2.875,93Z; M2.875,93C-1.5,93,2.875,93,2.875,93C2.875,93,2.875,53,2.875,-7.051C2.875,-67,2.875,-107,2.875,-107C2.875,-107,-1.25,-107,2.875,-107C60,-107,102.75,-58.25,102.75,-7.25C102.75,45.5,59.5,93,2.875,93Z" keyTimes="0; 0.084967; 0.124183; 0.130719; 0.137255; 0.150327; 0.163399; 0.17647; 0.20915; 0.215686; 0.24183; 0.254902; 0.267974; 0.281046; 0.287582; 0.294118; 0.30719; 0.320261; 0.333333; 0.366013; 0.372549; 0.398693; 0.411765; 0.424836; 0.437909; 0.444444; 0.45098; 0.496732; 0.575163; 1" keySplines="0.7 0 0.999 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0.167 0.167 0.667 1; 0.001 0 0.3 1; 0 0 1 1" fill="freeze" />
+      </path>
+    </g>
+  </g>
+  <g id="coin-face" transform="translate(240 240)">
+    <animateMotion repeatCount="indefinite" dur="2.55s" begin="0s" calcMode="spline" keyTimes="0; 0.130719; 0.137255; 0.20915; 0.287582; 0.294118; 0.366013; 0.444444; 0.450981; 0.575164; 1" keySplines="0.42 0 0.999 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0.167 0.167 0.363 0.974; 0.157 0.26 0.636 1; 0 0 1 1" keyPoints="0; 0.087; 0.253; 0.332; 0.419; 0.587; 0.666; 0.753; 0.92; 1; 1" path="M0 0 C2.331 0 19.059 0 20 0 C20.661 0 -20.747 0 -18.333 0 C-13.956 0 -3.333 0 0 0 C2.933 0 19.059 0 20 0 C23.333 0 -20.747 0 -18.333 0 C-13.956 0 -3.333 0 0 0 C2.933 0 19.324 0 20 0 C23.333 0 -20.492 0 -18.367 0 C-13.416 0 0 0 0 0" fill="freeze" />
+    <g transform="scale(1 1)">
+      <!--The face narrows in sync with the three edge-on rim keyframes.-->
+      <animateTransform attributeName="transform" type="scale" dur="2.55s" repeatCount="indefinite" values="1 1; 0.995 1; 0.954 1; 0.819 1; 0.511 1; 0.16 1; 0 1; 0.18 1; 0.416 1; 0.681 1; 0.841 1; 0.954 1; 1 1; 0.986 1; 0.895 1; 0.748 1; 0.54 1; 0.29 1; 0.164 1; 0 1; 0.18 1; 0.423 1; 0.66 1; 0.841 1; 0.948 1; 1 1; 0.986 1; 0.884 1; 0.756 1; 0.54 1; 0.29 1; 0.164 1; 0 1; 0.176 1; 0.51 1; 0.783 1; 0.891 1; 0.956 1; 0.988 1; 1 1; 1 1" keyTimes="0; 0.026143791; 0.052287582; 0.078431373; 0.10457516; 0.12418301; 0.13071895; 0.1372549; 0.1503268; 0.16339869; 0.17647059; 0.18954248; 0.20915033; 0.21568627; 0.23529412; 0.24836601; 0.26143791; 0.2745098; 0.28104575; 0.2875817; 0.29411765; 0.30718954; 0.32026144; 0.33333333; 0.34640523; 0.36601307; 0.37254902; 0.39215686; 0.40522876; 0.41830065; 0.43137255; 0.4379085; 0.44444444; 0.45098039; 0.47058824; 0.49019608; 0.50980392; 0.52941176; 0.54901961; 0.5751634; 1" />
+      <g transform="translate(-3 7)">
+        <path fill="url(#i0)" d="M103,-7C103,48.228,58.228,93,3,93C-52.228,93,-97,48.228,-97,-7C-97,-62.228,-52.228,-107,3,-107C58.228,-107,103,-62.228,103,-7Z" />
+        <path fill="#ffbc00" fill-opacity="1" d="M83,-7C83,37.183,47.183,73,3,73C-41.183,73,-77,37.183,-77,-7C-77,-51.183,-41.183,-87,3,-87C47.183,-87,83,-51.183,83,-7Z" />
+        <path fill="url(#i1)" d="M75.5,-7C75.5,33.041,43.041,65.5,3,65.5C-37.041,65.5,-69.5,33.041,-69.5,-7C-69.5,-47.041,-37.041,-79.5,3,-79.5C43.041,-79.5,75.5,-47.041,75.5,-7Z" />
+        <path fill="#ff8a00" d="M-23.316,-41.421 L27.737,-41.421 L24.789,-33.211 L13.000,-33.211 C15.211,-30.579 16.684,-27.842 17.632,-25.737 L27.737,-25.737 L24.895,-18.053 L18.895,-18.053 C19.632,-4.579 10.474,7.000 -8.895,7.000 L20.053,35.211 L6.158,35.211 L-23.316,6.053 L-23.316,-3.316 L-8.474,-3.316 C0.895,-3.316 8.579,-7.947 8.579,-18.053 L-23.316,-18.053 L-23.316,-25.737 L5.842,-25.737 C2.368,-30.789 -2.263,-33.211 -8.684,-33.211 L-23.316,-33.211 Z" />
+      </g>
+    </g>
+  </g>
+  <g opacity="0.5" id="coin-shine-1" clip-path="url(#coin-shine-clip)">
+    <g transform="translate(120,360)">
+      <animateTransform repeatCount="indefinite" type="translate" attributeName="transform" dur="2.55s" begin="0s" calcMode="spline" values="120 360; 120 360; 120.813 359.187; 123.278 356.722; 127.305 352.695; 132.565 347.435; 138.761 341.239; 145.961 334.039; 154 326; 162.744 317.256; 172.06 307.94; 181.794 298.206; 191.954 288.046; 202.445 277.555; 213.174 266.826; 224.055 255.945; 235 245; 245.945 234.055; 256.826 223.174; 267.555 212.445; 278.046 201.954; 288.206 191.794; 297.94 182.06; 307.256 172.744; 316 164; 324.039 155.961; 331.239 148.761; 337.435 142.565; 342.695 137.305; 346.722 133.278; 349.187 130.813; 350 130; 350 130" keyTimes="0; 0.588235; 0.594771; 0.601307; 0.607843; 0.614379; 0.620915; 0.627451; 0.633987; 0.640523; 0.647059; 0.653595; 0.660131; 0.666667; 0.673203; 0.679739; 0.686275; 0.69281; 0.699346; 0.705882; 0.712418; 0.718954; 0.72549; 0.732026; 0.738562; 0.745098; 0.751634; 0.75817; 0.764706; 0.771242; 0.777778; 0.784314; 1" keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1" fill="freeze" />
+      <g transform="rotate(-50) scale(1,1.26) translate(-202,7)">
+        <g>
+          <path fill="#ffffff" fill-opacity="1" d="M242,93C242,93,162,93,162,93C162,93,162,-107,162,-107C162,-107,242,-107,242,-107C242,-107,242,93,242,93Z" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g opacity="0.5" display="none" id="coin-shine-2" clip-path="url(#coin-shine-clip)">
+    <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="2.55s" values="none; inline; inline" keyTimes="0; 0.110784; 1" attributeName="display" />
+    <g transform="translate(120,360)">
+      <animateTransform repeatCount="indefinite" type="translate" attributeName="transform" dur="2.55s" begin="0s" calcMode="spline" values="120 360; 120 360; 120.813 359.187; 123.278 356.722; 127.305 352.695; 132.565 347.435; 138.761 341.239; 145.961 334.039; 154 326; 162.744 317.256; 172.06 307.94; 181.794 298.206; 191.954 288.046; 202.445 277.555; 213.174 266.826; 224.055 255.945; 235 245; 245.945 234.055; 256.826 223.174; 267.555 212.445; 278.046 201.954; 288.206 191.794; 297.94 182.06; 307.256 172.744; 316 164; 324.039 155.961; 331.239 148.761; 337.435 142.565; 342.695 137.305; 346.722 133.278; 349.187 130.813; 350 130; 350 130" keyTimes="0; 0.699346; 0.705882; 0.712418; 0.718954; 0.72549; 0.732026; 0.738562; 0.745098; 0.751634; 0.75817; 0.764706; 0.771242; 0.777778; 0.784314; 0.79085; 0.797385; 0.803921; 0.810457; 0.816993; 0.823529; 0.830065; 0.836601; 0.843137; 0.849673; 0.856209; 0.862745; 0.869281; 0.875817; 0.882353; 0.888889; 0.895425; 1" keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1" fill="freeze" />
+      <g transform="rotate(-50) scale(1,1.26) translate(-202,7)">
+        <g>
+          <path fill="#ffffff" fill-opacity="1" d="M242,93C242,93,162,93,162,93C162,93,162,-107,162,-107C162,-107,242,-107,242,-107C242,-107,242,93,242,93Z" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g display="inline" id="sparkle-1">
+    <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="2.55s" values="inline; none; none" keyTimes="0; 0.267647; 1" attributeName="display" />
+    <g transform="translate(242.509,140.25)">
+      <g transform="rotate(0)">
+        <animateTransform repeatCount="indefinite" type="rotate" attributeName="transform" dur="2.55s" begin="0s" calcMode="spline" values="0; 205; 205" keyTimes="0; 0.267974; 1" keySplines="0 0 1 1; 0 0 1 1" fill="freeze" />
+        <g transform="scale(0,0)">
+          <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="2.55s" begin="0s" calcMode="spline" values="0 0; 1.7 1.7; 0 0; 0 0" keyTimes="0; 0.130719; 0.254902; 1" keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1" fill="freeze" />
+          <g transform="translate(2.234,150.75)">
+            <g transform="matrix(1,0,0,1,-3,-151)">
+              <path d="M1.0481139630502623e-15,-17.117C0,-17.117,2.517,-2.517,2.517,-2.517C2.517,-2.517,17.117,0,17.117,0C17.117,0,2.517,2.517,2.517,2.517C2.517,2.517,0,17.117,0,17.117C0,17.117,-2.517,2.517,-2.517,2.517C-2.517,2.517,-17.117,0,-17.117,0C-17.117,0,-2.517,-2.517,-2.517,-2.517C-2.517,-2.517,0,-17.117,0,-17.117Z" stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="0" stroke-opacity="1" stroke="#a9a9a9" fill="#ffffff" fill-opacity="1" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g display="none" id="sparkle-3">
+    <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="2.55s" values="none; inline; none; none" keyTimes="0; 0.051961; 0.319935; 1" attributeName="display" />
+    <g transform="translate(376.509,194.25)">
+      <g transform="rotate(0)">
+        <animateTransform repeatCount="indefinite" type="rotate" attributeName="transform" dur="2.55s" begin="0s" calcMode="spline" values="0; 0; 205; 205" keyTimes="0; 0.052287; 0.320261; 1" keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1" fill="freeze" />
+        <g transform="scale(0,0)">
+          <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="2.55s" begin="0s" calcMode="spline" values="0 0; 0 0; 1.7 1.7; 0 0; 0 0" keyTimes="0; 0.052287; 0.183007; 0.307189; 1" keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1" fill="freeze" />
+          <g transform="translate(2.234,150.75)">
+            <g transform="matrix(1,0,0,1,-3,-151)">
+              <path d="M1.0481139630502623e-15,-17.117C0,-17.117,2.517,-2.517,2.517,-2.517C2.517,-2.517,17.117,0,17.117,0C17.117,0,2.517,2.517,2.517,2.517C2.517,2.517,0,17.117,0,17.117C0,17.117,-2.517,2.517,-2.517,2.517C-2.517,2.517,-17.117,0,-17.117,0C-17.117,0,-2.517,-2.517,-2.517,-2.517C-2.517,-2.517,0,-17.117,0,-17.117Z" stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="0" stroke-opacity="1" stroke="#a9a9a9" fill="#ffe200" fill-opacity="1" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g display="none" id="sparkle-2">
+    <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="2.55s" values="none; inline; none; none" keyTimes="0; 0.228431; 0.496405; 1" attributeName="display" />
+    <g transform="translate(241.509,339.25)">
+      <g transform="rotate(0)">
+        <animateTransform repeatCount="indefinite" type="rotate" attributeName="transform" dur="2.55s" begin="0s" calcMode="spline" values="0; 0; 104; 104" keyTimes="0; 0.228758; 0.490196; 1" keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1" fill="freeze" />
+        <g transform="scale(0,0)">
+          <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="2.55s" begin="0s" calcMode="spline" values="0 0; 0 0; 1 1; 0 0; 0 0" keyTimes="0; 0.228758; 0.356209; 0.48366; 1" keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1" fill="freeze" />
+          <g transform="translate(2.234,150.75)">
+            <g transform="matrix(1,0,0,1,-3,-151)">
+              <path d="M1.0481139630502623e-15,-17.117C0,-17.117,2.517,-2.517,2.517,-2.517C2.517,-2.517,17.117,0,17.117,0C17.117,0,2.517,2.517,2.517,2.517C2.517,2.517,0,17.117,0,17.117C0,17.117,-2.517,2.517,-2.517,2.517C-2.517,2.517,-17.117,0,-17.117,0C-17.117,0,-2.517,-2.517,-2.517,-2.517C-2.517,-2.517,0,-17.117,0,-17.117Z" stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="0" stroke-opacity="1" stroke="#a9a9a9" fill="#ffffff" fill-opacity="1" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g display="none" id="sparkle-4">
+    <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="2.55s" values="none; inline; none; none" keyTimes="0; 0.143464; 0.411438; 1" attributeName="display" />
+    <g transform="translate(134.509,135.25)">
+      <g transform="rotate(0)">
+        <animateTransform repeatCount="indefinite" type="rotate" attributeName="transform" dur="2.55s" begin="0s" calcMode="spline" values="0; 0; 104; 104" keyTimes="0; 0.143791; 0.405229; 1" keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1" fill="freeze" />
+        <g transform="scale(0,0)">
+          <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="2.55s" begin="0s" calcMode="spline" values="0 0; 0 0; 1 1; 0 0; 0 0" keyTimes="0; 0.143791; 0.271242; 0.398693; 1" keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1" fill="freeze" />
+          <g transform="translate(2.234,150.75)">
+            <g transform="matrix(1,0,0,1,-3,-151)">
+              <path d="M1.0481139630502623e-15,-17.117C0,-17.117,2.517,-2.517,2.517,-2.517C2.517,-2.517,17.117,0,17.117,0C17.117,0,2.517,2.517,2.517,2.517C2.517,2.517,0,17.117,0,17.117C0,17.117,-2.517,2.517,-2.517,2.517C-2.517,2.517,-17.117,0,-17.117,0C-17.117,0,-2.517,-2.517,-2.517,-2.517C-2.517,-2.517,0,-17.117,0,-17.117Z" stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="0" stroke-opacity="1" stroke="#a9a9a9" fill="#ffd500" fill-opacity="1" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g display="none" id="sparkle-5">
+    <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="2.55s" values="none; inline; none; none" keyTimes="0; 0.228431; 0.496405; 1" attributeName="display" />
+    <g transform="translate(338.509,380.25)">
+      <g transform="rotate(0)">
+        <animateTransform repeatCount="indefinite" type="rotate" attributeName="transform" dur="2.55s" begin="0s" calcMode="spline" values="0; 0; 104; 104" keyTimes="0; 0.228758; 0.490196; 1" keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1" fill="freeze" />
+        <g transform="scale(0,0)">
+          <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="2.55s" begin="0s" calcMode="spline" values="0 0; 0 0; 1 1; 0 0; 0 0" keyTimes="0; 0.228758; 0.356209; 0.48366; 1" keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1" fill="freeze" />
+          <g transform="translate(2.234,150.75)">
+            <g transform="matrix(1,0,0,1,-3,-151)">
+              <path d="M1.0481139630502623e-15,-17.117C0,-17.117,2.517,-2.517,2.517,-2.517C2.517,-2.517,17.117,0,17.117,0C17.117,0,2.517,2.517,2.517,2.517C2.517,2.517,0,17.117,0,17.117C0,17.117,-2.517,2.517,-2.517,2.517C-2.517,2.517,-17.117,0,-17.117,0C-17.117,0,-2.517,-2.517,-2.517,-2.517C-2.517,-2.517,0,-17.117,0,-17.117Z" stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="0" stroke-opacity="1" stroke="#a9a9a9" fill="#ffd500" fill-opacity="1" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g display="none" id="sparkle-6">
+    <animate repeatCount="indefinite" begin="0s" calcMode="discrete" dur="2.55s" values="none; inline; none; none" keyTimes="0; 0.319935; 0.587908; 1" attributeName="display" />
+    <g transform="translate(136.509,359.25)">
+      <g transform="rotate(0)">
+        <animateTransform repeatCount="indefinite" type="rotate" attributeName="transform" dur="2.55s" begin="0s" calcMode="spline" values="0; 0; 104; 104" keyTimes="0; 0.320262; 0.5817; 1" keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1" fill="freeze" />
+        <g transform="scale(0,0)">
+          <animateTransform repeatCount="indefinite" type="scale" attributeName="transform" dur="2.55s" begin="0s" calcMode="spline" values="0 0; 0 0; 1 1; 0 0; 0 0" keyTimes="0; 0.320262; 0.447713; 0.575164; 1" keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1" fill="freeze" />
+          <g transform="translate(2.234,150.75)">
+            <g transform="matrix(1,0,0,1,-3,-151)">
+              <path d="M1.0481139630502623e-15,-17.117C0,-17.117,2.517,-2.517,2.517,-2.517C2.517,-2.517,17.117,0,17.117,0C17.117,0,2.517,2.517,2.517,2.517C2.517,2.517,0,17.117,0,17.117C0,17.117,-2.517,2.517,-2.517,2.517C-2.517,2.517,-17.117,0,-17.117,0C-17.117,0,-2.517,-2.517,-2.517,-2.517C-2.517,-2.517,0,-17.117,0,-17.117Z" stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="0" stroke-opacity="1" stroke="#a9a9a9" fill="#ffd500" fill-opacity="1" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</g></g>
+<g id="ui-selection" transform="translate(790 355)" aria-hidden="true">
+  <rect x="-100" y="-100" width="200" height="200" fill="none" stroke="#1F7CF0" stroke-width="1.2"/>
+  <use href="#ui-handle" x="-100" y="-100"/>
+  <use href="#ui-handle" x="100" y="-100"/>
+  <use href="#ui-handle" x="-100" y="100"/>
+  <use href="#ui-handle" x="100" y="100"/>
+  <path d="M-6 0H6M0-6V6" stroke="#1F7CF0" stroke-width="1.2"/>
+</g>
+<rect x="733" y="578" width="114" height="30" rx="7" fill="#2A2A2A" stroke="#3D3D3D"/>
+<use href="#ui-fit" x="746" y="585" width="16" height="16" color="#AAAAAA"/>
+<text x="772" y="597" class="small muted" text-anchor="start">Artboard</text>
+<rect x="0" y="70" width="254" height="562" rx="0" fill="#252525"/>
+<path d="M253.5 70L253.5 632" stroke="#343434"/>
+<use href="#ui-layers" x="18" y="91" width="16" height="16" color="#66A9FF"/>
+<text x="44" y="104" class="heading" text-anchor="start">Layers</text>
+<use href="#ui-plus" x="192" y="91" width="16" height="16" color="#A1A1A1"/>
+<use href="#ui-more" x="220" y="91" width="16" height="16" color="#A1A1A1"/>
+<rect x="16" y="122" width="222" height="34" rx="7" fill="#1B1B1B" stroke="#343434"/>
+<use href="#ui-zoom" x="27" y="131" width="15" height="15" color="#A1A1A1"/>
+<text x="51" y="144" class="small muted" text-anchor="start">Search layers</text>
+<rect x="12" y="170" width="230" height="37" rx="6" fill="#2A2A2A"/>
+<use href="#ui-chev-down" x="22" y="181" width="14" height="14" color="#A1A1A1"/>
+<use href="#ui-canvas" x="46" y="180" width="16" height="16" color="#A1A1A1"/>
+<text x="73" y="194" class="heading" text-anchor="start">Artboard</text>
+<use href="#ui-lock" x="218" y="181" width="14" height="14" color="#A1A1A1"/>
+<path d="M29 207L29 366" stroke="#404040"/>
+<rect x="12" y="213" width="230" height="37" rx="6" fill="#1F7CF0"/>
+<rect x="12" y="219" width="3" height="25" rx="1.5" fill="#7CB7FF"/>
+<use href="#ui-chev-down" x="23" y="224" width="14" height="14" color="#FFFFFF"/>
+<use href="#ui-folder" x="47" y="223" width="16" height="16" color="#FFFFFF"/>
+<text x="73" y="237" class="heading" text-anchor="start">Coin animation</text>
+<use href="#ui-eye" x="216" y="224" width="16" height="16" color="#FFFFFF"/>
+<path d="M29 264L48 264" stroke="#404040"/>
+<use href="#ui-circle" x="53" y="256" width="15" height="15" color="#ABABAB"/>
+<text x="77" y="268" class="small" text-anchor="start">Coin face</text>
+<use href="#ui-eye" x="216" y="256" width="15" height="15" color="#8E8E8E"/>
+<path d="M29 298L48 298" stroke="#404040"/>
+<use href="#ui-edge" x="53" y="290" width="15" height="15" color="#ABABAB"/>
+<text x="77" y="302" class="small" text-anchor="start">Coin edge</text>
+<use href="#ui-eye" x="216" y="290" width="15" height="15" color="#8E8E8E"/>
+<path d="M29 332L48 332" stroke="#404040"/>
+<use href="#ui-sparkle" x="53" y="324" width="15" height="15" color="#ABABAB"/>
+<text x="77" y="336" class="small" text-anchor="start">Shine</text>
+<use href="#ui-eye" x="216" y="324" width="15" height="15" color="#8E8E8E"/>
+<path d="M29 366L48 366" stroke="#404040"/>
+<use href="#ui-sparkle" x="53" y="358" width="15" height="15" color="#ABABAB"/>
+<text x="77" y="370" class="small" text-anchor="start">Sparkles</text>
+<use href="#ui-eye" x="216" y="358" width="15" height="15" color="#8E8E8E"/>
+<rect x="1326" y="70" width="274" height="562" rx="0" fill="#252525"/>
+<path d="M1326.5 70L1326.5 632" stroke="#343434"/>
+<text x="1345" y="104" class="heading accent" text-anchor="start">Properties</text>
+<text x="1442" y="104" class="heading muted" text-anchor="start">Animation</text>
+<path d="M1327 120L1600 120" stroke="#343434"/>
+<path d="M1344 119L1415 119" stroke="#1F7CF0"/>
+<rect x="1344" y="139" width="238" height="54" rx="8" fill="#2A2A2A" stroke="#3B3B3B"/>
+<rect x="1353" y="149" width="34" height="34" rx="8" fill="#1F7CF0"/>
+<use href="#ui-circle" x="1361" y="157" width="18" height="18" color="#FFFFFF"/>
+<text x="1398" y="162" class="heading" text-anchor="start">Coin face</text>
+<text x="1398" y="178" class="tiny muted" text-anchor="start">Animated layer</text>
+<use href="#ui-more" x="1553" y="158" width="15" height="15" color="#A1A1A1"/>
+<text x="1345" y="225" class="heading" text-anchor="start">Transform</text>
+<use href="#ui-chev-down" x="1565" y="213" width="14" height="14" color="#A1A1A1"/>
+<text x="1345" y="249" class="small muted" text-anchor="start">Position</text>
+<rect x="1344" y="256" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434"/>
+<text x="1354" y="276" class="tiny muted" text-anchor="start">X</text>
+<text x="1377" y="276" class="mono" text-anchor="start">200</text>
+<rect x="1469" y="256" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434"/>
+<text x="1479" y="276" class="tiny muted" text-anchor="start">Y</text>
+<text x="1502" y="276" class="mono" text-anchor="start">200</text>
+<text x="1345" y="320" class="small muted" text-anchor="start">Anchor</text>
+<rect x="1344" y="327" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434"/>
+<text x="1354" y="347" class="tiny muted" text-anchor="start">X</text>
+<text x="1377" y="347" class="mono" text-anchor="start">100</text>
+<rect x="1469" y="327" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434"/>
+<text x="1479" y="347" class="tiny muted" text-anchor="start">Y</text>
+<text x="1502" y="347" class="mono" text-anchor="start">100</text>
+<text x="1345" y="391" class="small muted" text-anchor="start">Scale</text>
+<use href="#ui-key" x="1573" y="387" fill="#66A9FF"/>
+<rect x="1344" y="398" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434"/>
+<text x="1354" y="418" class="tiny muted" text-anchor="start">X</text>
+<rect x="1469" y="398" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434"/>
+<text x="1479" y="418" class="tiny muted" text-anchor="start">Y</text>
+<text x="1502" y="418" class="mono" text-anchor="start">100%</text>
+<g clip-path="url(#ui-scale-clip)"><g>
+<animateTransform attributeName="transform" type="translate" dur="2.55s" repeatCount="indefinite" calcMode="discrete" values="0 0;0 -24;0 -48;0 -72;0 -96;0 -120;0 -144;0 -168;0 -192;0 -216;0 -240;0 -264;0 -288;0 -312;0 -336;0 -360;0 -384;0 -408;0 -432;0 -456;0 -480;0 -504;0 -528;0 -552;0 -576;0 -600;0 -624;0 -648;0 -672;0 -696;0 -720;0 -744;0 -768;0 -792;0 -816;0 -840;0 -864;0 -888;0 -912;0 -936;0 -960;0 -984;0 -1008;0 -1032;0 -1056;0 -1080;0 -1104;0 -1128;0 -1152;0 -1176;0 -1200;0 -1200" keyTimes="0.0;0.0196078431372549;0.0392156862745098;0.058823529411764705;0.0784313725490196;0.09803921568627451;0.11764705882352941;0.13725490196078433;0.1568627450980392;0.17647058823529413;0.19607843137254902;0.21568627450980393;0.23529411764705882;0.2549019607843137;0.27450980392156865;0.29411764705882354;0.3137254901960784;0.3333333333333333;0.35294117647058826;0.37254901960784315;0.39215686274509803;0.4117647058823529;0.43137254901960786;0.45098039215686275;0.47058823529411764;0.49019607843137253;0.5098039215686274;0.5294117647058824;0.5490196078431373;0.5686274509803921;0.5882352941176471;0.6078431372549019;0.6274509803921569;0.6470588235294118;0.6666666666666666;0.6862745098039216;0.7058823529411765;0.7254901960784313;0.7450980392156863;0.7647058823529411;0.7843137254901961;0.803921568627451;0.8235294117647058;0.8431372549019608;0.8627450980392157;0.8823529411764706;0.9019607843137255;0.9215686274509803;0.9411764705882353;0.9607843137254902;0.9803921568627451;1.0"/>
+<text x="1377" y="418" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="442" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="466" class="mono" text-anchor="start">97%</text>
+<text x="1377" y="490" class="mono" text-anchor="start">92%</text>
+<text x="1377" y="514" class="mono" text-anchor="start">82%</text>
+<text x="1377" y="538" class="mono" text-anchor="start">59%</text>
+<text x="1377" y="562" class="mono" text-anchor="start">28%</text>
+<text x="1377" y="586" class="mono" text-anchor="start">18%</text>
+<text x="1377" y="610" class="mono" text-anchor="start">55%</text>
+<text x="1377" y="634" class="mono" text-anchor="start">84%</text>
+<text x="1377" y="658" class="mono" text-anchor="start">97%</text>
+<text x="1377" y="682" class="mono" text-anchor="start">99%</text>
+<text x="1377" y="706" class="mono" text-anchor="start">90%</text>
+<text x="1377" y="730" class="mono" text-anchor="start">64%</text>
+<text x="1377" y="754" class="mono" text-anchor="start">29%</text>
+<text x="1377" y="778" class="mono" text-anchor="start">18%</text>
+<text x="1377" y="802" class="mono" text-anchor="start">54%</text>
+<text x="1377" y="826" class="mono" text-anchor="start">84%</text>
+<text x="1377" y="850" class="mono" text-anchor="start">97%</text>
+<text x="1377" y="874" class="mono" text-anchor="start">99%</text>
+<text x="1377" y="898" class="mono" text-anchor="start">88%</text>
+<text x="1377" y="922" class="mono" text-anchor="start">65%</text>
+<text x="1377" y="946" class="mono" text-anchor="start">29%</text>
+<text x="1377" y="970" class="mono" text-anchor="start">18%</text>
+<text x="1377" y="994" class="mono" text-anchor="start">51%</text>
+<text x="1377" y="1018" class="mono" text-anchor="start">78%</text>
+<text x="1377" y="1042" class="mono" text-anchor="start">89%</text>
+<text x="1377" y="1066" class="mono" text-anchor="start">96%</text>
+<text x="1377" y="1090" class="mono" text-anchor="start">99%</text>
+<text x="1377" y="1114" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1138" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1162" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1186" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1210" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1234" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1258" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1282" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1306" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1330" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1354" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1378" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1402" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1426" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1450" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1474" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1498" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1522" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1546" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1570" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1594" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="1618" class="mono" text-anchor="start">100%</text>
+</g></g>
+<path d="M1344 453L1582 453" stroke="#343434"/>
+<text x="1345" y="480" class="heading" text-anchor="start">Appearance</text>
+<use href="#ui-chev-down" x="1565" y="468" width="14" height="14" color="#A1A1A1"/>
+<text x="1345" y="511" class="small muted" text-anchor="start">Opacity</text>
+<rect x="1469" y="490" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434"/>
+<text x="1481" y="510" class="mono" text-anchor="start">100%</text>
+<text x="1345" y="553" class="small muted" text-anchor="start">Blend mode</text>
+<rect x="1469" y="533" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434"/>
+<text x="1481" y="553" class="small" text-anchor="start">Normal</text>
+<use href="#ui-chev-down" x="1557" y="543" width="13" height="13" color="#A1A1A1"/>
+<rect x="0" y="632" width="1600" height="234" rx="0" fill="#242424"/>
+<rect x="0" y="632" width="1600" height="50" rx="0" fill="#2A2A2A"/>
+<path d="M0 632.5L1600 632.5" stroke="#343434"/>
+<path d="M0 682.5L1600 682.5" stroke="#343434"/>
+<text x="19" y="662" class="heading" text-anchor="start">Timeline</text>
+<use href="#ui-start" x="93" y="650" width="16" height="16" color="#B4B4B4"/>
+<rect x="119" y="642" width="30" height="30" rx="6" fill="#203955"/>
+<use href="#ui-pause" x="126" y="649" width="16" height="16" color="#72B0FF"/>
+<use href="#ui-repeat" x="159" y="650" width="15" height="15" color="#66A9FF"/>
+<g clip-path="url(#ui-clock-clip)"><g>
+<animateTransform attributeName="transform" type="translate" dur="2.55s" repeatCount="indefinite" calcMode="discrete" values="0 0;0 -24;0 -48;0 -72;0 -96;0 -120;0 -144;0 -168;0 -192;0 -216;0 -240;0 -264;0 -288;0 -312;0 -336;0 -360;0 -384;0 -408;0 -432;0 -456;0 -480;0 -504;0 -528;0 -552;0 -576;0 -600;0 -624;0 -648;0 -672;0 -696;0 -720;0 -744;0 -768;0 -792;0 -816;0 -840;0 -864;0 -888;0 -912;0 -936;0 -960;0 -984;0 -1008;0 -1032;0 -1056;0 -1080;0 -1104;0 -1128;0 -1152;0 -1176;0 -1200;0 -1200" keyTimes="0.0;0.0196078431372549;0.0392156862745098;0.058823529411764705;0.0784313725490196;0.09803921568627451;0.11764705882352941;0.13725490196078433;0.1568627450980392;0.17647058823529413;0.19607843137254902;0.21568627450980393;0.23529411764705882;0.2549019607843137;0.27450980392156865;0.29411764705882354;0.3137254901960784;0.3333333333333333;0.35294117647058826;0.37254901960784315;0.39215686274509803;0.4117647058823529;0.43137254901960786;0.45098039215686275;0.47058823529411764;0.49019607843137253;0.5098039215686274;0.5294117647058824;0.5490196078431373;0.5686274509803921;0.5882352941176471;0.6078431372549019;0.6274509803921569;0.6470588235294118;0.6666666666666666;0.6862745098039216;0.7058823529411765;0.7254901960784313;0.7450980392156863;0.7647058823529411;0.7843137254901961;0.803921568627451;0.8235294117647058;0.8431372549019608;0.8627450980392157;0.8823529411764706;0.9019607843137255;0.9215686274509803;0.9411764705882353;0.9607843137254902;0.9803921568627451;1.0"/>
+<text x="184" y="662" class="time" text-anchor="start">00:00.00</text>
+<text x="184" y="686" class="time" text-anchor="start">00:00.05</text>
+<text x="184" y="710" class="time" text-anchor="start">00:00.10</text>
+<text x="184" y="734" class="time" text-anchor="start">00:00.15</text>
+<text x="184" y="758" class="time" text-anchor="start">00:00.20</text>
+<text x="184" y="782" class="time" text-anchor="start">00:00.25</text>
+<text x="184" y="806" class="time" text-anchor="start">00:00.30</text>
+<text x="184" y="830" class="time" text-anchor="start">00:00.35</text>
+<text x="184" y="854" class="time" text-anchor="start">00:00.40</text>
+<text x="184" y="878" class="time" text-anchor="start">00:00.45</text>
+<text x="184" y="902" class="time" text-anchor="start">00:00.50</text>
+<text x="184" y="926" class="time" text-anchor="start">00:00.55</text>
+<text x="184" y="950" class="time" text-anchor="start">00:00.60</text>
+<text x="184" y="974" class="time" text-anchor="start">00:00.65</text>
+<text x="184" y="998" class="time" text-anchor="start">00:00.70</text>
+<text x="184" y="1022" class="time" text-anchor="start">00:00.75</text>
+<text x="184" y="1046" class="time" text-anchor="start">00:00.80</text>
+<text x="184" y="1070" class="time" text-anchor="start">00:00.85</text>
+<text x="184" y="1094" class="time" text-anchor="start">00:00.90</text>
+<text x="184" y="1118" class="time" text-anchor="start">00:00.95</text>
+<text x="184" y="1142" class="time" text-anchor="start">00:01.00</text>
+<text x="184" y="1166" class="time" text-anchor="start">00:01.05</text>
+<text x="184" y="1190" class="time" text-anchor="start">00:01.10</text>
+<text x="184" y="1214" class="time" text-anchor="start">00:01.15</text>
+<text x="184" y="1238" class="time" text-anchor="start">00:01.20</text>
+<text x="184" y="1262" class="time" text-anchor="start">00:01.25</text>
+<text x="184" y="1286" class="time" text-anchor="start">00:01.30</text>
+<text x="184" y="1310" class="time" text-anchor="start">00:01.35</text>
+<text x="184" y="1334" class="time" text-anchor="start">00:01.40</text>
+<text x="184" y="1358" class="time" text-anchor="start">00:01.45</text>
+<text x="184" y="1382" class="time" text-anchor="start">00:01.50</text>
+<text x="184" y="1406" class="time" text-anchor="start">00:01.55</text>
+<text x="184" y="1430" class="time" text-anchor="start">00:01.60</text>
+<text x="184" y="1454" class="time" text-anchor="start">00:01.65</text>
+<text x="184" y="1478" class="time" text-anchor="start">00:01.70</text>
+<text x="184" y="1502" class="time" text-anchor="start">00:01.75</text>
+<text x="184" y="1526" class="time" text-anchor="start">00:01.80</text>
+<text x="184" y="1550" class="time" text-anchor="start">00:01.85</text>
+<text x="184" y="1574" class="time" text-anchor="start">00:01.90</text>
+<text x="184" y="1598" class="time" text-anchor="start">00:01.95</text>
+<text x="184" y="1622" class="time" text-anchor="start">00:02.00</text>
+<text x="184" y="1646" class="time" text-anchor="start">00:02.05</text>
+<text x="184" y="1670" class="time" text-anchor="start">00:02.10</text>
+<text x="184" y="1694" class="time" text-anchor="start">00:02.15</text>
+<text x="184" y="1718" class="time" text-anchor="start">00:02.20</text>
+<text x="184" y="1742" class="time" text-anchor="start">00:02.25</text>
+<text x="184" y="1766" class="time" text-anchor="start">00:02.30</text>
+<text x="184" y="1790" class="time" text-anchor="start">00:02.35</text>
+<text x="184" y="1814" class="time" text-anchor="start">00:02.40</text>
+<text x="184" y="1838" class="time" text-anchor="start">00:02.45</text>
+<text x="184" y="1862" class="time" text-anchor="start">00:02.50</text>
+</g></g>
+<use href="#ui-diamond" x="268" y="650" width="15" height="15" color="#66A9FF"/>
+<use href="#ui-curve" x="303" y="650" width="16" height="16" color="#ABABAB"/>
+<rect x="1426" y="643" width="156" height="28" rx="6" fill="#1E1E1E" stroke="#3B3B3B"/>
+<text x="1440" y="661" class="small muted" text-anchor="start">Loop duration</text>
+<text x="1570" y="661" class="mono accent" text-anchor="end">2.55 s</text>
+<rect x="0" y="683" width="254" height="183" rx="0" fill="#1E1E1E"/>
+<rect x="255" y="683" width="1345" height="30" rx="0" fill="#2A2A2A"/>
+<rect x="282" y="683" width="1250" height="30" rx="0" fill="#2F3646"/>
+<path d="M254.5 682L254.5 866" stroke="#343434"/>
+<path d="M282 713L282 702" stroke="#858B97"/>
+<text x="287.0" y="698" class="tiny muted" text-anchor="start">0.0s</text>
+<path d="M331.01961 708L331.01961 713" stroke="#545A65"/>
+<path d="M380.03922 708L380.03922 713" stroke="#545A65"/>
+<path d="M429.05882 708L429.05882 713" stroke="#545A65"/>
+<path d="M478.07843 708L478.07843 713" stroke="#545A65"/>
+<path d="M527.09804 713L527.09804 702" stroke="#858B97"/>
+<text x="532.09804" y="698" class="tiny muted" text-anchor="start">0.5s</text>
+<path d="M576.11765 708L576.11765 713" stroke="#545A65"/>
+<path d="M625.13725 708L625.13725 713" stroke="#545A65"/>
+<path d="M674.15686 708L674.15686 713" stroke="#545A65"/>
+<path d="M723.17647 708L723.17647 713" stroke="#545A65"/>
+<path d="M772.19608 713L772.19608 702" stroke="#858B97"/>
+<text x="777.19608" y="698" class="tiny muted" text-anchor="start">1.0s</text>
+<path d="M821.21569 708L821.21569 713" stroke="#545A65"/>
+<path d="M870.23529 708L870.23529 713" stroke="#545A65"/>
+<path d="M919.2549 708L919.2549 713" stroke="#545A65"/>
+<path d="M968.27451 708L968.27451 713" stroke="#545A65"/>
+<path d="M1017.29412 713L1017.29412 702" stroke="#858B97"/>
+<text x="1022.29412" y="698" class="tiny muted" text-anchor="start">1.5s</text>
+<path d="M1066.31373 708L1066.31373 713" stroke="#545A65"/>
+<path d="M1115.33333 708L1115.33333 713" stroke="#545A65"/>
+<path d="M1164.35294 708L1164.35294 713" stroke="#545A65"/>
+<path d="M1213.37255 708L1213.37255 713" stroke="#545A65"/>
+<path d="M1262.39216 713L1262.39216 702" stroke="#858B97"/>
+<text x="1267.39216" y="698" class="tiny muted" text-anchor="start">2.0s</text>
+<path d="M1311.41176 708L1311.41176 713" stroke="#545A65"/>
+<path d="M1360.43137 708L1360.43137 713" stroke="#545A65"/>
+<path d="M1409.45098 708L1409.45098 713" stroke="#545A65"/>
+<path d="M1458.47059 708L1458.47059 713" stroke="#545A65"/>
+<path d="M1507.4902 713L1507.4902 702" stroke="#858B97"/>
+<text x="1512.4902" y="698" class="tiny muted" text-anchor="start">2.5s</text>
+<path d="M1532 683L1532 866" stroke="#4C576A"/>
+<text x="19" y="703" class="tiny muted" text-anchor="start">Tracks</text>
+<rect x="1" y="714" width="1599" height="31" rx="0" fill="#2F3646"/>
+<path d="M0 745L1600 745" stroke="#323232"/>
+<use href="#ui-chev-down" x="20" y="722" width="14" height="14" color="#79B4FF"/>
+<use href="#ui-folder" x="42" y="721" width="16" height="16" color="#79B4FF"/>
+<text x="67" y="734" class="heading" text-anchor="start">Coin animation</text>
+<rect x="282" y="723" width="1250" height="13" rx="4" fill="url(#ui-track)" stroke="#466689"/>
+<use href="#ui-eye" x="218" y="722" width="15" height="15" color="#929292"/>
+<rect x="1" y="746" width="1599" height="31" rx="0" fill="#222430"/>
+<path d="M0 777L1600 777" stroke="#323232"/>
+<use href="#ui-diamond" x="43" y="754" width="14" height="14" color="#A7A7A7"/>
+<text x="67" y="766" class="small muted" text-anchor="start">Horizontal scale</text>
+<path d="M282 761.5L1532 761.5" stroke="#454545"/>
+<use href="#ui-key" x="282" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="314.67974" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="347.35948" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="380.03922" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="412.71895" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="437.22876" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="445.39869" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="453.56862" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="469.9085" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="486.24836" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="502.58824" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="518.9281" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="543.43791" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="551.60784" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="576.11765" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="592.45751" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="608.79739" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="625.13725" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="633.30719" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="641.47713" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="649.64706" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="665.98692" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="682.3268" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="698.66666" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="715.00654" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="739.51634" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="747.68628" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="772.19607" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="788.53595" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="804.87581" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="821.21569" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="829.38563" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="837.55555" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="845.72549" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="870.2353" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="894.7451" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="919.2549" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="943.7647" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="968.27451" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="1000.95425" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-key" x="1532" y="761.5" fill="#6FAEFF"/>
+<use href="#ui-eye" x="218" y="754" width="15" height="15" color="#929292"/>
+<rect x="1" y="778" width="1599" height="31" rx="0" fill="#252525"/>
+<path d="M0 809L1600 809" stroke="#323232"/>
+<use href="#ui-edge" x="43" y="786" width="14" height="14" color="#A7A7A7"/>
+<text x="67" y="798" class="small muted" text-anchor="start">Edge contour</text>
+<path d="M282 793.5L1532 793.5" stroke="#454545"/>
+<use href="#ui-key" x="282" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="388.20875" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="437.22875" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="445.39875" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="453.56875" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="469.90875" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="486.24875" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="502.5875" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="543.4375" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="551.6075" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="584.2875" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="600.6275" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="616.9675" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="633.3075" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="641.4775" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="649.6475" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="665.9875" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="682.32625" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="698.66625" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="739.51625" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="747.68625" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="780.36625" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="796.70625" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="813.045" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="829.38625" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="837.555" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="845.725" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="902.915" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="1000.95375" y="793.5" fill="#538ACB"/>
+<use href="#ui-key" x="1532" y="793.5" fill="#538ACB"/>
+<use href="#ui-eye" x="218" y="786" width="15" height="15" color="#929292"/>
+<rect x="1" y="810" width="1599" height="31" rx="0" fill="#222430"/>
+<path d="M0 841L1600 841" stroke="#323232"/>
+<use href="#ui-sparkle" x="43" y="818" width="14" height="14" color="#A7A7A7"/>
+<text x="67" y="830" class="small muted" text-anchor="start">Shine &amp; sparkles</text>
+<path d="M282 825.5L1532 825.5" stroke="#454545"/>
+<use href="#ui-key" x="282" y="825.5" fill="#ADBCCC"/>
+<use href="#ui-key" x="347.35875" y="825.5" fill="#ADBCCC"/>
+<use href="#ui-key" x="445.39875" y="825.5" fill="#ADBCCC"/>
+<use href="#ui-key" x="567.9475" y="825.5" fill="#ADBCCC"/>
+<use href="#ui-key" x="682.3275" y="825.5" fill="#ADBCCC"/>
+<use href="#ui-key" x="845.725" y="825.5" fill="#ADBCCC"/>
+<use href="#ui-key" x="1016.885" y="825.5" fill="#ADBCCC"/>
+<use href="#ui-key" x="1156.1825" y="825.5" fill="#ADBCCC"/>
+<use href="#ui-key" x="1376.77125" y="825.5" fill="#ADBCCC"/>
+<use href="#ui-key" x="1532" y="825.5" fill="#ADBCCC"/>
+<use href="#ui-eye" x="218" y="818" width="15" height="15" color="#929292"/>
+<path d="M254.5 713L254.5 866" stroke="#343434"/>
+<g clip-path="url(#ui-tracks-clip)">
+<rect x="282" y="711" height="155" width="0" fill="#1F7CF0" opacity=".045">
+<animate attributeName="width" dur="2.55s" repeatCount="indefinite" calcMode="linear" values="0;1250"/>
+</rect><g transform="translate(282 0)">
+<animateTransform attributeName="transform" type="translate" dur="2.55s" repeatCount="indefinite" calcMode="linear" values="282 0;1532 0"/>
+<path d="M0 703V866" stroke="#84BDFF" stroke-width="1.4"/><path d="M-5 701h10v8l-5 5-5-5z" fill="#84BDFF"/></g></g>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1E1E1E"/>
+<path d="M0 866.5L1600 866.5" stroke="#343434"/>
+<use href="#ui-repeat" x="21" y="876" width="13" height="13" color="#66A9FF"/>
+<text x="44" y="887" class="small muted" text-anchor="start">Loop playback</text>
+<path d="M143 877L143 891" stroke="#343434"/>
+<text x="157" y="887" class="small muted" text-anchor="start">400 × 400 canvas</text>
+<use href="#ui-minus" x="712" y="875" width="15" height="15" color="#A1A1A1"/>
+<path d="M736 882.5L850 882.5" stroke="#505050"/>
+<path d="M736 882.5L782 882.5" stroke="#1F7CF0"/>
+<circle cx="782" cy="882.5" r="4" fill="#1F7CF0"/>
+<use href="#ui-plus" x="861" y="875" width="15" height="15" color="#A1A1A1"/>
+<use href="#ui-check" x="1492" y="875" width="14" height="14" color="#a3ccac"/>
+<text x="1514" y="887" class="small muted" text-anchor="start">SVG preview</text>
+</svg>

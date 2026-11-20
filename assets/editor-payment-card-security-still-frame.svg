@@ -1,0 +1,532 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="recording-title recording-description">
+<title id="recording-title">Payment Card Security — editor still frame</title>
+<desc id="recording-description">A static vector frame from the Payment Card Security editor recording at 4.5 seconds.</desc>
+<style>
+text { fill: #FFFFFF; font: 13px 'Segoe UI', system-ui, sans-serif; }
+.title { font-weight: 650; font-size: 16px; }
+.heading { font-weight: 650; font-size: 13px; }
+.small { font-size: 12px; }
+.tiny { font-size: 11px; }
+.muted { fill: #A6A6A6; }
+.accent { fill: #66A9FF; }
+.mono { font: 12px Consolas, 'Courier New', monospace; font-variant-numeric: tabular-nums; }
+.time { font: 600 14px Consolas, 'Courier New', monospace; fill: #FFFFFF; }
+.badge { font: 600 11px 'Segoe UI', system-ui, sans-serif; letter-spacing: .9px; fill: #ffb0b8; }
+</style>
+<defs>
+<symbol id="ui-project-mark" viewBox="0 0 512 512">
+  <path fill="#F52477" d="M334.857,166.955l-65.516-65.531c-39.469,23.672-126.656,62.688-126.656,62.688 c-19.719,8.172-33.938,25.813-37.734,46.813L60.826,416.596l-25.313,25.313c-9.125-0.109-18.281,3.297-25.234,10.25 c-13.703,13.688-13.703,35.875,0,49.563c13.688,13.703,35.891,13.703,49.578,0c6.953-6.953,10.359-16.109,10.234-25.219 l25.313-25.313l205.688-44.125c21-3.813,38.625-18.031,46.797-37.734c0,0,39.047-87.156,62.734-126.609l-65.531-65.531 L334.857,166.955z M269.889,302.127c-15.25,15.25-39.188,16.438-55.813,3.641L63.436,456.408c-1.094-1.484-2.25-2.922-3.578-4.25 c-1.344-1.344-2.766-2.5-4.25-3.578l150.641-150.641c-12.813-16.641-11.625-40.563,3.625-55.813 c16.578-16.578,43.438-16.578,60.016,0S286.467,285.564,269.889,302.127z" />
+  <path fill="#F52477" d="M511.998,139.705L372.311,0.002c0,0-29.375,29.375-45.156,45.156s-36.297,11.047-36.297,11.047l-18.953,18.938 l66.297,66.297l15.781,15.781l82.875,82.875l18.938-18.938c0,0-4.734-20.516,11.047-36.313 C482.639,169.064,511.998,139.705,511.998,139.705z" />
+</symbol>
+  <pattern id="ui-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#747474" opacity=".21" />
+  </pattern>
+  <radialGradient id="ui-vignette">
+    <stop stop-color="#242424" />
+    <stop offset="1" stop-color="#1E1E1E" />
+  </radialGradient>
+  <linearGradient id="ui-track" x1="0" x2="1" y1="0" y2="0">
+    <stop stop-color="#355D91" stop-opacity=".83" />
+    <stop offset="1" stop-color="#2F3646" stop-opacity=".64" />
+  </linearGradient>
+  <filter id="ui-artboard-shadow" x="-20%" y="-20%" width="140%" height="145%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="12" stdDeviation="24" flood-color="#121212" flood-opacity=".52" /></filter>
+<clipPath id="ui-canvas-clip"><rect x="580" y="149" width="420" height="420" /></clipPath>
+  <clipPath id="ui-clock-clip"><rect x="183" y="649" width="71" height="22" /></clipPath>
+    <clipPath id="ui-tracks-clip"><rect x="255" y="682" width="1345" height="184" /></clipPath>
+<symbol id="ui-chev-down" viewBox="0 0 16 16"><path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-pointer" viewBox="0 0 16 16"><path d="M3 2l10 6-5 1-2 5z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-nodes" viewBox="0 0 16 16"><path d="M4 4l8 8M4 12l8-8M2 2h4v4H2zM10 10h4v4h-4z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-shape" viewBox="0 0 16 16"><path d="M3.5 3.5h9v9h-9z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-pen" viewBox="0 0 16 16"><path d="M3 13l1.5-6L10 2l4 4-5.5 5.5L3 13zm0 0l4-4" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-type" viewBox="0 0 16 16"><path d="M3 4V2.5h10V4M8 3v10m-3 0h6" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-hand" viewBox="0 0 16 16"><path d="M4.5 8V5a1 1 0 012 0v3-5a1 1 0 012 0v5-4a1 1 0 012 0v4-2a1 1 0 012 0v4c0 2-1.5 4-4 4H8c-2 0-3-1-4-2.5L2 9.5c-.7-1 .5-2.2 1.5-1.5l1 1" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-undo" viewBox="0 0 16 16"><path d="M6 3L3 6l3 3M3 6h6a3.5 3.5 0 010 7H8" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-redo" viewBox="0 0 16 16"><path d="M10 3l3 3-3 3m3-3H7a3.5 3.5 0 000 7h1" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-zoom" viewBox="0 0 16 16"><path d="M11 11l3 3M12 7a5 5 0 11-10 0 5 5 0 0110 0z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-grid" viewBox="0 0 16 16"><path d="M3 3h10v10H3zm0 5h10M8 3v10" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-fit" viewBox="0 0 16 16"><path d="M6 3H3v3m7-3h3v3m0 4v3h-3m-4 0H3v-3" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-plus" viewBox="0 0 16 16"><path d="M3 8h10M8 3v10" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-minus" viewBox="0 0 16 16"><path d="M3 8h10" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-more" viewBox="0 0 16 16"><path d="M3.5 8h.1M8 8h.1m4.4 0h.1" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-layers" viewBox="0 0 16 16"><path d="M8 2l6 4-6 4-6-4 6-4zm-6 7l6 4 6-4" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-canvas" viewBox="0 0 16 16"><path d="M3 3h10v10H3zM6 1.5v3m4-3v3M1.5 6h3m-3 4h3m7-4h3m-3 4h3M6 11.5v3m4-3v3" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-folder" viewBox="0 0 16 16"><path d="M2 4h5l1.5 2H14v7H2z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-sparkle" viewBox="0 0 16 16"><path d="M8 2l1.6 4.4L14 8 9.6 9.6 8 14 6.4 9.6 2 8l4.4-1.6L8 2z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-eye" viewBox="0 0 16 16"><path d="M1.5 8S4 4 8 4s6.5 4 6.5 4S12 12 8 12 1.5 8 1.5 8zm8 0a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-lock" viewBox="0 0 16 16"><path d="M4 7h8v6H4zm2 0V5a2 2 0 114 0v2" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-diamond" viewBox="0 0 16 16"><path d="M8 2.5L13.5 8 8 13.5 2.5 8 8 2.5z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-start" viewBox="0 0 16 16"><path d="M3.5 3.5v9m8.5-9L5.8 8l6.2 4.5z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-pause" viewBox="0 0 16 16"><path d="M6 4v8m4-8v8" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-repeat" viewBox="0 0 16 16"><path d="M3 7V5a2 2 0 012-2h7m-2-2 2 2-2 2m3 4v2a2 2 0 01-2 2H4m2-2-2 2 2 2" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-curve" viewBox="0 0 16 16"><path d="M2 11C6 11 6 5 14 5m-12 6h.1m11.9-6h.1" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-export" viewBox="0 0 16 16"><path d="M8 10V2m-3 3 3-3 3 3M3 9v4h10V9" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<symbol id="ui-check" viewBox="0 0 16 16"><path d="M3.5 8l3 3 6-6" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" /></symbol>
+<path id="ui-key" d="M0-4.5L4.5 0 0 4.5-4.5 0Z" />
+<rect id="ui-handle" x="-3" y="-3" width="6" height="6" rx="1" fill="#FFFFFF" stroke="#1F7CF0" stroke-width="1.15" />
+</defs>
+<rect x="0" y="0" width="1600" height="900" rx="0" fill="#1E1E1E" />
+<rect x="0" y="0" width="1600" height="70" rx="0" fill="#1E1E1E" />
+<path d="M0 69.5L1600 69.5" stroke="#343434" />
+<use href="#ui-project-mark" x="21" y="19" width="32" height="32" />
+<text x="69" y="32" class="title" style="font-size:14px" text-anchor="start">Payment Card Security</text>
+<text x="69" y="49" class="tiny muted" text-anchor="start">Motion project</text>
+<use href="#ui-chev-down" x="222" y="28" width="13" height="13" color="#A1A1A1" />
+<path d="M243 20L243 50" stroke="#343434" />
+<use href="#ui-undo" x="252" y="27" width="16" height="16" color="#909090" />
+<use href="#ui-redo" x="280" y="27" width="16" height="16" color="#909090" />
+<path d="M307 20L307 50" stroke="#343434" />
+<rect x="327" y="16" width="37" height="38" rx="8" fill="#203955" stroke="#345373" />
+<use href="#ui-pointer" x="337" y="26" width="18" height="18" color="#66A9FF" />
+<use href="#ui-nodes" x="381" y="26" width="18" height="18" color="#A1A1A1" />
+<use href="#ui-shape" x="424" y="26" width="18" height="18" color="#A1A1A1" />
+<use href="#ui-pen" x="467" y="26" width="18" height="18" color="#A1A1A1" />
+<use href="#ui-type" x="510" y="26" width="18" height="18" color="#A1A1A1" />
+<use href="#ui-hand" x="553" y="26" width="18" height="18" color="#A1A1A1" />
+<path d="M591 20L591 50" stroke="#343434" />
+<use href="#ui-grid" x="610" y="26" width="18" height="18" color="#A1A1A1" />
+<use href="#ui-fit" x="650" y="26" width="18" height="18" color="#A1A1A1" />
+<rect x="690" y="18" width="82" height="34" rx="7" fill="#1C1C1C" stroke="#353535" />
+<text x="703" y="40" class="mono" text-anchor="start">82%</text>
+<use href="#ui-chev-down" x="745" y="28" width="13" height="13" color="#A1A1A1" />
+<rect x="1354" y="19" width="77" height="32" rx="16" fill="#36282A" stroke="#604144" />
+<circle cx="1370" cy="35" r="4" fill="#ff7186" opacity="0.5008116" />
+<text x="1382" y="39" class="badge" text-anchor="start">REC</text>
+<rect x="1447" y="17" width="134" height="36" rx="8" fill="#1F7CF0" />
+<use href="#ui-export" x="1462" y="27" width="16" height="16" color="#FFFFFF" />
+<text x="1488" y="40" style="fill:#FFFFFF;font-weight:650">Export SVG</text>
+<rect x="254" y="70" width="1072" height="562" rx="0" fill="url(#ui-vignette)" />
+<rect x="274" y="94" width="1052" height="538" rx="0" fill="url(#ui-dots)" />
+<rect x="254" y="70" width="1072" height="24" rx="0" fill="#2A2A2A" />
+<rect x="254" y="94" width="20" height="538" rx="0" fill="#2A2A2A" />
+<path d="M254 94L1326 94" stroke="#343434" />
+<path d="M274 94L274 632" stroke="#343434" />
+<path d="M274 70L274 94" stroke="#343434" />
+<path d="M276.484375 94L276.484375 90" stroke="#4A4A4A" />
+<path d="M284.6875 94L284.6875 90" stroke="#4A4A4A" />
+<path d="M292.890625 94L292.890625 90" stroke="#4A4A4A" />
+<path d="M301.09375 94L301.09375 90" stroke="#4A4A4A" />
+<path d="M309.296875 94L309.296875 90" stroke="#4A4A4A" />
+<path d="M317.5 94L317.5 90" stroke="#4A4A4A" />
+<path d="M325.703125 94L325.703125 90" stroke="#4A4A4A" />
+<path d="M333.90625 94L333.90625 86" stroke="#7D7D7D" />
+<text x="337.90625" y="82" class="tiny muted" text-anchor="start">-300</text>
+<path d="M342.109375 94L342.109375 90" stroke="#4A4A4A" />
+<path d="M350.3125 94L350.3125 90" stroke="#4A4A4A" />
+<path d="M358.515625 94L358.515625 90" stroke="#4A4A4A" />
+<path d="M366.71875 94L366.71875 90" stroke="#4A4A4A" />
+<path d="M374.921875 94L374.921875 90" stroke="#4A4A4A" />
+<path d="M383.125 94L383.125 90" stroke="#4A4A4A" />
+<path d="M391.328125 94L391.328125 90" stroke="#4A4A4A" />
+<path d="M399.53125 94L399.53125 90" stroke="#4A4A4A" />
+<path d="M407.734375 94L407.734375 90" stroke="#4A4A4A" />
+<path d="M415.9375 94L415.9375 86" stroke="#7D7D7D" />
+<text x="419.9375" y="82" class="tiny muted" text-anchor="start">-200</text>
+<path d="M424.140625 94L424.140625 90" stroke="#4A4A4A" />
+<path d="M432.34375 94L432.34375 90" stroke="#4A4A4A" />
+<path d="M440.546875 94L440.546875 90" stroke="#4A4A4A" />
+<path d="M448.75 94L448.75 90" stroke="#4A4A4A" />
+<path d="M456.953125 94L456.953125 90" stroke="#4A4A4A" />
+<path d="M465.15625 94L465.15625 90" stroke="#4A4A4A" />
+<path d="M473.359375 94L473.359375 90" stroke="#4A4A4A" />
+<path d="M481.5625 94L481.5625 90" stroke="#4A4A4A" />
+<path d="M489.765625 94L489.765625 90" stroke="#4A4A4A" />
+<path d="M497.96875 94L497.96875 86" stroke="#7D7D7D" />
+<text x="501.96875" y="82" class="tiny muted" text-anchor="start">-100</text>
+<path d="M506.171875 94L506.171875 90" stroke="#4A4A4A" />
+<path d="M514.375 94L514.375 90" stroke="#4A4A4A" />
+<path d="M522.578125 94L522.578125 90" stroke="#4A4A4A" />
+<path d="M530.78125 94L530.78125 90" stroke="#4A4A4A" />
+<path d="M538.984375 94L538.984375 90" stroke="#4A4A4A" />
+<path d="M547.1875 94L547.1875 90" stroke="#4A4A4A" />
+<path d="M555.390625 94L555.390625 90" stroke="#4A4A4A" />
+<path d="M563.59375 94L563.59375 90" stroke="#4A4A4A" />
+<path d="M571.796875 94L571.796875 90" stroke="#4A4A4A" />
+<path d="M580 94L580 86" stroke="#7D7D7D" />
+<text x="584" y="82" class="tiny muted" text-anchor="start">0</text>
+<path d="M588.203125 94L588.203125 90" stroke="#4A4A4A" />
+<path d="M596.40625 94L596.40625 90" stroke="#4A4A4A" />
+<path d="M604.609375 94L604.609375 90" stroke="#4A4A4A" />
+<path d="M612.8125 94L612.8125 90" stroke="#4A4A4A" />
+<path d="M621.015625 94L621.015625 90" stroke="#4A4A4A" />
+<path d="M629.21875 94L629.21875 90" stroke="#4A4A4A" />
+<path d="M637.421875 94L637.421875 90" stroke="#4A4A4A" />
+<path d="M645.625 94L645.625 90" stroke="#4A4A4A" />
+<path d="M653.828125 94L653.828125 90" stroke="#4A4A4A" />
+<path d="M662.03125 94L662.03125 86" stroke="#7D7D7D" />
+<text x="666.03125" y="82" class="tiny muted" text-anchor="start">100</text>
+<path d="M670.234375 94L670.234375 90" stroke="#4A4A4A" />
+<path d="M678.4375 94L678.4375 90" stroke="#4A4A4A" />
+<path d="M686.640625 94L686.640625 90" stroke="#4A4A4A" />
+<path d="M694.84375 94L694.84375 90" stroke="#4A4A4A" />
+<path d="M703.046875 94L703.046875 90" stroke="#4A4A4A" />
+<path d="M711.25 94L711.25 90" stroke="#4A4A4A" />
+<path d="M719.453125 94L719.453125 90" stroke="#4A4A4A" />
+<path d="M727.65625 94L727.65625 90" stroke="#4A4A4A" />
+<path d="M735.859375 94L735.859375 90" stroke="#4A4A4A" />
+<path d="M744.0625 94L744.0625 86" stroke="#7D7D7D" />
+<text x="748.0625" y="82" class="tiny muted" text-anchor="start">200</text>
+<path d="M752.265625 94L752.265625 90" stroke="#4A4A4A" />
+<path d="M760.46875 94L760.46875 90" stroke="#4A4A4A" />
+<path d="M768.671875 94L768.671875 90" stroke="#4A4A4A" />
+<path d="M776.875 94L776.875 90" stroke="#4A4A4A" />
+<path d="M785.078125 94L785.078125 90" stroke="#4A4A4A" />
+<path d="M793.28125 94L793.28125 90" stroke="#4A4A4A" />
+<path d="M801.484375 94L801.484375 90" stroke="#4A4A4A" />
+<path d="M809.6875 94L809.6875 90" stroke="#4A4A4A" />
+<path d="M817.890625 94L817.890625 90" stroke="#4A4A4A" />
+<path d="M826.09375 94L826.09375 86" stroke="#7D7D7D" />
+<text x="830.09375" y="82" class="tiny muted" text-anchor="start">300</text>
+<path d="M834.296875 94L834.296875 90" stroke="#4A4A4A" />
+<path d="M842.5 94L842.5 90" stroke="#4A4A4A" />
+<path d="M850.703125 94L850.703125 90" stroke="#4A4A4A" />
+<path d="M858.90625 94L858.90625 90" stroke="#4A4A4A" />
+<path d="M867.109375 94L867.109375 90" stroke="#4A4A4A" />
+<path d="M875.3125 94L875.3125 90" stroke="#4A4A4A" />
+<path d="M883.515625 94L883.515625 90" stroke="#4A4A4A" />
+<path d="M891.71875 94L891.71875 90" stroke="#4A4A4A" />
+<path d="M899.921875 94L899.921875 90" stroke="#4A4A4A" />
+<path d="M908.125 94L908.125 86" stroke="#7D7D7D" />
+<text x="912.125" y="82" class="tiny muted" text-anchor="start">400</text>
+<path d="M916.328125 94L916.328125 90" stroke="#4A4A4A" />
+<path d="M924.53125 94L924.53125 90" stroke="#4A4A4A" />
+<path d="M932.734375 94L932.734375 90" stroke="#4A4A4A" />
+<path d="M940.9375 94L940.9375 90" stroke="#4A4A4A" />
+<path d="M949.140625 94L949.140625 90" stroke="#4A4A4A" />
+<path d="M957.34375 94L957.34375 90" stroke="#4A4A4A" />
+<path d="M965.546875 94L965.546875 90" stroke="#4A4A4A" />
+<path d="M973.75 94L973.75 90" stroke="#4A4A4A" />
+<path d="M981.953125 94L981.953125 90" stroke="#4A4A4A" />
+<path d="M990.15625 94L990.15625 86" stroke="#7D7D7D" />
+<text x="994.15625" y="82" class="tiny muted" text-anchor="start">500</text>
+<path d="M998.359375 94L998.359375 90" stroke="#4A4A4A" />
+<path d="M1006.5625 94L1006.5625 90" stroke="#4A4A4A" />
+<path d="M1014.765625 94L1014.765625 90" stroke="#4A4A4A" />
+<path d="M1022.96875 94L1022.96875 90" stroke="#4A4A4A" />
+<path d="M1031.171875 94L1031.171875 90" stroke="#4A4A4A" />
+<path d="M1039.375 94L1039.375 90" stroke="#4A4A4A" />
+<path d="M1047.578125 94L1047.578125 90" stroke="#4A4A4A" />
+<path d="M1055.78125 94L1055.78125 90" stroke="#4A4A4A" />
+<path d="M1063.984375 94L1063.984375 90" stroke="#4A4A4A" />
+<path d="M1072.1875 94L1072.1875 86" stroke="#7D7D7D" />
+<text x="1076.1875" y="82" class="tiny muted" text-anchor="start">600</text>
+<path d="M1080.390625 94L1080.390625 90" stroke="#4A4A4A" />
+<path d="M1088.59375 94L1088.59375 90" stroke="#4A4A4A" />
+<path d="M1096.796875 94L1096.796875 90" stroke="#4A4A4A" />
+<path d="M1105 94L1105 90" stroke="#4A4A4A" />
+<path d="M1113.203125 94L1113.203125 90" stroke="#4A4A4A" />
+<path d="M1121.40625 94L1121.40625 90" stroke="#4A4A4A" />
+<path d="M1129.609375 94L1129.609375 90" stroke="#4A4A4A" />
+<path d="M1137.8125 94L1137.8125 90" stroke="#4A4A4A" />
+<path d="M1146.015625 94L1146.015625 90" stroke="#4A4A4A" />
+<path d="M1154.21875 94L1154.21875 86" stroke="#7D7D7D" />
+<text x="1158.21875" y="82" class="tiny muted" text-anchor="start">700</text>
+<path d="M1162.421875 94L1162.421875 90" stroke="#4A4A4A" />
+<path d="M1170.625 94L1170.625 90" stroke="#4A4A4A" />
+<path d="M1178.828125 94L1178.828125 90" stroke="#4A4A4A" />
+<path d="M1187.03125 94L1187.03125 90" stroke="#4A4A4A" />
+<path d="M1195.234375 94L1195.234375 90" stroke="#4A4A4A" />
+<path d="M1203.4375 94L1203.4375 90" stroke="#4A4A4A" />
+<path d="M1211.640625 94L1211.640625 90" stroke="#4A4A4A" />
+<path d="M1219.84375 94L1219.84375 90" stroke="#4A4A4A" />
+<path d="M1228.046875 94L1228.046875 90" stroke="#4A4A4A" />
+<path d="M1236.25 94L1236.25 86" stroke="#7D7D7D" />
+<text x="1240.25" y="82" class="tiny muted" text-anchor="start">800</text>
+<path d="M1244.453125 94L1244.453125 90" stroke="#4A4A4A" />
+<path d="M1252.65625 94L1252.65625 90" stroke="#4A4A4A" />
+<path d="M1260.859375 94L1260.859375 90" stroke="#4A4A4A" />
+<path d="M1269.0625 94L1269.0625 90" stroke="#4A4A4A" />
+<path d="M1277.265625 94L1277.265625 90" stroke="#4A4A4A" />
+<path d="M1285.46875 94L1285.46875 90" stroke="#4A4A4A" />
+<path d="M1293.671875 94L1293.671875 90" stroke="#4A4A4A" />
+<path d="M1301.875 94L1301.875 90" stroke="#4A4A4A" />
+<path d="M1310.078125 94L1310.078125 90" stroke="#4A4A4A" />
+<path d="M1318.28125 94L1318.28125 86" stroke="#7D7D7D" />
+<path d="M274 99.78125L270 99.78125" stroke="#4A4A4A" />
+<path d="M274 107.984375L270 107.984375" stroke="#4A4A4A" />
+<path d="M274 116.1875L270 116.1875" stroke="#4A4A4A" />
+<path d="M274 124.390625L270 124.390625" stroke="#4A4A4A" />
+<path d="M274 132.59375L270 132.59375" stroke="#4A4A4A" />
+<path d="M274 140.796875L270 140.796875" stroke="#4A4A4A" />
+<path d="M274 149L266 149" stroke="#7D7D7D" />
+<text transform="translate(263 153) rotate(-90)" text-anchor="end" class="tiny muted">0</text>
+<path d="M274 157.203125L270 157.203125" stroke="#4A4A4A" />
+<path d="M274 165.40625L270 165.40625" stroke="#4A4A4A" />
+<path d="M274 173.609375L270 173.609375" stroke="#4A4A4A" />
+<path d="M274 181.8125L270 181.8125" stroke="#4A4A4A" />
+<path d="M274 190.015625L270 190.015625" stroke="#4A4A4A" />
+<path d="M274 198.21875L270 198.21875" stroke="#4A4A4A" />
+<path d="M274 206.421875L270 206.421875" stroke="#4A4A4A" />
+<path d="M274 214.625L270 214.625" stroke="#4A4A4A" />
+<path d="M274 222.828125L270 222.828125" stroke="#4A4A4A" />
+<path d="M274 231.03125L266 231.03125" stroke="#7D7D7D" />
+<text transform="translate(263 235.03125) rotate(-90)" text-anchor="end" class="tiny muted">100</text>
+<path d="M274 239.234375L270 239.234375" stroke="#4A4A4A" />
+<path d="M274 247.4375L270 247.4375" stroke="#4A4A4A" />
+<path d="M274 255.640625L270 255.640625" stroke="#4A4A4A" />
+<path d="M274 263.84375L270 263.84375" stroke="#4A4A4A" />
+<path d="M274 272.046875L270 272.046875" stroke="#4A4A4A" />
+<path d="M274 280.25L270 280.25" stroke="#4A4A4A" />
+<path d="M274 288.453125L270 288.453125" stroke="#4A4A4A" />
+<path d="M274 296.65625L270 296.65625" stroke="#4A4A4A" />
+<path d="M274 304.859375L270 304.859375" stroke="#4A4A4A" />
+<path d="M274 313.0625L266 313.0625" stroke="#7D7D7D" />
+<text transform="translate(263 317.0625) rotate(-90)" text-anchor="end" class="tiny muted">200</text>
+<path d="M274 321.265625L270 321.265625" stroke="#4A4A4A" />
+<path d="M274 329.46875L270 329.46875" stroke="#4A4A4A" />
+<path d="M274 337.671875L270 337.671875" stroke="#4A4A4A" />
+<path d="M274 345.875L270 345.875" stroke="#4A4A4A" />
+<path d="M274 354.078125L270 354.078125" stroke="#4A4A4A" />
+<path d="M274 362.28125L270 362.28125" stroke="#4A4A4A" />
+<path d="M274 370.484375L270 370.484375" stroke="#4A4A4A" />
+<path d="M274 378.6875L270 378.6875" stroke="#4A4A4A" />
+<path d="M274 386.890625L270 386.890625" stroke="#4A4A4A" />
+<path d="M274 395.09375L266 395.09375" stroke="#7D7D7D" />
+<text transform="translate(263 399.09375) rotate(-90)" text-anchor="end" class="tiny muted">300</text>
+<path d="M274 403.296875L270 403.296875" stroke="#4A4A4A" />
+<path d="M274 411.5L270 411.5" stroke="#4A4A4A" />
+<path d="M274 419.703125L270 419.703125" stroke="#4A4A4A" />
+<path d="M274 427.90625L270 427.90625" stroke="#4A4A4A" />
+<path d="M274 436.109375L270 436.109375" stroke="#4A4A4A" />
+<path d="M274 444.3125L270 444.3125" stroke="#4A4A4A" />
+<path d="M274 452.515625L270 452.515625" stroke="#4A4A4A" />
+<path d="M274 460.71875L270 460.71875" stroke="#4A4A4A" />
+<path d="M274 468.921875L270 468.921875" stroke="#4A4A4A" />
+<path d="M274 477.125L266 477.125" stroke="#7D7D7D" />
+<text transform="translate(263 481.125) rotate(-90)" text-anchor="end" class="tiny muted">400</text>
+<path d="M274 485.328125L270 485.328125" stroke="#4A4A4A" />
+<path d="M274 493.53125L270 493.53125" stroke="#4A4A4A" />
+<path d="M274 501.734375L270 501.734375" stroke="#4A4A4A" />
+<path d="M274 509.9375L270 509.9375" stroke="#4A4A4A" />
+<path d="M274 518.140625L270 518.140625" stroke="#4A4A4A" />
+<path d="M274 526.34375L270 526.34375" stroke="#4A4A4A" />
+<path d="M274 534.546875L270 534.546875" stroke="#4A4A4A" />
+<path d="M274 542.75L270 542.75" stroke="#4A4A4A" />
+<path d="M274 550.953125L270 550.953125" stroke="#4A4A4A" />
+<path d="M274 559.15625L266 559.15625" stroke="#7D7D7D" />
+<text transform="translate(263 563.15625) rotate(-90)" text-anchor="end" class="tiny muted">500</text>
+<path d="M274 567.359375L270 567.359375" stroke="#4A4A4A" />
+<path d="M274 575.5625L270 575.5625" stroke="#4A4A4A" />
+<path d="M274 583.765625L270 583.765625" stroke="#4A4A4A" />
+<path d="M274 591.96875L270 591.96875" stroke="#4A4A4A" />
+<path d="M274 600.171875L270 600.171875" stroke="#4A4A4A" />
+<path d="M274 608.375L270 608.375" stroke="#4A4A4A" />
+<path d="M274 616.578125L270 616.578125" stroke="#4A4A4A" />
+<path d="M274 624.78125L270 624.78125" stroke="#4A4A4A" />
+<text x="580" y="134" class="small muted" text-anchor="start">Payment Card Security</text>
+<text x="1000" y="134" class="mono muted" text-anchor="end">512 × 512</text>
+<rect x="580" y="149" width="420" height="420" fill="#16191F" filter="url(#ui-artboard-shadow)" />
+<g id="project-artboard" clip-path="url(#ui-canvas-clip)" aria-label="Payment Card Security">
+<g transform="translate(580 149) scale(0.8203125) translate(0 0)" fill="none"><defs /><g style="isolation: isolate"><g transform="matrix(1.27,0,0,1.27,192.5,125.5)" id="payment-card-security-Null-1"><g id="payment-card-security-Card-Null"><g transform="translate(45 95)"><g transform="rotate(40)"><g transform="scale(1.005,1.005) translate(-50,-50)"><g opacity="1" display="inline" id="payment-card-security-Padlock-Top"><g transform="translate(29.855,86.595)"><g transform="rotate(-40)"><g transform="scale(0.896 0.896)"><g transform="translate(48,27.6)"><g id="payment-card-security-Group-1"><path stroke-dashoffset="0" stroke-dasharray="100 0.001" pathLength="100" stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="round" stroke-width="24" stroke-opacity="1" stroke="#ffffff" d="M41.186,-27.6C41.186,-27.6,41.186,-86.752,41.186,-86.752C41.186,-109.49,21.183,-128,-3.402,-128C-27.987,-128,-48,-109.49,-48,-86.752C-48,-86.752,-48,-27.6,-48,-27.6" /></g></g></g></g></g></g></g></g></g></g></g><g transform="matrix(1.27,0,0,1.27,192.5,125.5)" id="payment-card-security-Null-1-2"><g id="payment-card-security-Card-Null-2"><g transform="translate(45 95)"><g transform="rotate(40)"><g transform="scale(1.005,1.005) translate(-50,-50)" /></g></g></g></g><g transform="matrix(1.27,0,0,1.27,192.5,125.5)" id="payment-card-security-Null-1-3"><g id="payment-card-security-Card-Null-3"><g transform="translate(45 95)"><g transform="rotate(40)"><g transform="scale(1.005,1.005) translate(-50,-50)" /></g></g></g></g><g transform="matrix(1.27,0,0,1.27,192.5,125.5)" id="payment-card-security-Null-1-4"><g id="payment-card-security-Card-Null-4"><g transform="translate(45 95)"><g transform="rotate(40)"><g transform="scale(1.005,1.005) translate(-50,-50)" /></g></g></g></g><g transform="matrix(1.27,0,0,1.27,192.5,125.5)" id="payment-card-security-Null-1-5"><g id="payment-card-security-Card-Null-5"><g transform="translate(45 95)"><g transform="rotate(40)"><g transform="scale(1.005,1.005) translate(-50,-50)" /></g></g></g></g><g transform="matrix(1.27,0,0,1.27,192.5,125.5)" id="payment-card-security-Null-1-6"><g id="payment-card-security-Card-Null-6"><g transform="translate(45 95)"><g transform="rotate(40)"><g transform="scale(1.005,1.005) translate(-50,-50)" /></g></g></g></g><g transform="matrix(1.27,0,0,1.27,192.5,125.5)" id="payment-card-security-Null-1-7"><g id="payment-card-security-Card-Null-7"><g transform="translate(45 95)"><g transform="rotate(40)"><g transform="scale(1.005,1.005) translate(-50,-50)"><g display="inline" id="payment-card-security-Padlock-Bottom"><g transform="translate(91.479,98.598) rotate(-40)"><g transform="scale(0.896 0.896)"><g transform="translate(3.05,-26.9)"><g id="payment-card-security-Group-1-126"><path fill="#ffffff" fill-opacity="1" d="M71.45,-34.6C71.45,-34.6,-77.55,-34.6,-77.55,-34.6C-77.55,-34.6,-77.55,88.4,-77.55,88.4C-77.55,88.4,71.45,88.4,71.45,88.4C71.45,88.4,71.45,-34.6,71.45,-34.6Z" /></g></g></g></g></g></g></g></g></g></g><g transform="matrix(1.27,0,0,1.27,192.5,125.5)" id="payment-card-security-Null-1-8"><g id="payment-card-security-Card-Null-8"><g transform="translate(45 95)"><g transform="rotate(40)"><g transform="scale(1.005,1.005) translate(-50,-50)"><g id="payment-card-security-Padlock-Bottom-2"><g transform="translate(91.479,98.598) rotate(-40)"><g transform="scale(0.896 0.896)"><g transform="translate(3.05,-26.9)"><g transform="matrix(0.896,0,0,0.896,13.353,-18.531)" display="inline" id="payment-card-security-Checkmark"><g id="payment-card-security-Shape-1"><path display="inline" stroke-dashoffset="0" stroke-dasharray="100 0.001" pathLength="100" stroke-miterlimit="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="10" stroke-opacity="1" stroke="#70ba65" d="M-42,44C-42,44,-22.5,63.875,-22.5,63.875C-22.5,63.875,13.625,30,13.625,30" /></g></g></g></g></g></g></g></g></g></g></g><g transform="matrix(1.27,0,0,1.27,192.5,125.5)" id="payment-card-security-Null-1-9" /><g transform="matrix(1.27,0,0,1.27,192.5,125.5)" id="payment-card-security-Null-1-10" /><g transform="matrix(1.27,0,0,1.27,192.5,125.5)" id="payment-card-security-Null-1-11" /></g></g></g>
+<g id="ui-selection" aria-hidden="true"><rect x="580" y="149" width="420" height="420" fill="none" stroke="#1F7CF0" stroke-width="1.2" />
+<use href="#ui-handle" x="580" y="149" />
+<use href="#ui-handle" x="580" y="569" />
+<use href="#ui-handle" x="1000" y="149" />
+<use href="#ui-handle" x="1000" y="569" />
+</g>
+<rect x="733" y="578" width="114" height="30" rx="7" fill="#2A2A2A" stroke="#3D3D3D" />
+<use href="#ui-fit" x="746" y="585" width="16" height="16" color="#AAAAAA" />
+<text x="772" y="597" class="small muted" text-anchor="start">Artboard</text>
+<rect x="0" y="70" width="254" height="562" rx="0" fill="#252525" />
+<path d="M253.5 70L253.5 632" stroke="#343434" />
+<use href="#ui-layers" x="18" y="91" width="16" height="16" color="#66A9FF" />
+<text x="44" y="104" class="heading" text-anchor="start">Layers</text>
+<use href="#ui-plus" x="192" y="91" width="16" height="16" color="#A1A1A1" />
+<use href="#ui-more" x="220" y="91" width="16" height="16" color="#A1A1A1" />
+<rect x="16" y="122" width="222" height="34" rx="7" fill="#1B1B1B" stroke="#343434" />
+<use href="#ui-zoom" x="27" y="131" width="15" height="15" color="#A1A1A1" />
+<text x="51" y="144" class="small muted" text-anchor="start">Search layers</text>
+<rect x="12" y="170" width="230" height="37" rx="6" fill="#2A2A2A" />
+<use href="#ui-chev-down" x="22" y="181" width="14" height="14" color="#A1A1A1" />
+<use href="#ui-canvas" x="46" y="180" width="16" height="16" color="#A1A1A1" />
+<text x="73" y="194" class="heading" text-anchor="start">Artboard</text>
+<use href="#ui-lock" x="218" y="181" width="14" height="14" color="#A1A1A1" />
+<path d="M29 207L29 366" stroke="#404040" />
+<rect x="12" y="213" width="230" height="37" rx="6" fill="#1F7CF0" />
+<rect x="12" y="219" width="3" height="25" rx="1.5" fill="#7CB7FF" />
+<use href="#ui-chev-down" x="23" y="224" width="14" height="14" color="#FFFFFF" />
+<use href="#ui-folder" x="47" y="223" width="16" height="16" color="#FFFFFF" />
+<text x="73" y="237" class="heading" text-anchor="start">Artwork</text>
+<use href="#ui-eye" x="216" y="224" width="16" height="16" color="#FFFFFF" />
+<path d="M29 264L48 264" stroke="#404040" />
+<use href="#ui-layers" x="53" y="256" width="15" height="15" color="#ABABAB" />
+<text x="77" y="268" class="small" text-anchor="start">Floating cards</text>
+<use href="#ui-eye" x="216" y="256" width="15" height="15" color="#8E8E8E" />
+<path d="M29 298L48 298" stroke="#404040" />
+<use href="#ui-lock" x="53" y="290" width="15" height="15" color="#ABABAB" />
+<text x="77" y="302" class="small" text-anchor="start">Padlock</text>
+<use href="#ui-eye" x="216" y="290" width="15" height="15" color="#8E8E8E" />
+<path d="M29 332L48 332" stroke="#404040" />
+<use href="#ui-check" x="53" y="324" width="15" height="15" color="#ABABAB" />
+<text x="77" y="336" class="small" text-anchor="start">Checkmark</text>
+<use href="#ui-eye" x="216" y="324" width="15" height="15" color="#8E8E8E" />
+<path d="M29 366L48 366" stroke="#404040" />
+<use href="#ui-sparkle" x="53" y="358" width="15" height="15" color="#ABABAB" />
+<text x="77" y="370" class="small" text-anchor="start">Highlights</text>
+<use href="#ui-eye" x="216" y="358" width="15" height="15" color="#8E8E8E" />
+<rect x="1326" y="70" width="274" height="562" rx="0" fill="#252525" />
+<path d="M1326.5 70L1326.5 632" stroke="#343434" />
+<text x="1345" y="104" class="heading accent" text-anchor="start">Properties</text>
+<text x="1442" y="104" class="heading muted" text-anchor="start">Animation</text>
+<path d="M1327 120L1600 120" stroke="#343434" />
+<path d="M1344 119L1415 119" stroke="#1F7CF0" />
+<rect x="1344" y="139" width="238" height="54" rx="8" fill="#2A2A2A" stroke="#3B3B3B" />
+<rect x="1353" y="149" width="34" height="34" rx="8" fill="#1F7CF0" />
+<use href="#ui-folder" x="1361" y="157" width="18" height="18" color="#FFFFFF" />
+<text x="1398" y="162" class="heading" text-anchor="start">Artwork</text>
+<text x="1398" y="178" class="tiny muted" text-anchor="start">Animation group</text>
+<use href="#ui-more" x="1553" y="158" width="15" height="15" color="#A1A1A1" />
+<text x="1345" y="225" class="heading" text-anchor="start">Transform</text>
+<use href="#ui-chev-down" x="1565" y="213" width="14" height="14" color="#A1A1A1" />
+<text x="1345" y="249" class="small muted" text-anchor="start">Position</text>
+<rect x="1344" y="256" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1354" y="276" class="tiny muted" text-anchor="start">X</text>
+<text x="1377" y="276" class="mono" text-anchor="start">0</text>
+<rect x="1469" y="256" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1479" y="276" class="tiny muted" text-anchor="start">Y</text>
+<text x="1502" y="276" class="mono" text-anchor="start">0</text>
+<text x="1345" y="320" class="small muted" text-anchor="start">Anchor</text>
+<rect x="1344" y="327" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1354" y="347" class="tiny muted" text-anchor="start">X</text>
+<text x="1377" y="347" class="mono" text-anchor="start">256</text>
+<rect x="1469" y="327" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1479" y="347" class="tiny muted" text-anchor="start">Y</text>
+<text x="1502" y="347" class="mono" text-anchor="start">256</text>
+<text x="1345" y="391" class="small muted" text-anchor="start">Scale</text>
+<rect x="1344" y="398" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1354" y="418" class="tiny muted" text-anchor="start">X</text>
+<rect x="1469" y="398" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1479" y="418" class="tiny muted" text-anchor="start">Y</text>
+<text x="1502" y="418" class="mono" text-anchor="start">100%</text>
+<text x="1377" y="418" class="mono" text-anchor="start">100%</text>
+<path d="M1344 453L1582 453" stroke="#343434" />
+<text x="1345" y="480" class="heading" text-anchor="start">Appearance</text>
+<use href="#ui-chev-down" x="1565" y="468" width="14" height="14" color="#A1A1A1" />
+<text x="1345" y="511" class="small muted" text-anchor="start">Opacity</text>
+<rect x="1469" y="490" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1481" y="510" class="mono" text-anchor="start">100%</text>
+<text x="1345" y="553" class="small muted" text-anchor="start">Blend mode</text>
+<rect x="1469" y="533" width="113" height="32" rx="6" fill="#1B1B1B" stroke="#343434" />
+<text x="1481" y="553" class="small" text-anchor="start">Normal</text>
+<use href="#ui-chev-down" x="1557" y="543" width="13" height="13" color="#A1A1A1" />
+<rect x="0" y="632" width="1600" height="234" rx="0" fill="#242424" />
+<rect x="0" y="632" width="1600" height="50" rx="0" fill="#2A2A2A" />
+<path d="M0 632.5L1600 632.5" stroke="#343434" />
+<path d="M0 682.5L1600 682.5" stroke="#343434" />
+<text x="19" y="662" class="heading" text-anchor="start">Timeline</text>
+<use href="#ui-start" x="93" y="650" width="16" height="16" color="#B4B4B4" />
+<rect x="119" y="642" width="30" height="30" rx="6" fill="#203955" />
+<use href="#ui-pause" x="126" y="649" width="16" height="16" color="#72B0FF" />
+<use href="#ui-repeat" x="159" y="650" width="15" height="15" color="#66A9FF" />
+<g clip-path="url(#ui-clock-clip)"><text x="184" y="662" class="time" text-anchor="start">00:04.50</text>
+</g>
+<use href="#ui-diamond" x="268" y="650" width="15" height="15" color="#66A9FF" />
+<use href="#ui-curve" x="303" y="650" width="16" height="16" color="#ABABAB" />
+<rect x="1426" y="643" width="156" height="28" rx="6" fill="#1E1E1E" stroke="#3B3B3B" />
+<text x="1440" y="661" class="small muted" text-anchor="start">Loop duration</text>
+<text x="1570" y="661" class="mono accent" text-anchor="end">5.87 s</text>
+<rect x="0" y="683" width="254" height="183" rx="0" fill="#1E1E1E" />
+<rect x="255" y="683" width="1345" height="30" rx="0" fill="#2A2A2A" />
+<rect x="282" y="683" width="1250" height="30" rx="0" fill="#2F3646" />
+<path d="M254.5 682L254.5 866" stroke="#343434" />
+<path d="M282 713L282 702" stroke="#858B97" />
+<text x="287" y="698" class="tiny muted" text-anchor="start">0.0s</text>
+<path d="M324.6136339 713L324.6136339 708" stroke="#545A65" />
+<path d="M367.2272679 713L367.2272679 708" stroke="#545A65" />
+<path d="M409.8409018 713L409.8409018 708" stroke="#545A65" />
+<path d="M452.4545358 713L452.4545358 708" stroke="#545A65" />
+<path d="M495.0681697 713L495.0681697 702" stroke="#858B97" />
+<text x="500.0681697" y="698" class="tiny muted" text-anchor="start">1.0s</text>
+<path d="M537.6818037 713L537.6818037 708" stroke="#545A65" />
+<path d="M580.2954376 713L580.2954376 708" stroke="#545A65" />
+<path d="M622.9090715 713L622.9090715 708" stroke="#545A65" />
+<path d="M665.5227055 713L665.5227055 708" stroke="#545A65" />
+<path d="M708.1363394 713L708.1363394 702" stroke="#858B97" />
+<text x="713.1363394" y="698" class="tiny muted" text-anchor="start">2.0s</text>
+<path d="M750.7499734 713L750.7499734 708" stroke="#545A65" />
+<path d="M793.3636073 713L793.3636073 708" stroke="#545A65" />
+<path d="M835.9772413 713L835.9772413 708" stroke="#545A65" />
+<path d="M878.5908752 713L878.5908752 708" stroke="#545A65" />
+<path d="M921.2045091 713L921.2045091 702" stroke="#858B97" />
+<text x="926.2045091" y="698" class="tiny muted" text-anchor="start">3.0s</text>
+<path d="M963.8181431 713L963.8181431 708" stroke="#545A65" />
+<path d="M1006.431777 713L1006.431777 708" stroke="#545A65" />
+<path d="M1049.045411 713L1049.045411 708" stroke="#545A65" />
+<path d="M1091.6590449 713L1091.6590449 708" stroke="#545A65" />
+<path d="M1134.2726788 713L1134.2726788 702" stroke="#858B97" />
+<text x="1139.2726788" y="698" class="tiny muted" text-anchor="start">4.0s</text>
+<path d="M1176.8863128 713L1176.8863128 708" stroke="#545A65" />
+<path d="M1219.4999467 713L1219.4999467 708" stroke="#545A65" />
+<path d="M1262.1135807 713L1262.1135807 708" stroke="#545A65" />
+<path d="M1304.7272146 713L1304.7272146 708" stroke="#545A65" />
+<path d="M1347.3408486 713L1347.3408486 702" stroke="#858B97" />
+<text x="1352.3408486" y="698" class="tiny muted" text-anchor="start">5.0s</text>
+<path d="M1389.9544825 713L1389.9544825 708" stroke="#545A65" />
+<path d="M1432.5681164 713L1432.5681164 708" stroke="#545A65" />
+<path d="M1475.1817504 713L1475.1817504 708" stroke="#545A65" />
+<path d="M1517.7953843 713L1517.7953843 708" stroke="#545A65" />
+<path d="M1532 683L1532 866" stroke="#4C576A" />
+<text x="19" y="703" class="tiny muted" text-anchor="start">Tracks</text>
+<rect x="1" y="714" width="1599" height="31" fill="#2F3646" />
+<path d="M0 745L1600 745" stroke="#323232" />
+<use href="#ui-chev-down" x="20" y="722" width="14" height="14" color="#79B4FF" />
+<use href="#ui-folder" x="42" y="721" width="16" height="16" color="#79B4FF" />
+<text x="67" y="734" class="heading" text-anchor="start">Artwork</text>
+<rect x="282" y="723" width="1250" height="13" rx="4" fill="url(#ui-track)" stroke="#466689" />
+<use href="#ui-eye" x="218" y="722" width="15" height="15" color="#929292" />
+<rect x="1" y="746" width="1599" height="31" fill="#2A2A2A" />
+<path d="M0 777L1600 777" stroke="#323232" />
+<use href="#ui-diamond" x="43" y="754" width="14" height="14" color="#A7A7A7" />
+<text x="67" y="766" class="small muted" text-anchor="start">Card motion</text>
+<path d="M282 761.5L1532 761.5" stroke="#454545" />
+<use href="#ui-eye" x="218" y="754" width="15" height="15" color="#929292" />
+<use href="#ui-key" x="282" y="761.5" fill="#6FAEFF" />
+<use href="#ui-key" x="424.045" y="761.5" fill="#6FAEFF" />
+<use href="#ui-key" x="566.09125" y="761.5" fill="#6FAEFF" />
+<use href="#ui-key" x="850.175" y="761.5" fill="#6FAEFF" />
+<use href="#ui-key" x="992.22" y="761.5" fill="#6FAEFF" />
+<use href="#ui-key" x="1020.63" y="761.5" fill="#6FAEFF" />
+<use href="#ui-key" x="1205.28875" y="761.5" fill="#6FAEFF" />
+<use href="#ui-key" x="1489.37875" y="761.5" fill="#6FAEFF" />
+<use href="#ui-key" x="1532" y="761.5" fill="#6FAEFF" />
+<rect x="1" y="778" width="1599" height="31" fill="#252525" />
+<path d="M0 809L1600 809" stroke="#323232" />
+<use href="#ui-layers" x="43" y="786" width="14" height="14" color="#A7A7A7" />
+<text x="67" y="798" class="small muted" text-anchor="start">Card and lock visibility</text>
+<path d="M282 793.5L1532 793.5" stroke="#454545" />
+<use href="#ui-eye" x="218" y="786" width="15" height="15" color="#929292" />
+<use href="#ui-key" x="282" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="849.85875" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="878.27" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="1062.93875" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="1098.4525" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="1375.4575" y="793.5" fill="#538ACB" />
+<use href="#ui-key" x="1532" y="793.5" fill="#538ACB" />
+<rect x="1" y="810" width="1599" height="31" fill="#2A2A2A" />
+<path d="M0 841L1600 841" stroke="#323232" />
+<use href="#ui-check" x="43" y="818" width="14" height="14" color="#A7A7A7" />
+<text x="67" y="830" class="small muted" text-anchor="start">Checkmark drawing</text>
+<path d="M282 825.5L1532 825.5" stroke="#454545" />
+<use href="#ui-eye" x="218" y="818" width="15" height="15" color="#929292" />
+<use href="#ui-key" x="282" y="825.5" fill="#ADBCCC" />
+<use href="#ui-key" x="1205.295" y="825.5" fill="#ADBCCC" />
+<use href="#ui-key" x="1532" y="825.5" fill="#ADBCCC" />
+<path d="M254.5 713L254.5 866" stroke="#343434" />
+<g clip-path="url(#ui-tracks-clip)">
+<rect x="282" y="711" height="155" width="958.8067637" fill="#1F7CF0" opacity=".045">
+</rect><g transform="translate(1240.8067637 0)">
+<path d="M0 703V866" stroke="#84BDFF" stroke-width="1.4" /><path d="M-5 701h10v8l-5 5-5-5z" fill="#84BDFF" /></g></g>
+<rect x="0" y="866" width="1600" height="34" rx="0" fill="#1E1E1E" />
+<path d="M0 866.5L1600 866.5" stroke="#343434" />
+<use href="#ui-repeat" x="21" y="876" width="13" height="13" color="#66A9FF" />
+<text x="44" y="887" class="small muted" text-anchor="start">Loop playback</text>
+<path d="M143 877L143 891" stroke="#343434" />
+<text x="157" y="887" class="small muted" text-anchor="start">512 × 512 canvas</text>
+<use href="#ui-minus" x="712" y="875" width="15" height="15" color="#A1A1A1" />
+<path d="M736 882.5L850 882.5" stroke="#505050" />
+<path d="M736 882.5L782 882.5" stroke="#1F7CF0" />
+<circle cx="782" cy="882.5" r="4" fill="#1F7CF0" />
+<use href="#ui-plus" x="861" y="875" width="15" height="15" color="#A1A1A1" />
+<use href="#ui-check" x="1492" y="875" width="14" height="14" color="#a3ccac" />
+<text x="1514" y="887" class="small muted" text-anchor="start">SVG preview</text>
+</svg>

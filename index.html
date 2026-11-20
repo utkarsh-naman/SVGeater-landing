@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2f2f2">
+  <meta name="description" content="Create and preview vector animations with SVGeater, a browser-based SVG animation editor.">
+  <title>SVGeater — SVG Animation Editor</title>
+  <link rel="icon" href="./assets/favicon.svg?v=2" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css?v=10">
+  <script src="./app.js?v=6" defer></script>
+</head>
+<body>
+  <a draggable="false" class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a draggable="false" class="brand" href="https://utnam.in/" aria-label="utnam home">
+        <img draggable="false" class="brand-mark" src="./assets/favicon.svg?v=2" width="26" height="26" alt="">
+        <span>utnam</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <details class="nav-dropdown">
+          <summary>Products <span class="chevron" aria-hidden="true"></span></summary>
+          <ul class="dropdown-panel link-menu">
+            <li><a draggable="false" href="#svgeater"><span>SVGeater</span><small>SVG animation editor</small></a></li>
+            <li><a draggable="false" href="https://iredactpdf.utnam.in/" target="_blank" rel="noopener"><span>iRedactPDF</span><small>PDF redaction tool</small></a></li>
+          </ul>
+        </details>
+        <a draggable="false" class="nav-current" href="#svgeater">SVGeater</a>
+        <a draggable="false" href="#features">Features</a>
+        <details class="nav-dropdown">
+          <summary>Resources <span class="chevron" aria-hidden="true"></span></summary>
+          <ul class="dropdown-panel link-menu">
+            <li><a draggable="false" href="/resources/changelog">Changelog</a></li>
+            <li><a draggable="false" href="/resources/upcoming-features">Upcoming features</a></li>
+            <li><a draggable="false" href="/resources/tutorials">Tutorials</a></li>
+            <li><a draggable="false" href="/resources/campaigns">Campaigns</a></li>
+            <li><a draggable="false" href="/resources/vision">Vision</a></li>
+          </ul>
+        </details>
+        <details class="nav-dropdown">
+          <summary>Download <span class="chevron" aria-hidden="true"></span></summary>
+          <ul class="dropdown-panel link-menu platform-menu">
+            <li><a draggable="false" href="/downloads/windows"><img draggable="false" src="./assets/windows-174-svgrepo-com.svg" width="22" height="22" alt=""> Windows</a></li>
+            <li><a draggable="false" href="/downloads/linux"><img draggable="false" src="./assets/linux-svgrepo-com.svg" width="22" height="22" alt=""> Linux</a></li>
+            <li><a draggable="false" href="/downloads/macos"><img draggable="false" src="./assets/apple-173-svgrepo-com.svg" width="22" height="22" alt=""> macOS</a></li>
+          </ul>
+        </details>
+        <details class="nav-dropdown donate-menu">
+          <summary>
+            <img draggable="false" class="nav-coin" src="./assets/only-coin.svg" width="25" height="25" alt="">
+            Donate <span class="chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-panel donation-list">
+            <li><a draggable="false" class="donation-capsule" href="https://buymeacoffee.com/utkarshnaman" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/bmc.svg" alt="Buy Me a Coffee"></a></li>
+            <li><button class="donation-capsule" type="button" data-dialog="upi-dialog"><img draggable="false" src="./assets/donations/upi.svg" alt="Donate with UPI"></button></li>
+            <li><a draggable="false" class="donation-capsule" href="https://www.patreon.com/c/utnam" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/patreon.svg" alt="Patreon"></a></li>
+            <li><button class="donation-capsule" type="button" data-dialog="paypal-dialog"><img draggable="false" src="./assets/donations/paypal.svg" alt="PayPal donation information"></button></li>
+          </ul>
+        </details>
+      </div>
+      <a draggable="false" class="pill nav-launch" href="https://app.svgeater.utnam.in/" target="_blank" rel="noopener">Launch</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="svgeater" aria-labelledby="hero-title">
+      <div class="shell hero-layout">
+        <div class="hero-copy">
+          <p class="product-label"><img draggable="false" src="./assets/favicon.svg" alt="" width="18" height="18"> SVGeater</p>
+          <h1 id="hero-title">Animate SVGs.</h1>
+          <p class="hero-description">Create and preview vector animations right in your browser.</p>
+          <div class="hero-actions">
+            <a draggable="false" class="pill primary-pill" href="https://app.svgeater.utnam.in/" target="_blank" rel="noopener">Launch App</a>
+            <a draggable="false" class="pill secondary-pill" href="#features">Explore demos</a>
+          </div>
+        </div>
+
+        <figure class="preview editor-preview" data-preview>
+          <div class="preview-image" data-surface>
+            <div class="preview-layer" data-animation="./assets/editor-apple-tv.svg">
+              <img draggable="false" src="./assets/editor-apple-tv-still-frame.svg" width="1600" height="900" alt="Apple TV mnemonic project in the SVGeater editor" fetchpriority="high">
+            </div>
+          </div>
+          <figcaption class="preview-caption">
+            <span>Apple TV Mnemonic</span>
+            <button class="preview-button" type="button" aria-label="Play Apple TV mnemonic animation" data-play="Apple TV mnemonic animation">
+              <span class="play-icon" aria-hidden="true"></span><span data-play-label>Play preview</span>
+            </button>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="compare-section" id="features" aria-labelledby="compare-title">
+      <div class="shell">
+        <div class="section-heading compare-heading">
+          <h2 id="compare-title">Full element edit.</h2>
+          <p>Drag the divider to explore the music animation side by side.</p>
+        </div>
+        <figure class="preview comparison-preview" data-preview>
+          <div class="preview-image comparison-image" data-surface>
+            <div class="preview-layer comparison-right" data-animation="./assets/editor-music%20(1).svg">
+              <img draggable="false" src="./assets/editor-music-still-frame(1).svg" width="1600" height="900" alt="Music animation, right view" loading="lazy">
+            </div>
+            <div class="preview-layer comparison-left" data-animation="./assets/editor-music.svg">
+              <img draggable="false" src="./assets/editor-music-still-frame.svg" width="1600" height="900" alt="Music animation, left view" loading="lazy">
+            </div>
+            <span class="comparison-tag tag-left" aria-hidden="true">View 1</span>
+            <span class="comparison-tag tag-right" aria-hidden="true">View 2</span>
+            <div class="comparison-divider" aria-hidden="true">
+              <span class="comparison-handle"><span></span><span></span></span>
+            </div>
+            <input class="comparison-control" type="range" min="0" max="100" value="50" aria-label="Music animation comparison divider">
+          </div>
+          <figcaption class="preview-caption">
+            <span>Music animation</span>
+            <button class="preview-button" type="button" aria-label="Play music animation" data-play="music animation">
+              <span class="play-icon" aria-hidden="true"></span><span data-play-label>Play both views</span>
+            </button>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="gallery-section" aria-labelledby="gallery-title">
+      <div class="shell">
+        <div class="section-heading">
+          <h2 id="gallery-title">Made with SVGeater</h2>
+          <p>Hover over a project or press play to preview it.</p>
+        </div>
+        <div class="gallery-carousel">
+          <div class="gallery" id="project-gallery" role="region" aria-label="Animation projects" tabindex="0">
+            <figure class="preview gallery-card" data-preview>
+              <div class="preview-image" data-surface>
+                <div class="preview-layer" data-animation="./assets/editor-payment-card-security.svg">
+                  <img draggable="false" src="./assets/editor-payment-card-security-still-frame.svg" width="1600" height="900" alt="Floating payment cards in the SVGeater editor" loading="lazy">
+                </div>
+              </div>
+              <figcaption class="gallery-caption">
+                <div><h3>Payment card security</h3><p>Floating cards morph into a padlock.</p></div>
+                <button class="preview-button icon-button" type="button" aria-label="Play payment card animation" data-play="payment card animation">
+                  <span class="play-icon" aria-hidden="true"></span>
+                </button>
+              </figcaption>
+            </figure>
+            <figure class="preview gallery-card" data-preview>
+              <div class="preview-image" data-surface>
+                <div class="preview-layer" data-animation="./assets/editor-netflix.svg">
+                  <img draggable="false" src="./assets/editor-netflix-still-frame.svg" width="1600" height="900" alt="Netflix logo project in the SVGeater editor" loading="lazy">
+                </div>
+              </div>
+              <figcaption class="gallery-caption">
+                <div><h3>Netflix logo swoop</h3><p>A recreation of the Netflix logo animation.</p></div>
+                <button class="preview-button icon-button" type="button" aria-label="Play Netflix logo animation" data-play="Netflix logo animation">
+                  <span class="play-icon" aria-hidden="true"></span>
+                </button>
+              </figcaption>
+            </figure>
+            <figure class="preview gallery-card" data-preview>
+              <div class="preview-image" data-surface>
+                <div class="preview-layer" data-animation="./assets/editor-coin-recording.svg">
+                  <img draggable="false" src="./assets/editor-coin-still-frame.svg" width="1600" height="900" alt="Rupee coin project in the SVGeater editor" loading="lazy">
+                </div>
+              </div>
+              <figcaption class="gallery-caption">
+                <div><h3>Spinning rupee coin</h3><p>A looping spin for the rupee coin.</p></div>
+                <button class="preview-button icon-button" type="button" aria-label="Play rupee coin animation" data-play="rupee coin animation">
+                  <span class="play-icon" aria-hidden="true"></span>
+                </button>
+              </figcaption>
+            </figure>
+            <figure class="preview gallery-card" data-preview>
+              <div class="preview-image" data-surface>
+                <div class="preview-layer" data-animation="./assets/editor-linkedin-celebration.svg">
+                  <img draggable="false" src="./assets/editor-linkedin-celebration-still-frame.svg" width="1600" height="900" alt="LinkedIn celebration project in the SVGeater editor" loading="lazy">
+                </div>
+              </div>
+              <figcaption class="gallery-caption">
+                <div><h3>LinkedIn celebration</h3><p>A recreation of LinkedIn’s celebration reaction.</p></div>
+                <button class="preview-button icon-button" type="button" aria-label="Play LinkedIn celebration animation" data-play="LinkedIn celebration animation">
+                  <span class="play-icon" aria-hidden="true"></span>
+                </button>
+              </figcaption>
+            </figure>
+            <figure class="preview gallery-card" data-preview>
+              <div class="preview-image standalone-preview gray-preview" data-surface>
+                <div class="preview-layer" data-animation="./assets/lesstype-gallery.svg">
+                  <img draggable="false" src="./assets/lesstype-still-frame.svg" width="1080" height="1080" alt="LessType typography artwork" loading="lazy">
+                </div>
+              </div>
+              <figcaption class="gallery-caption">
+                <div><h3>LessType</h3><p>Animated typography.</p></div>
+                <button class="preview-button icon-button" type="button" aria-label="Play LessType animation" data-play="LessType animation">
+                  <span class="play-icon" aria-hidden="true"></span>
+                </button>
+              </figcaption>
+            </figure>
+            <figure class="preview gallery-card">
+              <div class="preview-image">
+                <div class="preview-layer">
+                  <img draggable="false" src="./assets/AndroidxBatman.svg" width="2091" height="1158" alt="Android and Batman illustration" loading="lazy">
+                </div>
+              </div>
+              <figcaption class="gallery-caption">
+                <div><h3>Android × Batman</h3><p>Static SVG illustration.</p></div>
+              </figcaption>
+            </figure>
+            <figure class="preview gallery-card" data-preview>
+              <div class="preview-image standalone-preview gray-preview" data-surface>
+                <div class="preview-layer" data-animation="./assets/Check-In%20Stream.svg">
+                  <img draggable="false" src="./assets/check-in-stream-still-frame.svg" width="534" height="683" alt="Check-In Stream artwork" loading="lazy">
+                </div>
+              </div>
+              <figcaption class="gallery-caption">
+                <div><h3>Check-In Stream</h3><p>A looping check-in animation.</p></div>
+                <button class="preview-button icon-button" type="button" aria-label="Play Check-In Stream animation" data-play="Check-In Stream animation">
+                  <span class="play-icon" aria-hidden="true"></span>
+                </button>
+              </figcaption>
+            </figure>
+          </div>
+          <button class="carousel-arrow carousel-previous" type="button" aria-label="Previous project" aria-controls="project-gallery" hidden></button>
+          <button class="carousel-arrow carousel-next" type="button" aria-label="Next project" aria-controls="project-gallery" hidden></button>
+        </div>
+        <div class="gallery-options">
+          <button class="preview-button carousel-toggle" type="button" aria-controls="project-gallery" hidden>
+            <span class="play-icon" aria-hidden="true"></span><span data-rotation-label>Pause auto-scroll</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="support-section" id="donate" aria-labelledby="support-title">
+      <div class="shell support-panel">
+        <div>
+          <h2 id="support-title" tabindex="-1">Support SVGeater</h2>
+        </div>
+        <ul class="support-links donation-list">
+          <li><a draggable="false" class="donation-capsule" href="https://buymeacoffee.com/utkarshnaman" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/bmc.svg" alt="Buy Me a Coffee"></a></li>
+          <li><button class="donation-capsule" type="button" data-dialog="upi-dialog"><img draggable="false" src="./assets/donations/upi.svg" alt="Donate with UPI"></button></li>
+          <li><a draggable="false" class="donation-capsule" href="https://www.patreon.com/c/utnam" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/patreon.svg" alt="Patreon"></a></li>
+          <li><button class="donation-capsule" type="button" data-dialog="paypal-dialog"><img draggable="false" src="./assets/donations/paypal.svg" alt="PayPal donation information"></button></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div class="footer-credit">
+        <a draggable="false" class="footer-brand" href="#svgeater"><img draggable="false" src="./assets/favicon.svg" alt="" width="23" height="23"> SVGeater</a>
+        <p>Built by <a draggable="false" href="https://utnam.in/">Utkarsh Naman</a>.</p>
+      </div>
+      <nav class="socials" aria-label="Utkarsh Naman’s social profiles">
+        <a draggable="false" href="https://www.linkedin.com/in/utkarsh-naman/" target="_blank" rel="noopener" aria-label="LinkedIn"><img draggable="false" src="./assets/linkedin.svg" width="88" height="24" alt="" loading="lazy"></a>
+        <a draggable="false" href="https://www.instagram.com/dev.utnam/" target="_blank" rel="noopener" aria-label="Instagram @dev.utnam"><img draggable="false" src="./assets/instagram.svg" width="88" height="24" alt="" loading="lazy"><span>@dev.utnam</span></a>
+        <a draggable="false" href="https://www.instagram.com/utcurse.blink/" target="_blank" rel="noopener" aria-label="Instagram @utcurse.blink"><img draggable="false" src="./assets/instagram.svg" width="88" height="24" alt="" loading="lazy"><span>@utcurse.blink</span></a>
+        <a draggable="false" href="https://www.youtube.com/@trulyutnam" target="_blank" rel="noopener" aria-label="YouTube"><img draggable="false" src="./assets/youtube.svg" width="88" height="24" alt="" loading="lazy"></a>
+        <a draggable="false" href="https://github.com/utkarsh-naman" target="_blank" rel="noopener" aria-label="GitHub"><img draggable="false" src="./assets/github.svg" width="88" height="24" alt="" loading="lazy"></a>
+      </nav>
+    </div>
+  </footer>
+
+  <aside class="launch-dock" aria-label="Quick launch" inert>
+    <span>Happy Animating</span>
+    <a draggable="false" class="pill primary-pill" href="https://app.svgeater.utnam.in/" target="_blank" rel="noopener">Launch App</a>
+  </aside>
+
+  <dialog class="payment-dialog" id="upi-dialog" aria-labelledby="upi-title">
+    <form method="dialog"><button class="dialog-close" aria-label="Close UPI details">×</button></form>
+    <h2 id="upi-title">Donate with UPI</h2>
+    <p>Scan the QR code with your UPI app.</p>
+    <img draggable="false" class="upi-code" src="./assets/donations/upi-payment.svg" width="990" height="990" alt="QR code for UPI donations" loading="lazy">
+    <a draggable="false" class="pill primary-pill" href="upi://pay?pa=utkarshnaman1%40oksbi&amp;pn=Utkarsh%20Naman">Open UPI app</a>
+  </dialog>
+  <dialog class="payment-dialog" id="paypal-dialog" aria-labelledby="paypal-title">
+    <form method="dialog"><button class="dialog-close" aria-label="Close PayPal details">×</button></form>
+    <h2 id="paypal-title">PayPal donations</h2>
+    <p>A PayPal donation link is pending.</p>
+    <a draggable="false" class="pill primary-pill" href="#donate" data-close-dialog>See donation options</a>
+  </dialog>
+</body>
+</html>

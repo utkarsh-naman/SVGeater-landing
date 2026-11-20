@@ -61,7 +61,6 @@ document.querySelectorAll("[data-preview]").forEach((preview) => {
   const label = button.querySelector("[data-play-label]");
   const playLabel = label?.textContent;
   let hovering = false;
-  let playingOnRequest = false;
   let animation = [];
 
   function updateControl(playing) {
@@ -71,7 +70,7 @@ document.querySelectorAll("[data-preview]").forEach((preview) => {
   }
 
   function updatePlayback() {
-    if (!hovering && !playingOnRequest) {
+    if (!hovering && !preview.hasAttribute("data-play-requested")) {
       animation.forEach((image) => image.remove());
       animation = [];
       updateControl(false);
@@ -96,7 +95,7 @@ document.querySelectorAll("[data-preview]").forEach((preview) => {
     }).catch(() => {
       if (animation !== images) return;
       hovering = false;
-      playingOnRequest = false;
+      preview.removeAttribute("data-play-requested");
       updatePlayback();
     });
   }
@@ -113,7 +112,7 @@ document.querySelectorAll("[data-preview]").forEach((preview) => {
   });
 
   button.addEventListener("click", () => {
-    playingOnRequest = !animation.length;
+    preview.toggleAttribute("data-play-requested", !animation.length);
     hovering = false;
     updatePlayback();
   });
@@ -204,11 +203,19 @@ function settleGallery() {
   ], { duration: 240, easing: "ease-out" });
 }
 
+function hasVisibleRequestedPlayback() {
+  const start = track.scrollLeft;
+  const end = start + track.clientWidth;
+  return cards.some((card) => card.hasAttribute("data-play-requested") &&
+    card.offsetLeft < end - snapTolerance &&
+    card.offsetLeft + card.offsetWidth > start + snapTolerance);
+}
+
 function scheduleAdvance() {
   clearTimeout(advanceTimer);
   if (!carouselVisible || document.hidden || rotationPaused || motionPreference.matches ||
-      carouselHovered || touchPointer !== undefined || carousel.matches(":focus-within") ||
-      maxGalleryOffset() <= snapTolerance) return;
+      carouselHovered || touchPointer !== undefined || carousel.querySelector(":focus-visible") ||
+      maxGalleryOffset() <= snapTolerance || hasVisibleRequestedPlayback()) return;
 
   advanceTimer = setTimeout(() => {
     if (!slideGallery(autoDirection, true)) {
@@ -246,16 +253,16 @@ track.addEventListener("scroll", () => {
 }, { passive: true });
 track.addEventListener("scrollend", settleGallery);
 
-carousel.addEventListener("pointerenter", (event) => {
+function updateCarouselHover(event) {
   if (event.pointerType === "touch") return;
-  carouselHovered = true;
+  const target = event.type === "pointerout" ? event.relatedTarget : event.target;
+  const hovering = target instanceof Element && carousel.contains(target) && !target.closest("[data-play]");
+  if (carouselHovered === hovering) return;
+  carouselHovered = hovering;
   scheduleAdvance();
-});
-carousel.addEventListener("pointerleave", (event) => {
-  if (event.pointerType === "touch") return;
-  carouselHovered = false;
-  scheduleAdvance();
-});
+}
+carousel.addEventListener("pointerover", updateCarouselHover);
+carousel.addEventListener("pointerout", updateCarouselHover);
 track.addEventListener("pointerdown", (event) => {
   if (event.pointerType !== "touch") return;
   touchPointer = event.pointerId;
@@ -271,6 +278,11 @@ window.addEventListener("pointerup", endGalleryTouch);
 window.addEventListener("pointercancel", endGalleryTouch);
 carousel.addEventListener("focusin", scheduleAdvance);
 carousel.addEventListener("focusout", () => queueMicrotask(scheduleAdvance));
+new MutationObserver(scheduleAdvance).observe(track, {
+  attributes: true,
+  attributeFilter: ["data-play-requested"],
+  subtree: true,
+});
 document.addEventListener("visibilitychange", scheduleAdvance);
 motionPreference.addEventListener("change", () => {
   rotation.hidden = motionPreference.matches;

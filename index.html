@@ -7,8 +7,8 @@
   <meta name="description" content="Create and preview vector animations with SVGeater, a browser-based SVG animation editor.">
   <title>SVGeater — SVG Animation Editor</title>
   <link rel="icon" href="./assets/favicon.svg?v=2" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=14">
-  <script src="./app.js?v=7" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=15">
+  <script src="./app.js?v=8" defer></script>
 </head>
 <body>
   <a draggable="false" class="skip-link" href="#main">Skip to content</a>
@@ -126,127 +126,128 @@
       </div>
     </section>
 
-    <section class="gallery-section" aria-labelledby="gallery-title">
-      <div class="shell">
-        <div class="section-heading">
-          <h2 id="gallery-title">Made with SVGeater</h2>
-          <p>Hover over a project or press play to preview it.</p>
-        </div>
-        <div class="gallery-carousel">
-          <div class="gallery" id="project-gallery" role="region" aria-label="Animation projects" tabindex="0">
-            <figure class="preview gallery-card" data-preview>
-              <div class="preview-image" data-surface>
-                <div class="preview-layer" data-animation="./assets/editor-payment-card-security.svg">
-                  <img draggable="false" src="./assets/editor-payment-card-security-still-frame.svg" width="1600" height="900" alt="Floating payment cards in the SVGeater editor" loading="lazy">
-                </div>
-              </div>
-              <figcaption class="gallery-caption">
-                <div><h3>Payment card security</h3><p>Floating cards morph into a padlock.</p></div>
-                <button class="preview-button icon-button" type="button" aria-label="Play payment card animation" data-play="payment card animation">
-                  <span class="play-icon" aria-hidden="true"></span>
-                </button>
-              </figcaption>
-            </figure>
-            <figure class="preview gallery-card" data-preview>
-              <div class="preview-image" data-surface>
-                <div class="preview-layer" data-animation="./assets/editor-netflix.svg">
-                  <img draggable="false" src="./assets/editor-netflix-still-frame.svg" width="1600" height="900" alt="Netflix logo project in the SVGeater editor" loading="lazy">
-                </div>
-              </div>
-              <figcaption class="gallery-caption">
-                <div><h3>Netflix logo swoop</h3><p>A recreation of the Netflix logo animation.</p></div>
-                <button class="preview-button icon-button" type="button" aria-label="Play Netflix logo animation" data-play="Netflix logo animation">
-                  <span class="play-icon" aria-hidden="true"></span>
-                </button>
-              </figcaption>
-            </figure>
-            <figure class="preview gallery-card" data-preview>
-              <div class="preview-image" data-surface>
-                <div class="preview-layer" data-animation="./assets/editor-coin-recording.svg">
-                  <img draggable="false" src="./assets/editor-coin-still-frame.svg" width="1600" height="900" alt="Rupee coin project in the SVGeater editor" loading="lazy">
-                </div>
-              </div>
-              <figcaption class="gallery-caption">
-                <div><h3>Spinning rupee coin</h3><p>A looping spin for the rupee coin.</p></div>
-                <button class="preview-button icon-button" type="button" aria-label="Play rupee coin animation" data-play="rupee coin animation">
-                  <span class="play-icon" aria-hidden="true"></span>
-                </button>
-              </figcaption>
-            </figure>
-            <figure class="preview gallery-card" data-preview>
-              <div class="preview-image" data-surface>
-                <div class="preview-layer" data-animation="./assets/editor-linkedin-celebration.svg">
-                  <img draggable="false" src="./assets/editor-linkedin-celebration-still-frame.svg" width="1600" height="900" alt="LinkedIn celebration project in the SVGeater editor" loading="lazy">
-                </div>
-              </div>
-              <figcaption class="gallery-caption">
-                <div><h3>LinkedIn celebration</h3><p>A recreation of LinkedIn’s celebration reaction.</p></div>
-                <button class="preview-button icon-button" type="button" aria-label="Play LinkedIn celebration animation" data-play="LinkedIn celebration animation">
-                  <span class="play-icon" aria-hidden="true"></span>
-                </button>
-              </figcaption>
-            </figure>
-            <figure class="preview gallery-card" data-preview>
-              <div class="preview-image standalone-preview white-preview" data-surface>
-                <div class="preview-layer" data-animation="./assets/lesstype-gallery.svg">
-                  <img draggable="false" src="./assets/lesstype-still-frame.svg" width="1080" height="1080" alt="LessType typography artwork" loading="lazy">
-                </div>
-              </div>
-              <figcaption class="gallery-caption">
-                <div><h3>LessType</h3><p>Animated typography.</p></div>
-                <button class="preview-button icon-button" type="button" aria-label="Play LessType animation" data-play="LessType animation">
-                  <span class="play-icon" aria-hidden="true"></span>
-                </button>
-              </figcaption>
-            </figure>
-            <figure class="preview gallery-card">
-              <div class="preview-image">
-                <div class="preview-layer">
-                  <img draggable="false" src="./assets/AndroidxBatman.svg" width="2091" height="1158" alt="Android and Batman illustration" loading="lazy">
-                </div>
-              </div>
-              <figcaption class="gallery-caption">
-                <div><h3>Android × Batman</h3><p>Static SVG illustration.</p></div>
-              </figcaption>
-            </figure>
-            <figure class="preview gallery-card" data-preview>
-              <div class="preview-image standalone-preview gray-preview" data-surface>
-                <div class="preview-layer" data-animation="./assets/Check-In%20Stream.svg">
-                  <img draggable="false" src="./assets/check-in-stream-still-frame.svg" width="534" height="683" alt="Check-In Stream artwork" loading="lazy">
-                </div>
-              </div>
-              <figcaption class="gallery-caption">
-                <div><h3>Check-In Stream</h3><p>A looping check-in animation.</p></div>
-                <button class="preview-button icon-button" type="button" aria-label="Play Check-In Stream animation" data-play="Check-In Stream animation">
-                  <span class="play-icon" aria-hidden="true"></span>
-                </button>
-              </figcaption>
-            </figure>
+    <div class="showcase-sections">
+      <section class="gallery-section" aria-labelledby="gallery-title">
+        <div class="shell">
+          <div class="section-heading">
+            <h2 id="gallery-title">Made with SVGeater</h2>
+            <p>Hover over a project or press play to preview it.</p>
           </div>
-          <button class="carousel-arrow carousel-previous" type="button" aria-label="Previous project" aria-controls="project-gallery" hidden></button>
-          <button class="carousel-arrow carousel-next" type="button" aria-label="Next project" aria-controls="project-gallery" hidden></button>
+          <div class="gallery-carousel">
+            <div class="gallery" id="project-gallery" role="region" aria-label="Animation projects" tabindex="0">
+              <figure class="preview gallery-card" data-preview>
+                <div class="preview-image" data-surface>
+                  <div class="preview-layer" data-animation="./assets/editor-payment-card-security.svg">
+                    <img draggable="false" src="./assets/editor-payment-card-security-still-frame.svg" width="1600" height="900" alt="Floating payment cards in the SVGeater editor" loading="lazy">
+                  </div>
+                </div>
+                <figcaption class="gallery-caption">
+                  <div><h3>Payment card security</h3><p>Floating cards morph into a padlock.</p></div>
+                  <button class="preview-button icon-button" type="button" aria-label="Play payment card animation" data-play="payment card animation">
+                    <span class="play-icon" aria-hidden="true"></span>
+                  </button>
+                </figcaption>
+              </figure>
+              <figure class="preview gallery-card" data-preview>
+                <div class="preview-image" data-surface>
+                  <div class="preview-layer" data-animation="./assets/editor-netflix.svg">
+                    <img draggable="false" src="./assets/editor-netflix-still-frame.svg" width="1600" height="900" alt="Netflix logo project in the SVGeater editor" loading="lazy">
+                  </div>
+                </div>
+                <figcaption class="gallery-caption">
+                  <div><h3>Netflix logo swoop</h3><p>A recreation of the Netflix logo animation.</p></div>
+                  <button class="preview-button icon-button" type="button" aria-label="Play Netflix logo animation" data-play="Netflix logo animation">
+                    <span class="play-icon" aria-hidden="true"></span>
+                  </button>
+                </figcaption>
+              </figure>
+              <figure class="preview gallery-card" data-preview>
+                <div class="preview-image" data-surface>
+                  <div class="preview-layer" data-animation="./assets/editor-coin-recording.svg">
+                    <img draggable="false" src="./assets/editor-coin-still-frame.svg" width="1600" height="900" alt="Rupee coin project in the SVGeater editor" loading="lazy">
+                  </div>
+                </div>
+                <figcaption class="gallery-caption">
+                  <div><h3>Spinning rupee coin</h3><p>A looping spin for the rupee coin.</p></div>
+                  <button class="preview-button icon-button" type="button" aria-label="Play rupee coin animation" data-play="rupee coin animation">
+                    <span class="play-icon" aria-hidden="true"></span>
+                  </button>
+                </figcaption>
+              </figure>
+              <figure class="preview gallery-card" data-preview>
+                <div class="preview-image" data-surface>
+                  <div class="preview-layer" data-animation="./assets/editor-linkedin-celebration.svg">
+                    <img draggable="false" src="./assets/editor-linkedin-celebration-still-frame.svg" width="1600" height="900" alt="LinkedIn celebration project in the SVGeater editor" loading="lazy">
+                  </div>
+                </div>
+                <figcaption class="gallery-caption">
+                  <div><h3>LinkedIn celebration</h3><p>A recreation of LinkedIn’s celebration reaction.</p></div>
+                  <button class="preview-button icon-button" type="button" aria-label="Play LinkedIn celebration animation" data-play="LinkedIn celebration animation">
+                    <span class="play-icon" aria-hidden="true"></span>
+                  </button>
+                </figcaption>
+              </figure>
+              <figure class="preview gallery-card" data-preview>
+                <div class="preview-image standalone-preview white-preview" data-surface>
+                  <div class="preview-layer" data-animation="./assets/lesstype-gallery.svg">
+                    <img draggable="false" src="./assets/lesstype-still-frame.svg" width="1080" height="1080" alt="LessType typography artwork" loading="lazy">
+                  </div>
+                </div>
+                <figcaption class="gallery-caption">
+                  <div><h3>LessType</h3><p>Animated typography.</p></div>
+                  <button class="preview-button icon-button" type="button" aria-label="Play LessType animation" data-play="LessType animation">
+                    <span class="play-icon" aria-hidden="true"></span>
+                  </button>
+                </figcaption>
+              </figure>
+              <figure class="preview gallery-card">
+                <div class="preview-image">
+                  <div class="preview-layer">
+                    <img draggable="false" src="./assets/AndroidxBatman.svg" width="2091" height="1158" alt="Android and Batman illustration" loading="lazy">
+                  </div>
+                </div>
+                <figcaption class="gallery-caption">
+                  <div><h3>Android × Batman</h3><p>Static SVG illustration.</p></div>
+                </figcaption>
+              </figure>
+              <figure class="preview gallery-card" data-preview>
+                <div class="preview-image standalone-preview gray-preview" data-surface>
+                  <div class="preview-layer" data-animation="./assets/Check-In%20Stream.svg">
+                    <img draggable="false" src="./assets/check-in-stream-still-frame.svg" width="534" height="683" alt="Check-In Stream artwork" loading="lazy">
+                  </div>
+                </div>
+                <figcaption class="gallery-caption">
+                  <div><h3>Check-In Stream</h3><p>A looping check-in animation.</p></div>
+                  <button class="preview-button icon-button" type="button" aria-label="Play Check-In Stream animation" data-play="Check-In Stream animation">
+                    <span class="play-icon" aria-hidden="true"></span>
+                  </button>
+                </figcaption>
+              </figure>
+            </div>
+            <button class="carousel-arrow carousel-previous" type="button" aria-label="Previous project" aria-controls="project-gallery" hidden></button>
+            <button class="carousel-arrow carousel-next" type="button" aria-label="Next project" aria-controls="project-gallery" hidden></button>
+          </div>
+          <div class="gallery-options">
+            <button class="preview-button carousel-toggle" type="button" aria-controls="project-gallery" hidden>
+              <span class="play-icon" aria-hidden="true"></span><span data-rotation-label>Pause auto-scroll</span>
+            </button>
+          </div>
         </div>
-        <div class="gallery-options">
-          <button class="preview-button carousel-toggle" type="button" aria-controls="project-gallery" hidden>
-            <span class="play-icon" aria-hidden="true"></span><span data-rotation-label>Pause auto-scroll</span>
-          </button>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="support-section" id="donate" aria-labelledby="support-title">
-      <div class="shell support-panel">
-        <div>
+      <section class="support-section" id="donate" aria-labelledby="support-title">
+        <div class="shell support-panel">
           <h2 id="support-title" tabindex="-1">Support SVGeater</h2>
+          <p class="support-note">Your support would mean a lot to me as a developer. It would motivate me to keep improving SVGeater and adding new features.</p>
+          <ul class="support-links donation-list">
+            <li><button class="donation-capsule" type="button" data-dialog="upi-dialog"><img draggable="false" src="./assets/donations/upi.svg" alt="Donate with UPI"></button></li>
+            <li><a draggable="false" class="donation-capsule" href="https://paypal.me/utkarshnaman2301" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/paypal.svg" alt="PayPal"></a></li>
+            <li><a draggable="false" class="donation-capsule" href="https://buymeacoffee.com/utkarshnaman" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/bmc.svg" alt="Buy Me a Coffee"></a></li>
+            <li><a draggable="false" class="donation-capsule" href="https://www.patreon.com/c/utnam" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/patreon.svg" alt="Patreon"></a></li>
+          </ul>
         </div>
-        <ul class="support-links donation-list">
-          <li><button class="donation-capsule" type="button" data-dialog="upi-dialog"><img draggable="false" src="./assets/donations/upi.svg" alt="Donate with UPI"></button></li>
-          <li><a draggable="false" class="donation-capsule" href="https://paypal.me/utkarshnaman2301" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/paypal.svg" alt="PayPal"></a></li>
-          <li><a draggable="false" class="donation-capsule" href="https://buymeacoffee.com/utkarshnaman" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/bmc.svg" alt="Buy Me a Coffee"></a></li>
-          <li><a draggable="false" class="donation-capsule" href="https://www.patreon.com/c/utnam" target="_blank" rel="noopener"><img draggable="false" src="./assets/donations/patreon.svg" alt="Patreon"></a></li>
-        </ul>
-      </div>
-    </section>
+      </section>
+    </div>
   </main>
 
   <footer class="site-footer">

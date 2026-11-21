@@ -7,7 +7,8 @@
   <meta name="description" content="Create and preview vector animations with SVGeater, a browser-based SVG animation editor.">
   <title>SVGeater — SVG Animation Editor</title>
   <link rel="icon" href="./assets/favicon.svg?v=2" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=15">
+  <link rel="stylesheet" href="./styles.css?v=16">
+  <script src="./svg-protection.js" defer></script>
   <script src="./app.js?v=8" defer></script>
 </head>
 <body>
@@ -276,7 +277,7 @@
     <h2 id="upi-title">Donate with UPI</h2>
     <p>Scan the QR code with your UPI app.</p>
     <div class="upi-qr">
-      <img draggable="false" class="upi-code" src="./assets/donations/upi-payment.svg" width="990" height="990" alt="QR code for UPI donations" loading="lazy">
+      <img class="upi-code" src="./assets/donations/upi-payment.svg" width="990" height="990" alt="QR code for UPI donations" loading="lazy">
       <span class="upi-coin" aria-hidden="true">
         <img draggable="false" src="./assets/only-coin.svg" width="28" height="28" alt="">
       </span>
